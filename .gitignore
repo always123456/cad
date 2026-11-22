@@ -1,3 +1,19 @@
 .vscode/
 weights/
 results/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 虚拟环境与下载的轮子
+.venv/
+*.whl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 本地实验/临时目录
+_sweep/
