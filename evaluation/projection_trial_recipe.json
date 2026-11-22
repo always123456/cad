@@ -1,0 +1,331 @@
+{
+  "schema": "cadvec.direct_instance.projection_trial_recipe.v1",
+  "lane_root": "./outputs/recognition-direct-instance-20261114-01",
+  "owner": "evaluation",
+  "created_utc": "2026-11-14T02:40:00Z",
+  "status": "prepared_not_executed",
+  "purpose": "Single-factor trial of a paste-consistent mask projection, measured with the existing capacity_eval (native-384 crop), batch producer (native-1000 PNG) and evaluator (seal then canonical score). Nothing here has run: no PNG, SVG, checkpoint, model, GPU or GT read has happened while writing this recipe.",
+  "authorization": {
+    "execution_authorized": false,
+    "authorized_by": null,
+    "rule": "The parent grants actual staging only after the FIT trial reports terminal validation. Until that grant, every stage below is a command template, not an instruction to execute."
+  },
+  "single_factor": {
+    "factor": "mask projection",
+    "candidate_mode": "paste_consistent",
+    "control_mode": "legacy",
+    "everything_else_equal": [
+      "same 16 canonical FIT records (parent_capacity16_inputs.json order)",
+      "same manifest and manifest_sha256 as the baseline run",
+      "same 600 optimizer updates, seed 20261108, accumulate 2, crop 384, jitter 24",
+      "same DetectorConfig except mask_target_projection (legacy -> paste_consistent)",
+      "same scorer recipe: 100 canvas, 1000 raster, stroke width 1, Thing -1 skipped, Stuff merged, strict same-class Hungarian IoU > 0.5"
+    ],
+    "why_one_factor": "A two-factor change cannot attribute a metric move to the projection; the baseline stays untouched and is the control."
+  },
+  "immutable_baseline": {
+    "rule": "Never written, moved, renamed, re-sealed or re-scored by this trial. Read-only reference artifacts; the trial writes only to its own new run directories.",
+    "artifacts": [
+      {
+        "path": "runs/capacity16_600_01/checkpoint.pt",
+        "bytes": 553346436,
+        "sha256": "d0fb7731c13121e7094d1bb73eea0b9476e029c5b823b9225049e00245e6bc94",
+        "role": "baseline weights (mask_target_projection absent, i.e. legacy default)"
+      },
+      {
+        "path": "runs/capacity16_600_01/train_report.json",
+        "bytes": 3319,
+        "sha256": "31e6fe7ca45669d4ddcb498860e55f14886372580b41d190484e93e6a9288094",
+        "role": "baseline training receipt"
+      },
+      {
+        "path": "runs/capacity16_crop_eval01/capacity_eval.json",
+        "bytes": 35672,
+        "sha256": "acfeb5afd735e3332cccb3d62404d87aec264150b4e21af9435755e113d54901",
+        "role": "baseline native-384 crop diagnostic"
+      },
+      {
+        "path": "evaluation/runs/capacity16_native_eval01_seal/evaluation_report.json",
+        "bytes": 31496,
+        "sha256": "d872c5b547a111028bc0e0c2609b6ad64980f6565b7e9c19f6f54d010bb822ba",
+        "role": "baseline native-1000 canonical score"
+      },
+      {
+        "path": "evaluation/runs/capacity16_native_eval01_seal/pre_gt_seal.json",
+        "bytes": 23444,
+        "sha256": "640155a85dd51e8482200c69209da4f8c9463436e9d1564e9fd3a23844dc1da6",
+        "role": "baseline pre-GT seal (16 predictions)"
+      }
+    ],
+    "baseline_metrics": {
+      "native_1000_full": {
+        "source": "evaluation/runs/capacity16_native_eval01_seal/evaluation_report.json",
+        "TP": 15,
+        "FP": 1658,
+        "FN": 209,
+        "gt_instances": 224,
+        "PQ": 0.008758653957,
+        "SQ": 0.553838885225,
+        "RQ": 0.015814443859,
+        "recall": 0.066964285714,
+        "precision": 0.008965929468,
+        "f1": 0.015814443859,
+        "per_image_note": "All 15 TP sit in one record, train_final:4OOBV (GT 103, pred 212, TP 15, FP 197, FN 88). Every other record has TP 0. Micro PQ therefore moves with that single dense-sheet record."
+      },
+      "native_384_crop": {
+        "source": "runs/capacity16_crop_eval01/capacity_eval.json",
+        "TP": 12,
+        "FP": 1590,
+        "FN": 81,
+        "gt_instances": 93,
+        "predicted_instances": 1602,
+        "PQ": 0.007926333618726703,
+        "SQ": 0.5597973118225733,
+        "RQ": 0.01415929203539823,
+        "recall": 0.12903225806451613,
+        "precision": 0.00749063670411985,
+        "f1": 0.01415929203539823,
+        "micro_pq_recomputed": 0.007926333618726703,
+        "scope_note": "Native-384 crop window only; pixels outside the window are never scored and full-image PQ is not measured."
+      }
+    }
+  },
+  "candidate": {
+    "checkpoint": "runs/capacity16_paste_consistent600_01/checkpoint.pt",
+    "training_updates": 600,
+    "manifest": "./outputs/recognition-expanded-fit-20261114-01/manifest/expanded_train_manifest.json",
+    "crop": 384,
+    "jitter": 24,
+    "seed": 20261108,
+    "marker": {
+      "required": true,
+      "field": "mask_target_projection",
+      "field_paths": {
+        "dataclass": "model.model.DetectorConfig.mask_target_projection",
+        "serialized": "payload['config']['mask_target_projection']",
+        "training_cli": "--mask-target-projection"
+      },
+      "field_status": "pending_model_owner",
+      "accepted_values": ["legacy", "paste_consistent"],
+      "default_value": "legacy",
+      "absence_rule": "A config without mask_target_projection deserialises to the dataclass default 'legacy' (backward compatibility), so a baseline checkpoint and any unmarked checkpoint are 'legacy'. Absence must never be read as paste_consistent, and a legacy checkpoint can never be reported as the new candidate.",
+      "why": "The trial's only claim is 'the projection changed', so the projection must be identifiable from the artifact alone, not from filenames or the training log.",
+      "no_other_marker": "There is no top-level payload marker and no alternative mode key in the accepted ABI; the canonical config field above is the only place the mode is recorded.",
+      "effective_geometry_note": "The raw legacy fields mask_target_aligned / mask_target_sampling_ratio may stay True / 2 in the serialised config; under mask_target_projection='paste_consistent' the effective target projection is aligned False / sampling ratio -1. Read the mode, not those two fields, when deciding what the candidate does.",
+      "verified_abi": {
+        "model.infer.load_checkpoint": "reads payload['model_state'], payload['config'], payload.get('weights_source'); builds DetectorConfig.from_dict(payload['config'])",
+        "model.model.DetectorConfig": "frozen dataclass; from_dict(**data) fills missing keys with dataclass defaults (mask_target_projection='legacy') and raises TypeError on a key the dataclass does not declare",
+        "consequence": "A checkpoint whose config carries mask_target_projection loads once the model owner has added the dataclass field; before that the same config would raise TypeError, and no checkpoint in the lane declares the field yet, so today every checkpoint is legacy.",
+        "batch_path": "instance_eval.batch.default_loader -> model.infer.load_checkpoint -> DetectorConfig.from_dict, so the new config field flows through the batch producer with no evaluator change."
+      },
+      "check_command": {
+        "argv": [
+          "{PYTHON}",
+          "-c",
+          "import json,sys,torch; p=torch.load(sys.argv[1],map_location='cpu',weights_only=False); c=p.get('config') or {}; print(json.dumps({'schema':p.get('schema'),'mask_target_projection':c.get('mask_target_projection','legacy (default)'),'mask_target_aligned':c.get('mask_target_aligned'),'mask_target_sampling_ratio':c.get('mask_target_sampling_ratio'),'weights_source':p.get('weights_source')},indent=1,sort_keys=True))",
+          "runs/capacity16_paste_consistent600_01/checkpoint.pt"
+        ],
+        "pass_when": "payload['config']['mask_target_projection'] equals paste_consistent; a missing key resolves to the default legacy and blocks this trial."
+      },
+      "production_guard_note": "Formula review: the strict helper rejects an expanded integer width/height below 2 px, but the model owner is implementing a per-box mask-loss exclusion with a count, so such a box drops out of the mask loss only (class and box supervision unaffected) instead of killing the whole step. The production implementation is not accepted until the model owner reports terminal validation, so stage 2 still keeps the native PNG geometry and reports native_size per envelope."
+    }
+  },
+  "explicit_inputs": {
+    "path": "parent_capacity16_inputs.json",
+    "sha256": "34d8ba47934e636398f3cab18f53eccfe84f5f63bac601a7aa26019f850360d9",
+    "bytes": 4837,
+    "count": 16,
+    "order": [
+      "train_final:5Mnth",
+      "train_final:M5Xaz",
+      "train_final:WP1Nr",
+      "train_final:E2isE",
+      "train_final:4ENE3",
+      "train_final:KR0Uf",
+      "train_final:ZmGh0",
+      "train_final:D70Oq",
+      "train_final:Lpvc1",
+      "train_final:4OOBV",
+      "train_final:SdxLB",
+      "train_final:Kpv63",
+      "train_final:FYrUh",
+      "train_final:H8qyg",
+      "train_final:QLaAI",
+      "train_final:WUf6V"
+    ],
+    "rule": "Read-only. The list is a bare JSON array of {sample_id, png_path, ...}; its order is the sample order for every stage, and it matches the baseline per-image order exactly. Re-sorting it would silently misalign the per-image comparison, so staging must verify the sha256 above instead of regenerating the file."
+  },
+  "stages": [
+    {
+      "index": 1,
+      "name": "crop_384_capacity",
+      "tool": "capacity_eval",
+      "cwd": "./outputs/recognition-direct-instance-20261114-01",
+      "argv": [
+        "{PYTHON}",
+        "-m",
+        "capacity_eval",
+        "--allow-data",
+        "--checkpoint",
+        "runs/capacity16_paste_consistent600_01/checkpoint.pt",
+        "--device",
+        "cpu",
+        "--output-dir",
+        "runs/capacity16_paste_consistent_crop01"
+      ],
+      "device": "cpu",
+      "writes": ["runs/capacity16_paste_consistent_crop01/capacity_eval.json"],
+      "reads": [
+        "runs/capacity16_paste_consistent600_01/checkpoint.pt",
+        "expanded FIT manifest (default DEFAULT_MANIFEST)",
+        "the 16 canonical FIT PNG/SVG pairs for the crop window"
+      ],
+      "preconditions": [
+        "the marker check above prints mask_target_projection = paste_consistent from payload['config']",
+        "runs/capacity16_paste_consistent_crop01/capacity_eval.json does not exist",
+        "parent grant recorded (authorization.execution_authorized true)"
+      ],
+      "guards": [
+        "--allow-data is required; without it the CLI prints the refusal and exits 2 before importing torch",
+        "preflight_output_dir refuses an existing capacity_eval.json before the checkpoint is loaded",
+        "exactly one deterministic GT-assisted crop per record (seed 20261108, update=record_index, jitter=0, size 384); at most 300 detections scored"
+      ],
+      "exit_codes": {"0": "report written", "1": "CapacityEvalError (refusal or measurement failure)", "2": "missing --allow-data"},
+      "never": ["writes outside --output-dir", "overwrites the baseline crop report"]
+    },
+    {
+      "index": 2,
+      "name": "native_1000_predictions",
+      "tool": "evaluation/run_batch_predict.py",
+      "cwd": "./outputs/recognition-direct-instance-20261114-01/evaluation",
+      "argv": [
+        "{PYTHON}",
+        "run_batch_predict.py",
+        "--predictions-dir",
+        "../runs/capacity16_paste_consistent_native01/predictions",
+        "--checkpoint",
+        "../runs/capacity16_paste_consistent600_01/checkpoint.pt",
+        "--device",
+        "cuda:0",
+        "--inputs",
+        "../parent_capacity16_inputs.json",
+        "--sample-set",
+        "explicit"
+      ],
+      "device": "cuda:0",
+      "writes": ["../runs/capacity16_paste_consistent_native01/predictions/<slug>.json (16 envelopes)"],
+      "reads": [
+        "the 16 native PNGs named by ../parent_capacity16_inputs.json",
+        "the candidate checkpoint"
+      ],
+      "preconditions": [
+        "stage 1 report exists and is valid",
+        "the predictions directory is absent or empty; every PNG path is a .png and exists"
+      ],
+      "guards": [
+        "refuses an existing output file or a non-empty predictions directory before loading the checkpoint (predictions_exist)",
+        "refuses SVG inputs (batch_png_required) and sealed tokens (sealed_path)",
+        "loads the checkpoint exactly once, official config thresholds and detections_per_img untouched (no --max-detections override)",
+        "independent masks, emitter=runs, no connected components, no ink intersection, no GT and no SVG read",
+        "all 16 envelopes are built in memory and clash-checked before the first write"
+      ],
+      "exit_codes": {"0": "16 predictions written", "2": "GuardError refusal"},
+      "never": ["reads GT", "writes inside the seal directory", "overwrites a prediction"]
+    },
+    {
+      "index": 3,
+      "name": "seal_native_predictions",
+      "tool": "evaluation/run_instance_eval.py prepare",
+      "cwd": "./outputs/recognition-direct-instance-20261114-01/evaluation",
+      "argv": [
+        "{PYTHON}",
+        "run_instance_eval.py",
+        "prepare",
+        "--predictions",
+        "../runs/capacity16_paste_consistent_native01/predictions",
+        "--out",
+        "runs/capacity16_paste_consistent_native01_seal",
+        "--inputs",
+        "../parent_capacity16_inputs.json",
+        "--sample-set",
+        "fit16",
+        "--dataset",
+        "fit16-diagnostic"
+      ],
+      "writes": ["runs/capacity16_paste_consistent_native01_seal/pre_gt_seal.json"],
+      "reads": ["the 16 prediction JSONs", "the explicit inputs JSON (sample ids and PNG paths)"],
+      "preconditions": [
+        "all 16 predictions exist and are complete",
+        "no pre_gt_seal.json exists in the seal directory"
+      ],
+      "guards": [
+        "refuses an existing seal (seal_exists) before validating or writing anything",
+        "validates every prediction with the strict validator (Thing instance -1 rejected; Stuff must be -1)",
+        "hashes every prediction and records document_sha256 and canvas declaration",
+        "records gt_read=false, png_read=false, svg_read=false",
+        "GT is not touched here; no mask directory is passed because the model emits independent instance JSON"
+      ],
+      "exit_codes": {"0": "seal written", "2": "GuardError refusal"},
+      "never": ["reads GT", "overwrites an existing seal", "seals fewer than all 16 predictions"]
+    },
+    {
+      "index": 4,
+      "name": "score_native",
+      "tool": "evaluation/run_instance_eval.py score",
+      "cwd": "./outputs/recognition-direct-instance-20261114-01/evaluation",
+      "argv": [
+        "{PYTHON}",
+        "run_instance_eval.py",
+        "score",
+        "--out",
+        "runs/capacity16_paste_consistent_native01_seal",
+        "--allow-gt"
+      ],
+      "device": "cpu",
+      "writes": ["runs/capacity16_paste_consistent_native01_seal/evaluation_report.json"],
+      "reads": ["pre_gt_seal.json", "the 16 prediction JSONs", "the 16 GT SVG documents (first and only GT read)"],
+      "preconditions": [
+        "stage 3 seal verified (unchanged bytes and hashes)",
+        "explicit parent grant: --allow-gt on the command line"
+      ],
+      "guards": [
+        "refuses an existing evaluation_report.json (report_exists); a rerun needs a new seal directory",
+        "re-verifies every prediction and the seal before the first GT build (stale or tampered prediction -> artifact_changed, no GT read)",
+        "canonical scorer only: cadvec.recognition_raster_data.score_documents, 100 canvas, 1000 raster, stroke width 1, Thing -1 skipped, Stuff merged, strict same-class Hungarian IoU > 0.5",
+        "no reference baseline file is passed: the FloorPlanCAD number is metadata only and not comparable, so success cannot be claimed from PQ alone"
+      ],
+      "exit_codes": {"0": "success.passed true (recall > 0.90 with a comparable reference PQ and no leak)", "1": "valid measurement below target (report written)", "2": "GuardError or inconsistency"},
+      "never": ["rescores the baseline", "overwrites an existing report", "claims a held-out or vector-IoU-comparable result"]
+    }
+  ],
+  "score_gate": {
+    "primary": "instance recall = TP/(TP+FN) with strict same-class IoU > 0.5 and one-to-one assignment, micro over the 16 records",
+    "also_reported": ["precision TP/(TP+FP)", "F1 = 2TP/(2TP+FP+FN)", "PQ", "SQ", "RQ", "per class", "Thing vs Stuff", "per image with zero denominators as null"],
+    "pass": "recall > 0.90 AND no GT leak; a PQ gate is unavailable because no comparable reference baseline exists for this proxy pixel-IoU protocol",
+    "expected_on_this_baseline": "far below target (recall 0.066964285714); the trial compares candidate versus control, it does not promise the >0.90 goal"
+  },
+  "comparison": {
+    "must_record_side_by_side": [
+      "strict TP/FP/FN counts (native-1000 and native-384 separately; never mixed)",
+      "micro PQ, SQ, RQ, recall, precision, F1",
+      "per-image rows for all 16 records, with explicit null denominators",
+      "the 4OOBV record called out on its own: the baseline's 15 TP all come from it (GT 103, pred 212), so a change there dominates micro PQ"
+    ],
+    "interpretation_rules": [
+      "compare like with like: native-384 crop numbers only against the crop baseline, native-1000 numbers only against the full baseline",
+      "agreement between the crop and native measurements is evidence about the projection, not about generalisation",
+      "a PQ change confined to 4OOBV is reported as such, not as a general improvement"
+    ]
+  },
+  "claims_forbidden": [
+    "held-out or pristine-data performance: the 16 records are exposed FIT samples",
+    "comparability with FloorPlanCAD/PanCADNet PQ (vector-entity length-weighted IoU, macro, different protocol)",
+    "submission recall from the native-384 crop diagnostic",
+    "any statement that the projection improves quality before both stages 1-4 finish and the per-image table is read"
+  ],
+  "notes": {
+    "python": "{PYTHON} is the approved runtime interpreter; stage 2 needs torch+torchvision, stage 4 is CPU and torch-free.",
+    "overwrite": "Every stage refuses to overwrite an existing output; a rerun requires a new run directory name, never a deletion of the baseline.",
+    "no_new_flags": "Every flag above exists in the current parsers: capacity_eval --allow-data/--lane-root/--manifest/--checkpoint/--device/--output-dir; run_batch_predict.py --predictions-dir/--checkpoint/--device/--inputs/--sample-set/--manifest/--max-detections/--dense-diagnostic; run_instance_eval.py prepare --predictions/--out/--maps/--masks/--masks-format/--mask-role/--inputs/--sample-set/--dataset/--manifest and score --out/--allow-gt/--report/--baseline."
+  }
+}

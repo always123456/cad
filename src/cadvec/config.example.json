@@ -1,0 +1,14 @@
+{
+  "note": "Example only. No platform semantic index, placeholder value, domain or Thing/Stuff mapping is implied. Fill these in only from an official schema or organiser statement.",
+  "semantic_aliases": ["semantic-id", "semanticId", "semantic_id"],
+  "instance_aliases": ["instance-id", "instanceId", "instance_id"],
+  "semantic_domain": null,
+  "instance_min": null,
+  "missing_semantic_value": null,
+  "missing_instance_value": null,
+  "category_policy": {},
+  "semantic_mapping": {
+    "mode": "none",
+    "note": "set mode=offset only when the official platform schema confirms the index direction"
+  }
+}

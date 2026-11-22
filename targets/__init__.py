@@ -1,0 +1,41 @@
+"""Canonical direct-instance target contract (renewed PNG route)."""
+
+from .targets import (
+    CANONICAL_DOCUMENT_FIELDS,
+    CANVAS_SIZE,
+    IGNORE_CLASS,
+    INK_MIN_VALUE,
+    INK_SUPPORT_THRESHOLD,
+    LABEL_OFFSET,
+    MASK_POLICY,
+    PROJECT_PACKAGE,
+    STUFF_MAX,
+    STUFF_MIN,
+    THING_MAX,
+    THING_MIN,
+    TargetError,
+    build_targets,
+    crop_targets,
+    project_paths,
+    project_raster,
+)
+
+__all__ = [
+    "CANONICAL_DOCUMENT_FIELDS",
+    "CANVAS_SIZE",
+    "IGNORE_CLASS",
+    "INK_MIN_VALUE",
+    "INK_SUPPORT_THRESHOLD",
+    "LABEL_OFFSET",
+    "MASK_POLICY",
+    "PROJECT_PACKAGE",
+    "STUFF_MAX",
+    "STUFF_MIN",
+    "THING_MAX",
+    "THING_MIN",
+    "TargetError",
+    "build_targets",
+    "crop_targets",
+    "project_paths",
+    "project_raster",
+]

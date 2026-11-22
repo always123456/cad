@@ -1,0 +1,510 @@
+{
+  "schema": "cadvec.direct_instance.grouped_validation_recipe.v1",
+  "status": "prepared_not_executed",
+  "created_utc": "2026-11-13T19:25:00Z",
+  "updated_utc": "2026-11-14T04:30:00+00:00",
+  "lane": "outputs/recognition-direct-instance-20261114-01",
+  "purpose": "Score the paste-consistent expanded candidate once, PNG-only, on the prospective grouped validation split (387 val records in 361 groups), sealing every prediction before the first GT read. No training, no inference and no GT read is authorized by this recipe.",
+  "authorization": {
+    "execution_authorized": false,
+    "gt_authorized": false,
+    "parent_grants_required": [
+      "grouped_train/split.json present and frozen with the expected counts",
+      "candidate checkpoint finished with config.mask_target_projection=paste_consistent and the pinned update count",
+      "explicit grant for one PNG-only batch, one seal and one CPU score (--allow-gt)"
+    ],
+    "accepts_measured_paste_consistent_advantage_for_enlarged_training": true,
+    "note": "The parent accepted the measured crop/full improvement of the paste-consistent candidate as the reason to continue with enlarged training; this recipe does not re-run any completed candidate stage."
+  },
+  "objective": {
+    "primary": "strict instance recall TP/(TP+FN) > 0.90 on the 387-record grouped validation split, same-class, strict IoU > 0.5, Hungarian one-to-one",
+    "canonical_pq": "PQ/SQ/RQ from cadvec.recognition_raster_data.score_documents, canonical 100 canvas / 1000 raster / 1 px stroke, Thing instance -1 skipped, Stuff merged per class",
+    "reference_comparison": "none",
+    "forbidden_claims": [
+      "coverage or recall of the official test_final / dev_final / eval_pool split",
+      "a pristine held-out result (prior exposure of these records is uncertain)",
+      "comparison with the FloorPlanCAD PanCADNet vector baseline (PQ 0.561) or any vector-IoU number",
+      "an overall project goal is met"
+    ]
+  },
+  "future_artifacts": {
+    "split": {
+      "path": "<lane>/grouped_train/split.json",
+      "may_be_absent_now": true,
+      "owner": "the grouped split owner, outside this lane",
+      "expected": {
+        "seed": 20261108,
+        "train": {
+          "records": 3366,
+          "groups": 3167
+        },
+        "val": {
+          "records": 387,
+          "groups": 361
+        },
+        "record_positions": "immutable original-position arrays into the expanded record index, one array per side, written once by the split owner; this recipe does not define their field names, it verifies counts, disjointness and digests at preflight"
+      },
+      "must_be_frozen_before_execution": true,
+      "recorded_identity": [
+        "sha256",
+        "bytes",
+        "seed",
+        "train.records",
+        "train.groups",
+        "val.records",
+        "val.groups"
+      ]
+    },
+    "expanded_store": {
+      "lane": "<repo>/outputs/recognition-expanded-fit-20261114-01",
+      "manifest": "<repo>/outputs/recognition-expanded-fit-20261114-01/manifest/expanded_train_manifest.json",
+      "records": "<repo>/outputs/recognition-expanded-fit-20261114-01/manifest/expanded_train_records.jsonl",
+      "records_identity": {
+        "count": 3753,
+        "bytes": 1546196,
+        "sha256": "3aaff6f1671e54659c8c0c1147bf252bf28ede91ae85646b569cc6c084de6378",
+        "manifest_field": "records"
+      },
+      "record_fields_used": [
+        "record_index",
+        "sample_id",
+        "group_id",
+        "source_role",
+        "stem",
+        "png_name",
+        "svg_name"
+      ],
+      "datasets_root": "taken from the expanded manifest's own datasets_root field, never re-derived or guessed",
+      "access_api": "outputs/recognition-expanded-fit-20261114-01/scripts/expanded_record_store.py: ExpandedRecordStore for indexed records and record_paths(record, datasets_root) for the png/svg pair",
+      "must_not": [
+        "invent a record_paths object or mapping schema inside the manifest",
+        "open a PNG or an SVG while building inputs",
+        "read any protected split component"
+      ]
+    },
+    "checkpoint": {
+      "path": "<lane>/runs/grouped_expanded_paste_consistent01/checkpoint.pt",
+      "placeholder": true,
+      "must_exist_before_stage_1": true
+    },
+    "predictions_dir": "<lane>/runs/grouped_expanded_paste_consistent01/predictions",
+    "seal_dir": "<lane>/evaluation/runs/grouped_expanded_paste_consistent01_val387_seal",
+    "inputs": "<lane>/evaluation/grouped_val387_inputs.json",
+    "grouped_train_receipt": {
+      "path": "<lane>/runs/grouped_expanded_paste_consistent01/grouped_train_receipt.json",
+      "schema": "cadvec.grouped_train.receipt/1",
+      "may_be_absent_now": true,
+      "owner": "the grouped trainer (grouped_train/runner.py RECEIPT_NAME)",
+      "position_map": {
+        "path": "<lane>/runs/grouped_expanded_paste_consistent01/grouped_position_map.json",
+        "schema": "cadvec.grouped_train.position_map/1",
+        "role": "original manifest record positions of the trained subset, written by the same trainer step"
+      },
+      "must_bind": [
+        "checkpoint identity: path, bytes, sha256 and the terminal train_report the trainer wrote",
+        "frozen split identity: split path, sha256, seed 20261108, the four counts",
+        "trained positions: the record positions and group ids used for training, or their digest plus counts"
+      ],
+      "why": "the model ABI does not record the split inside config: payload['config'] carries mask_target_projection and detector settings only, so the split identity cannot be read from the checkpoint and must come from this receipt"
+    }
+  },
+  "reserve_selection": {
+    "rule": "a formerly reserve-role group is the validation holdout exactly when int(sha256(f'20261108:{group_id}').hexdigest(), 16) % 10000 < 1000",
+    "expression": "int(hashlib.sha256(f'20261108:{group_id}'.encode('utf-8')).hexdigest(), 16) % 10000 < 1000",
+    "applied_to": "groups whose source_role == 'reserve' in expanded_train_records.jsonl",
+    "not_applied_to": [
+      "record_id or sample_id",
+      "groups whose source_role == 'fit'",
+      "any other role, group or record"
+    ],
+    "fit_rule": "every source_role == 'fit' group is training, unconditionally",
+    "selected_side": "val",
+    "measured": {
+      "source": "manifest/expanded_train_manifest.json counts plus a metadata-only pass over manifest/expanded_train_records.jsonl",
+      "admitted_groups": 3528,
+      "admitted_records": 3753,
+      "fit_groups": 192,
+      "fit_records": 204,
+      "reserve_groups": 3336,
+      "reserve_records": 3549,
+      "val_groups": 361,
+      "val_records": 387,
+      "train_groups": 3167,
+      "train_records": 3366
+    }
+  },
+  "inputs_builder": {
+    "kind": "metadata_only",
+    "reads": [
+      "future grouped_train/split.json (metadata: counts, seed, group ids, original record positions)",
+      "manifest/expanded_train_manifest.json (datasets_root, records identity)",
+      "manifest/expanded_train_records.jsonl (record metadata only, via the expanded record store)"
+    ],
+    "must_not_read": [
+      "any PNG pixel or SVG content",
+      "ground truth",
+      "test_final / dev_final / eval_pool / .runtime paths",
+      "grouped_train files before they exist"
+    ],
+    "algorithm": [
+      "let lane_root be the resolved <lane>; require the split path to be <lane>/grouped_train/split.json and to exist",
+      "load the split metadata; require seed 20261108 and train.records/train.groups/val.records/val.groups equal 3366/3167/387/361",
+      "take the val record positions in the split's own recorded order; do not sort, shuffle or resample",
+      "resolve each val record through the expanded record store index and call record_paths(record, datasets_root) for its png_path (and svg_path when present); no path is assembled by hand",
+      "require every val group to contribute all of its members; a partial group is refused as inputs_group_partial",
+      "include all 387 records, including every extra record that shares a group id with another val record; repeated group ids are expected and allowed",
+      "refuse duplicate sample ids as inputs_duplicate (the same code instance_eval.contract.normalize_inputs raises), so the 387 inputs are unique by sample id",
+      "require each png_path to exist, to end in .png, and to avoid sealed tokens (test_final/dev_final/eval_pool/reserve/.runtime)",
+      "write the shared inputs object {schema: cadvec.direct_instance.inputs.v1, samples: [...]} to the inputs path and record its sha256 and count",
+      "verify 387 unique sample ids and 361 distinct group ids, and record the model order as the frozen holdout order"
+    ],
+    "acceptance_of_repeated_groups": {
+      "verified_against": "evaluation/instance_eval/contract.py normalize_inputs",
+      "rule": "normalize_inputs enforces uniqueness for sample_id only and passes group_id through unchanged, so an explicit inputs JSON with 361 groups over 387 records is accepted while a duplicated sample id is refused; no select_inputs count guard applies to an explicit inputs list"
+    },
+    "fail_closed_codes": [
+      "split_missing",
+      "split_schema",
+      "split_counts",
+      "split_seed",
+      "record_paths_missing",
+      "inputs_png_unresolved",
+      "inputs_png_missing",
+      "inputs_sample_count",
+      "inputs_group_count",
+      "inputs_group_partial",
+      "inputs_duplicate",
+      "sealed_path"
+    ],
+    "payload": {
+      "schema": "cadvec.direct_instance.inputs.v1",
+      "key": "samples",
+      "shape": "object {schema, samples: [{sample_id, group_id, record_index, position, png_path, svg_path}], split, manifest, multi_record_groups}",
+      "consumed_by": [
+        "evaluation/instance_eval/contract.py normalize_inputs (reads samples, uniqueness on sample_id only, group_id passed through)",
+        "evaluation/instance_eval/batch.py resolve_inputs(sample_set='explicit')",
+        "grouped_execution/inputs.py payload_entries/verify_inputs/input_records"
+      ],
+      "command": "{PYTHON} -m grouped_execution inputs --write"
+    }
+  },
+  "preflight": {
+    "stage": 0,
+    "reads": [
+      "<lane>/grouped_train/split.json",
+      "manifest/expanded_train_manifest.json and manifest/expanded_train_records.jsonl",
+      "<lane>/runs/grouped_expanded_paste_consistent01/grouped_train_receipt.json",
+      "<lane>/runs/grouped_expanded_paste_consistent01/grouped_position_map.json",
+      "the candidate checkpoint bytes (sha256 only; no torch load unless --strict-reload) and its train_report.json"
+    ],
+    "checks": [
+      {
+        "code": "split_identity",
+        "rule": "the split sha256 in the grouped training receipt equals the sha256 of the frozen split file and the receipt's seed and four counts match the file"
+      },
+      {
+        "code": "checkpoint_binding",
+        "rule": "the checkpoint bytes and sha256 named by the grouped training receipt equal the candidate checkpoint, and the receipt's split identity and trained positions are the ones checked below; no split field is read from the checkpoint config because the model ABI does not record one"
+      },
+      {
+        "code": "holdout_disjoint",
+        "rule": "the trained record positions and trained group ids in the grouped training receipt are disjoint from the 387 val record positions and the 361 val group ids"
+      },
+      {
+        "code": "val_membership_complete",
+        "rule": "the inputs builder produced exactly 387 records covering exactly the split's val record set, with 361 distinct groups and no partial group"
+      },
+      {
+        "code": "candidate_projection",
+        "rule": "checkpoint config.mask_target_projection == 'paste_consistent' (a missing key means legacy and is refused)"
+      },
+      {
+        "code": "candidate_updates",
+        "rule": "the terminal train_report records optimizer_steps == 8415 with accumulate 2, i.e. 16830 micro-batches = 5 passes over the 3366 training records; any other count is refused",
+        "expected_updates": 8415,
+        "expected_micro_batches": 16830,
+        "expected_accumulate": 2,
+        "expected_passes": 5,
+        "train_records": 3366
+      },
+      {
+        "code": "candidate_complete",
+        "rule": "the grouped training receipt reports the run terminal with checkpoint bytes/sha256 equal to the candidate checkpoint and no stage output already exists without a verified receipt"
+      }
+    ],
+    "on_failure": "stop before stage 1; write the preflight receipt and change nothing else",
+    "tool": "python -m grouped_execution preflight",
+    "implemented_by": "grouped_execution/preflight.py (check_run, optional strict CPU reload)"
+  },
+  "stages": [
+    {
+      "index": 1,
+      "name": "grouped_val387_native_1000_predictions",
+      "tool": "run_batch_predict.py",
+      "cwd": "<lane>",
+      "argv": [
+        "{PYTHON}",
+        "evaluation/run_batch_predict.py",
+        "--predictions-dir",
+        "<lane>/runs/grouped_expanded_paste_consistent01/predictions",
+        "--checkpoint",
+        "<lane>/runs/grouped_expanded_paste_consistent01/checkpoint.pt",
+        "--device",
+        "cuda:0",
+        "--inputs",
+        "<lane>/evaluation/grouped_val387_inputs.json",
+        "--sample-set",
+        "explicit"
+      ],
+      "device": "cuda:0",
+      "reads": [
+        "387 PNGs named by the inputs JSON",
+        "the candidate checkpoint"
+      ],
+      "must_not_read": [
+        "SVG",
+        "ground truth",
+        "protected splits"
+      ],
+      "writes": [
+        "387 prediction envelopes under predictions/"
+      ],
+      "guards": [
+        "PNG-only: a non-.png or .svg input is refused (batch_png_required)",
+        "existing outputs are refused before the checkpoint is loaded (predictions_exist)",
+        "exactly one checkpoint load for the whole batch (checkpoint_loads == 1)",
+        "official config thresholds and max detections are reused, no tuning"
+      ],
+      "preconditions": [
+        "preflight passed",
+        "inputs JSON sha256 recorded",
+        "predictions dir absent or empty"
+      ],
+      "exit_codes": {
+        "0": "387 envelopes written",
+        "2": "refusal or failure"
+      },
+      "implemented_by": "grouped_execution/stages.py stage_plan/run_stages",
+      "receipt": "grouped_execution/receipts/stage_grouped_val387_native_1000_predictions.json"
+    },
+    {
+      "index": 2,
+      "name": "seal_all_387_predictions",
+      "tool": "run_instance_eval.py prepare",
+      "cwd": "<lane>",
+      "argv": [
+        "{PYTHON}",
+        "evaluation/run_instance_eval.py",
+        "prepare",
+        "--predictions",
+        "<lane>/runs/grouped_expanded_paste_consistent01/predictions",
+        "--out",
+        "<lane>/evaluation/runs/grouped_expanded_paste_consistent01_val387_seal",
+        "--inputs",
+        "<lane>/evaluation/grouped_val387_inputs.json",
+        "--dataset",
+        "grouped-val387-prospective"
+      ],
+      "device": "cpu",
+      "reads": [
+        "the 387 prediction JSONs",
+        "the inputs JSON"
+      ],
+      "must_not_read": [
+        "SVG",
+        "ground truth"
+      ],
+      "writes": [
+        "pre_gt_seal.json"
+      ],
+      "guards": [
+        "every one of the 387 predictions must exist and validate first (missing_prediction / prediction_invalid)",
+        "each prediction is hashed and its sha256 recorded",
+        "the seal records gt_read=false, svg_read=false, png_read=false",
+        "the seal refuses an existing seal or a directory outside the lane"
+      ],
+      "preconditions": [
+        "stage 1 wrote exactly 387 envelopes",
+        "no seal exists yet"
+      ],
+      "ordering": "the seal is the last artifact written before any ground-truth read",
+      "exit_codes": {
+        "0": "sealed",
+        "2": "refusal or failure"
+      },
+      "implemented_by": "grouped_execution/stages.py stage_plan/run_stages",
+      "receipt": "grouped_execution/receipts/stage_seal_all_387_predictions.json"
+    },
+    {
+      "index": 3,
+      "name": "score_grouped_val387",
+      "tool": "run_instance_eval.py score",
+      "cwd": "<lane>",
+      "argv": [
+        "{PYTHON}",
+        "evaluation/run_instance_eval.py",
+        "score",
+        "--out",
+        "<lane>/evaluation/runs/grouped_expanded_paste_consistent01_val387_seal",
+        "--allow-gt"
+      ],
+      "device": "cpu",
+      "reads": [
+        "the seal",
+        "the 387 predictions",
+        "ground truth built once from the inputs' svg_path"
+      ],
+      "writes": [
+        "evaluation_report.json"
+      ],
+      "guards": [
+        "requires the explicit --allow-gt grant",
+        "re-verifies every prediction hash and the seal before the first GT read",
+        "reads GT exactly once, per sample, and never re-derives or caches it",
+        "canonical scorer only: score_documents(raster_size=1000, canvas_size=(100.0, 100.0))"
+      ],
+      "preconditions": [
+        "stage 2 sealed 387 predictions",
+        "no report exists yet"
+      ],
+      "gt_after_seal": true,
+      "exit_codes": {
+        "0": "recall > 0.90",
+        "1": "valid run below target",
+        "2": "failure or refusal"
+      },
+      "implemented_by": "grouped_execution/stages.py stage_plan/run_stages",
+      "receipt": "grouped_execution/receipts/stage_score_grouped_val387.json"
+    }
+  ],
+  "comparison": {
+    "against": "the paste-consistent candidate's exposed FIT16 numbers only as context, never as a held-out baseline",
+    "context_numbers": {
+      "crop_384": {
+        "TP": 16,
+        "FP": 1547,
+        "FN": 77,
+        "gt": 93,
+        "PQ": 0.01080161037940334,
+        "scope": "exposed FIT16"
+      },
+      "native_1000": {
+        "TP": 21,
+        "FP": 1549,
+        "FN": 203,
+        "gt": 224,
+        "PQ": 0.013262431308,
+        "recall": 0.09375,
+        "scope": "exposed FIT16"
+      }
+    },
+    "rules": [
+      "report TP/FP/FN, SumIoU, PQ, SQ, RQ, recall, precision, F1 with explicit nulls on empty denominators",
+      "report Thing vs Stuff and per-class rows",
+      "report the per-image hit list and keep empty-GT images with recall null",
+      "do not average or compare across protocols (vector entity IoU vs this pixel raster proxy)"
+    ]
+  },
+  "scope": {
+    "label": "grouped-val387-prospective",
+    "dataset_argument": "grouped-val387-prospective",
+    "intended_reading": "prospective grouped holdout on a directly trained expanded run",
+    "prior_exposure_uncertain": true,
+    "prior_exposure_reason": "the 387 val records come from formerly reserve-role groups that earlier fit/tune/eval-pool stages and earlier fine-tunes could have reached, so prior exposure cannot be excluded from metadata alone",
+    "claims_allowed": [
+      "prospective grouped split created by an independent seed-20261108 group split",
+      "direct expanded run scored with the canonical pixel-raster proxy",
+      "diagnostic of generalisation on groups withheld from the expanded training split",
+      "prior exposure of individual records is uncertain"
+    ],
+    "claims_forbidden": [
+      "pristine held-out",
+      "never seen during training or tuning",
+      "vector-baseline comparable",
+      "overall goal met"
+    ],
+    "current_evaluator_behaviour": {
+      "role_mapping": "evaluation/instance_eval/evaluator.py _scope_role maps a dataset label containing 'fit' to role fit, 'tune'/'fixed4' to role tune, otherwise 'unspecified'; the label 'grouped-val387-prospective' therefore yields role 'unspecified'",
+      "heldout_flag": "evaluator._scope_claim always writes heldout=false and a 'diagnostic, not a pristine held-out result' claim",
+      "consequence": "the seal and report are honest today, but they cannot express a verified prospective holdout; no held-out claim may be read from the dataset label alone"
+    },
+    "provenance": {
+      "status": "implemented",
+      "implemented_by": "grouped_execution/provenance.py (python -m grouped_execution provenance)",
+      "artifact": "<lane>/grouped_execution/receipts/grouped_provenance.json",
+      "kept_outside_the_evaluator": true,
+      "required_fields": {
+        "split_sha256": "digest of the frozen split, equal to the receipt's record",
+        "val_records": 387,
+        "val_groups": 361,
+        "train_records": 3366,
+        "train_groups": 3167,
+        "seed": 20261108,
+        "trained_positions_sha256": "position map digest, matching the grouped receipt and disjoint from the val positions",
+        "checkpoint_binding": "the checkpoint sha256 named by the grouped receipt and by its train_report",
+        "seal_samples": "the seal's 387 sample ids equal the frozen holdout order",
+        "prior_exposure": "uncertain"
+      },
+      "verification": [
+        "the grouped train receipt, the position map, the split, the manifest and the records index all still hash to the values the receipt recorded",
+        "the trained positions and groups are disjoint from the 387 val records and 361 val groups",
+        "the seal lists exactly the frozen holdout samples and records gt_read/svg_read/png_read as false"
+      ],
+      "effect": "the provenance object reports this direct run as a prospective grouped holdout beside the evaluator report; the evaluator's own scope block keeps heldout=false and is not modified for a dataset label",
+      "effect_when_unverified": "status refused with the failing checks; no prospective holdout reading is offered and no held-out claim is made",
+      "claims": {
+        "allowed": "prospective grouped holdout for this direct run; historical exposure of the expanded images is uncertain",
+        "forbidden": "pristine, never seen, vector-baseline comparable, overall goal met"
+      }
+    }
+  },
+  "remaining_blockers": [
+    "<lane>/grouped_train/split.json exists and is frozen (seed 20261108, 3366/3167 train and 387/361 holdout); it is re-verified, never rebuilt, by the inputs builder",
+    "<lane>/runs/grouped_expanded_paste_consistent01/grouped_train_receipt.json and grouped_position_map.json do not exist yet, so the checkpoint-to-split binding cannot be verified until the grouped training run completes",
+    "no grouped candidate checkpoint exists at <lane>/runs/grouped_expanded_paste_consistent01/checkpoint.pt",
+    "grouped_execution/ implements inputs, preflight, the staged runner and provenance, but no stage may run until the parent authorizes it after training completes"
+  ],
+  "non_goals": [
+    "no training, inference, GPU work or scoring in this recipe",
+    "no read of grouped_train files before they exist",
+    "no read of test_final / dev_final / eval_pool / .runtime",
+    "no modification of shared evaluator contracts or guards",
+    "no re-run of the completed FIT16 candidate stages"
+  ],
+  "execution": {
+    "package": "grouped_execution",
+    "entry": "python -m grouped_execution",
+    "commands": {
+      "inputs": "{PYTHON} -m grouped_execution inputs --write",
+      "preflight": "{PYTHON} -m grouped_execution preflight --run-dir <lane>/runs/grouped_expanded_paste_consistent01 [--strict-reload]",
+      "plan": "{PYTHON} -m grouped_execution plan --run-dir <lane>/runs/grouped_expanded_paste_consistent01",
+      "run": "{PYTHON} -m grouped_execution run --run-dir <lane>/runs/grouped_expanded_paste_consistent01 [--allow-gt] [--strict-reload]",
+      "provenance": "{PYTHON} -m grouped_execution provenance --run-dir <lane>/runs/grouped_expanded_paste_consistent01"
+    },
+    "implemented_by": {
+      "inputs": "grouped_execution/inputs.py",
+      "preflight": "grouped_execution/preflight.py",
+      "stages": "grouped_execution/stages.py (stage_plan, run_stages)",
+      "provenance": "grouped_execution/provenance.py",
+      "environment": "grouped_execution/contract.py (pythonpath_entries, stage_env, run_command)"
+    },
+    "stage_exit_codes": {
+      "batch": {
+        "0": "387 envelopes written",
+        "other": "stage failed, receipt preserved"
+      },
+      "prepare": {
+        "0": "seal written",
+        "other": "stage failed, receipt preserved"
+      },
+      "score": {
+        "0": "report written and success.passed is true (target_met)",
+        "1": "report written and success.passed is false (valid below_target score)",
+        "2": "guard failure: no valid report, refused (score_exit)",
+        "rule": "only the report decides the outcome; a 0 with a failed report or a 1 with a passed report is refused as score_exit_mismatch"
+      }
+    },
+    "receipts": "<lane>/grouped_execution/receipts/stage_<name>.json plus grouped_preflight.json and grouped_provenance.json, attempt-suffixed on retry, never overwritten",
+    "no_gt_before_seal": "batch writes every envelope, prepare seals them, and score is the only stage that may read ground truth and only with --allow-gt"
+  }
+}

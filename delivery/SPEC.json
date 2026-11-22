@@ -1,0 +1,68 @@
+{
+ "variant": "blend50_et300 + same-class box NMS",
+ "pool": "u250 (fine mask pool, mask 0.50, hard score 0.99)",
+ "features": "the 26 from cad-verifier01/extract.py in FEATURES order, unscaled",
+ "model": {
+  "kind": "probability average of two estimators",
+  "members": [
+   {
+    "type": "HistGradientBoostingClassifier",
+    "params": {
+     "max_depth": 4,
+     "max_iter": 400,
+     "lr": 0.05,
+     "l2": 1.0,
+     "min_samples_leaf": 100,
+     "class_weight": "balanced",
+     "early_stopping": false
+    },
+    "seeds": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "type": "ExtraTreesClassifier",
+    "params": {
+     "n_estimators": 300,
+     "min_samples_leaf": 20,
+     "max_features": 0.5
+    },
+    "class_weight": "balanced_subsample",
+    "seeds": [
+     0,
+     1,
+     2
+    ]
+   }
+  ],
+  "weights_et": 0.5,
+  "seeds_averaged": [
+   0,
+   1,
+   2
+  ]
+ },
+ "rule": {
+  "kind": "per-image same-class box NMS over candidates with p >= thr",
+  "params": {
+   "thr": 0.7,
+   "tau": 0.2,
+   "cap": 20,
+   "tau_cross": null
+  },
+  "note": "keep list = greedy by p desc; a kept box suppresses later boxes of the SAME predicted class whose box IoU >= tau; cap bounds the emitted instances per image; classes >= 30 (STUFF) never selected"
+ },
+ "train_positive": "IoU_best > 0.5 (any candidate, shipped label)",
+ "cv": {
+  "folds": 2,
+  "fold_rule": "int(sha256('cad-generalization-op01|'+sample_id),16)%2",
+  "oof_PQ_feature_space": 0.169538169
+ },
+ "shipped_reference": {
+  "PQ": 0.157333015481,
+  "rule": "thr 0.8 / cap 20",
+  "model": "HGB d3/200/lr0.05/msl20"
+ }
+}

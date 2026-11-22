@@ -1,0 +1,49 @@
+# Runtime pins for the inference path (infer.py -> delivery/cad_mrcnn_delivery.py).
+# Measured environment: Python 3.12 in a project-local .venv (created by
+#   `python -m venv .venv` from a CPython 3.12 interpreter; see docs/02 四).
+# The cadvec package itself is still stdlib-only (see requirements-dev.txt for the test
+# runner); nothing below is imported by src/cadvec.  These are the detector / mask-head /
+# raster packages that delivery/ pulls in.
+#
+# ---------------------------------------------------------------------------
+# torch / torchvision — CPU and GPU are NOT the same pins
+# ---------------------------------------------------------------------------
+# The plain `pip freeze` of that venv says torchvision==0.29.2, but that artefact is the
+# +cpu wheel: torchvision::nms and torchvision::roi_align have no CUDA kernel, so any
+# `--device cuda` run dies inside the detector's post-processing
+# ("Could not run 'torchvision::nms' with arguments from the 'CUDA' backend").
+#
+# GPU (what was actually measured end to end): torch 2.14.1+cu130 together with a
+# *CUDA* torchvision — the verified runtime uses 0.29.1+cu130, installed as an overlay
+# (pip install --target) and put ahead of site-packages on PYTHONPATH:
+#   pip install --index-url https://download.pytorch.org/whl/cu130 \
+#       torch==2.14.1+cu130 torchvision==0.29.1+cu130
+#   # or, offline, a wheel built for the same CUDA major version:
+#   pip install --no-index --find-links=<wheelhouse> --target=<overlay> torchvision==0.29.1+cu130
+#   python infer.py ... --device cuda:0 --tv-overlay <overlay>   # or CAD_TV_OVERLAY_DIR
+# infer.py probes torchvision::nms/roi_align on CUDA before running and refuses with that
+# hint instead of a traceback, so a CPU-only torchvision fails fast and legibly.
+#
+# CPU (what the Dockerfile installs): the same torch/torchvision versions from the CPU
+# index, no overlay needed —
+#   pip install --index-url https://download.pytorch.org/whl/cpu \
+#       torch==2.14.1 torchvision==0.29.2
+#
+# The lines below are the *verified CUDA* pins, i.e. exactly what the shipped documents
+# were produced with.
+torch==2.14.1+cu130
+torchvision==0.29.1+cu130
+numpy==2.5.4
+pillow==13.0.0
+scikit-learn==1.9.1
+scipy==1.18.1
+joblib==1.6.0
+threadpoolctl==3.8.0
+opencv-python-headless==4.14.0.94
+tqdm==4.70.1
+psutil==7.2.2
+
+# Deliberately absent: pyarrow.  It is not installed in the verified venv and no file in
+# this repository imports it (no parquet anywhere: `grep -r "pyarrow\|parquet"` over the
+# repo is empty).  The feature shards were pickles, not parquet.  Do not pin a version
+# that was never exercised here.

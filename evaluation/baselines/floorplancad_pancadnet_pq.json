@@ -1,0 +1,27 @@
+{
+  "schema": "cadvec.direct_instance.reference_baseline.v1",
+  "metric": "PQ",
+  "value": 0.561,
+  "source": "FloorPlanCAD original PanCADNet baseline, arXiv:2105.07147 v2, Tables 5 and 6 (official numbers: PQ=0.561, SQ=0.838, RQ=0.660)",
+  "normalization": {
+    "dataset": "FloorPlanCAD",
+    "protocol": "pancadnet",
+    "entity": "vector entity, length-weighted IoU",
+    "aggregation": "macro across 30 classes",
+    "iou_threshold": 0.5,
+    "same_class": true,
+    "assignment": "hungarian",
+    "raster": "vector geometry, no rasterisation",
+    "canvas": "dataset coordinate frame, not 100x100",
+    "stroke_width": "vector, not 1 px"
+  },
+  "provenance": {
+    "paper": "arXiv:2105.07147",
+    "version": "v2",
+    "tables": ["5", "6"],
+    "values": {"PQ": 0.561, "SQ": 0.838, "RQ": 0.660},
+    "discrepancy": "A later reported PQ of 59.5 uses a different protocol and is not verified here; do not treat it as the official PanCADNet number."
+  },
+  "notes": "Documentation only. This project scores proxy pixel IoU on a 100-canvas / 1000-raster, 1 px stroke, same-class strict Hungarian > 0.5, micro aggregation. Those normalisations differ from PanCADNet (length-weighted vector IoU, macro over classes), so the value is NOT directly comparable and is loaded as 'incomparable_normalization' if passed to --baseline; it must never become a pass/fail gate. No substitute threshold is invented here.",
+  "usable_as_gate": false
+}
