@@ -1983,6 +1983,8 @@ class DeliveryRun:
         predict_impl=None,
         png_impl=None,
         on_document=None,
+        dump_pool=None,
+        head_box="decoded",
     ):
         self.policy = policy
         self.clock = clock
@@ -1992,6 +1994,16 @@ class DeliveryRun:
         # Called with each finished per-image record, i.e. from inside the
         # batch loop: the document is written there, not after the last image.
         self.on_document = on_document
+        # Debug only: directory to dump the refined candidate pool into
+        # (post a6 refinement, pre blend selector). None = disabled.
+        self.dump_pool = dump_pool
+        # B1 experiment: which box the stroke head window uses (mask | decoded).
+        self.head_box = head_box
+        # Debug only: decoded box-head boxes aligned with the pool (set in emit).
+        self._pool_decoded_boxes = None
+        # Debug/experiment: decoded boxes aligned with the blend-SELECTED masks
+        # (set in emit after the blend stage; used by the stroke-head window).
+        self._selected_decoded_boxes = None
         self.load_s = None
         self.decode = None
         self.mask_head = None
@@ -2110,6 +2122,19 @@ class DeliveryRun:
                 "decoded_kept": len(class_ids),
             }
 
+        # Decoded box-head boxes aligned with the (post-stuff-drop) mask list:
+        # ``self._last_boxes`` is one row per decoded instance (pre-stuff-drop),
+        # so apply the identical stuff filter.  Used only by the debug pool dump;
+        # the shipped selection never reads these on the blend rule.
+        decoded_boxes = None
+        if self._last_boxes is not None:
+            last = list(self._last_boxes)
+            if stuff_block and stuff_ids:
+                gone = set(stuff_ids)
+                decoded_boxes = [b for i, b in enumerate(last) if i not in gone]
+            else:
+                decoded_boxes = last
+
         selected = select_instances(
             masks,
             class_ids,
@@ -2128,6 +2153,9 @@ class DeliveryRun:
         kept_masks = [masks[index] for index in keep]
         kept_classes = [int(class_ids[index]) for index in keep]
         kept_scores = [float(scores[index]) for index in keep]
+        self._pool_decoded_boxes = (
+            [decoded_boxes[index] for index in keep] if decoded_boxes is not None else None
+        )
 
         if stuff_record is not None:
             stuff_record["selected_in"] = len(keep)
@@ -2141,6 +2169,8 @@ class DeliveryRun:
         refine_record = self._refine_stage(kept_masks, int(width), int(height))
         kept_masks = refine_record.pop("masks")
         refine_s = self.clock() - refine_start
+        # Debug hook: dump the refined pool (post a6, pre blend selector).
+        self._dump_pool(kept_masks, kept_classes, kept_scores, int(width), int(height))
 
         # Ink-in-box masks for instances larger than the 112^2 head can resolve
         # (--mask-ink-min-side, off when the policy has no block).  ``pre`` runs
@@ -2182,6 +2212,15 @@ class DeliveryRun:
             blend_record["pool_counts"] = dict(selected["counts"])
             blend_record["pool_selected"] = pool_selected
             blend_s = self.clock() - blend_start
+            # Decoded boxes for the blend-SELECTED instances (B1 experiment: the
+            # stroke head uses these as its window instead of the mask bbox).
+            self._selected_decoded_boxes = (
+                [self._pool_decoded_boxes[index] for index in chosen]
+                if self._pool_decoded_boxes is not None
+                else None
+            )
+        else:
+            self._selected_decoded_boxes = self._pool_decoded_boxes
 
         if ink_box_block and ink_box_post:
             # After selection: every mask here is one the emitter will draw, so the
@@ -2354,6 +2393,61 @@ class DeliveryRun:
         for key, value in stats.items():
             self.refine_totals[key] = int(self.refine_totals.get(key, 0)) + int(value)
         return record
+
+    def _dump_pool(self, masks, class_ids, scores, width, height):
+        """Debug only: write the refined candidate pool to ``--dump-pool``.
+
+        One ``<stem>.npz`` per image: the a6-refined masks (sparse COO), their
+        boxes (``bbox_from_mask``), detection scores and predicted classes, as
+        the blend selector sees them.  Inert when ``dump_pool`` is unset; this
+        is a self-check hook, never part of the delivered documents.
+        """
+
+        if not self.dump_pool:
+            return
+        import numpy as np  # noqa: PLC0415
+
+        features = _features26()
+        boxes: list = []
+        decoded: list = []
+        keep_scores: list = []
+        keep_classes: list = []
+        ys: list = []
+        xs: list = []
+        offsets = [0]
+        decoded_all = self._pool_decoded_boxes
+        for idx, (mask, label, score) in enumerate(zip(masks, class_ids, scores)):
+            array = np.asarray(mask, dtype=bool)
+            if not array.any():
+                continue
+            box = features.bbox_from_mask(array)
+            if box is None:  # pragma: no cover - non-empty mask always has a box
+                continue
+            boxes.append(box)
+            if decoded_all is not None and idx < len(decoded_all):
+                decoded.append([float(v) for v in list(decoded_all[idx])[:4]])
+            keep_scores.append(float(score))
+            keep_classes.append(int(label))
+            yy, xx = np.nonzero(array)
+            ys.append(yy.astype(np.int32))
+            xs.append(xx.astype(np.int32))
+            offsets.append(offsets[-1] + int(yy.size))
+        stem = _png_stem(self._last_png) if self._last_png else "unknown"
+        os.makedirs(self.dump_pool, exist_ok=True)
+        path = os.path.join(self.dump_pool, stem + ".npz")
+        save_kwargs = dict(
+            boxes=np.asarray(boxes, dtype=np.float32).reshape(-1, 4),
+            scores=np.asarray(keep_scores, dtype=np.float32),
+            classes=np.asarray(keep_classes, dtype=np.int32),
+            mask_ys=np.concatenate(ys) if ys else np.zeros(0, dtype=np.int32),
+            mask_xs=np.concatenate(xs) if xs else np.zeros(0, dtype=np.int32),
+            mask_off=np.asarray(offsets, dtype=np.int64),
+            width=int(width),
+            height=int(height),
+        )
+        if decoded:
+            save_kwargs["decoded_boxes"] = np.asarray(decoded, dtype=np.float32).reshape(-1, 4)
+        np.savez_compressed(path, **save_kwargs)
 
     def _ink_map(self, module, width, height):
         """The ink map to refine against, from the PNG itself when it is readable."""
@@ -2528,12 +2622,19 @@ class DeliveryRun:
         counts = {key: 0 for key in module.HEAD_STAT_KEYS}
         counts["instances"] = len(masks)
         boxes, positions = [], []
+        decoded_sel = self._selected_decoded_boxes if self.head_box == "decoded" else None
         for position, mask in enumerate(masks):
             array = np.asarray(mask, dtype=bool)
             if not array.any():
                 counts["empty_masks"] += 1
                 continue
-            box = _mask_box(array)
+            box = None
+            if decoded_sel is not None and position < len(decoded_sel):
+                row = decoded_sel[position]
+                if row is not None:
+                    box = [float(v) for v in list(row)[:4]]
+            if box is None:
+                box = _mask_box(array)
             if box is None:  # pragma: no cover - a non-empty mask always has a box
                 counts["empty_masks"] += 1
                 continue
@@ -3411,6 +3512,8 @@ def run_delivery(
         predict_impl=predict_impl,
         png_impl=png_loader,
         on_document=publish,
+        dump_pool=getattr(args, "dump_pool", None),
+        head_box=getattr(args, "head_box", "decoded"),
     )
     audit = OpenAudit(
         roles={
@@ -4141,6 +4244,15 @@ def build_parser():
                         help="also write the per-image selection report here")
     parser.add_argument("--dry-run", action="store_true",
                         help="validate knobs and paths, print the plan, touch no model and write nothing")
+    parser.add_argument("--dump-pool", metavar="DIR", default=None,
+                        help="debug only (self-check): write the refined candidate pool "
+                             "(post a6 refinement, pre blend selector) as one <stem>.npz per "
+                             "image into DIR; inert when unset and never part of the documents")
+    parser.add_argument("--head-box", choices=("mask", "decoded"), default="decoded",
+                        help="which box the stroke head (--mask-source head) uses as its window: "
+                             "decoded (default) = the box-head regression box (B1: +1.6% PQ on "
+                             "train_final); mask = bbox of the refined mask (the previous shipped "
+                             "behaviour)")
     parser.add_argument("--resume", action="store_true",
                         help="continue an interrupted run: --out may then already hold the documents "
                              "an earlier attempt finished (results/<sample_id>.json, plus the "
