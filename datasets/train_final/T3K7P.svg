@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg style="background-color: #000;" version="1.1" viewBox="0 0 100.0 100.0" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+ <g id="layerCOLUMN" inkscape:groupmode="layer" inkscape:label="COLUMN">
+  <path d="M 53.11684199999945,72.77455750000013 L 59.11684199999945,72.77455750000013" fill="none" stroke="rgb(149,149,149)" stroke-width="0.1"/>
+  <path d="M 59.11684199999945,72.77455750000013 L 59.11684199999945,66.77455750000013" fill="none" stroke="rgb(149,149,149)" stroke-width="0.1"/>
+  <path d="M 59.11684199999945,66.77455750000013 L 53.11684199999945,66.77455750000013" fill="none" stroke="rgb(149,149,149)" stroke-width="0.1"/>
+  <path d="M 53.11684199999945,66.77455750000013 L 53.11684199999945,72.77455750000013" fill="none" stroke="rgb(149,149,149)" stroke-width="0.1"/>
+ </g>
+ <g id="layerDOTE" inkscape:groupmode="layer" inkscape:label="DOTE">
+  <path d="M 0.0,69.77455750000013 L 100.0,69.77455750000013" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 56.11684199999945,100.0 L 56.11684199999945,0.0" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerPUB_HATCH" inkscape:groupmode="layer" inkscape:label="PUB_HATCH">
+  <path d="M 53.11684199999945,72.77455750000013 L 59.11684199999945,72.77455750000013" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 59.11684199999945,72.77455750000013 L 59.11684199999945,66.77455750000013" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 59.11684199999945,66.77455750000013 L 53.11684199999945,66.77455750000013" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 53.11684199999945,66.77455750000013 L 53.11684199999945,72.77455750000013" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+ </g>
+ <g id="layerSPACE" inkscape:groupmode="layer" inkscape:label="SPACE">
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,27.17684199999985,41.27455750000013)" x="27.17684199999985" y="41.27455750000013">
+   房间
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,17.016841999999997,47.27455750000013)" x="17.016841999999997" y="47.27455750000013">
+   214.28m²
+  </text>
+ </g>
+ <g id="layerWALL" inkscape:groupmode="layer" inkscape:label="WALL">
+  <path d="M 100.0,70.77455750000013 L 0.0,70.77455750000013" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(149,149,149)" stroke-width="0.1"/>
+  <path d="M 100.0,68.77455750000013 L 0.0,68.77455750000013" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(149,149,149)" stroke-width="0.1"/>
+ </g>
+ <g id="layer房间名称" inkscape:groupmode="layer" inkscape:label="房间名称">
+  <text fill="rgb(254,255,12)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,0.10684200000014243,33.88455750000003)" x="0.10684200000014243" y="33.88455750000003">
+   商铺
+  </text>
+ </g>
+</svg>

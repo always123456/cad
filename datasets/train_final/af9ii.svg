@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg style="background-color: #000;" version="1.1" viewBox="0 0 100.0 100.0" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+ <g id="layerA-DETL" inkscape:groupmode="layer" inkscape:label="A-DETL">
+  <path d="M 0.0,33.54561199999989 L 100.0,33.54561199999989" fill="none" stroke="rgb(0,107,26)" stroke-width="0.1"/>
+  <path d="M 0.0,33.44561199999953 L 100.0,33.44561199999953" fill="none" stroke="rgb(0,107,26)" stroke-width="0.1"/>
+  <path d="M 0.0,33.04561199999989 L 100.0,33.04561199999989" fill="none" stroke="rgb(0,107,26)" stroke-width="0.1"/>
+  <path d="M 0.0,32.645612000000256 L 100.0,32.645612000000256" fill="none" stroke="rgb(0,107,26)" stroke-width="0.1"/>
+  <path d="M 0.0,40.94561199999953 L 100.0,40.94561199999953" fill="none" stroke="rgb(0,107,26)" stroke-width="0.1"/>
+  <path d="M 100.0,28.945611999999528 L 0.0,28.945611999999528" fill="none" stroke="rgb(0,107,26)" stroke-width="0.1"/>
+ </g>
+ <g id="layerAXIS" inkscape:groupmode="layer" inkscape:label="AXIS">
+  <path d="M 44.075017,68.24561200000062 L 44.075017,100.0" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 83.075017,68.24561200000062 L 83.075017,100.0" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 44.075017,72.74561200000062 L 44.075017,100.0" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 44.075017,72.74561200000062 L 44.075017,100.0" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 83.075017,72.74561200000062 L 83.075017,100.0" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 83.075017,72.74561200000062 L 83.075017,100.0" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerDOTE" inkscape:groupmode="layer" inkscape:label="DOTE">
+  <path d="M 83.075017,68.24561200000062 L 83.075017,0.0" fill="none" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 44.075017,68.24561200000062 L 44.075017,0.0" fill="none" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+ </g>
+ <g id="layerWALL" inkscape:groupmode="layer" inkscape:label="WALL">
+  <path d="M 0.0,38.48102742980336 L 100.0,38.50803613470816" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 0.0,36.48086804856757 L 100.0,36.50817165373519" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layer板边线" inkscape:groupmode="layer" inkscape:label="板边线">
+  <path d="M 100.0,38.50803603322129 L 0.0,38.481027255367735" fill="none" stroke="rgb(178,178,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layer降板区域" inkscape:groupmode="layer" inkscape:label="降板区域">
+  <path d="M 0.0,4.445611999999528 L 100.0,4.445611999999528" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 0.0,12.345612000000983 L 100.0,12.345612000000983" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 0.0,20.345612000000983 L 100.0,20.345612000000983" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 0.0,28.24561200000062 L 100.0,28.24561200000062" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 0.0,36.145612000000256 L 100.0,36.145612000000256" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 7.743017000000009,12.345612000000983 L 15.681016999999997,4.445611999999528" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 23.61801700000001,28.24561200000062 L 31.556016999999997,20.345612000000983" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 47.43001700000002,4.445611999999528 L 51.897012956455455,0.0" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 45.13001700000001,38.44561199999953 L 47.43001700000002,36.145612000000256" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 63.30501700000002,20.345612000000983 L 71.24301700000001,12.345612000000983" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 79.18001700000002,36.145612000000256 L 87.11701700000003,28.24561200000062" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 100.0,38.44561199999953 L 0.0,38.44561199999953" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 0.0,38.44561199999953 L 100.0,38.44561199999953" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+ </g>
+</svg>

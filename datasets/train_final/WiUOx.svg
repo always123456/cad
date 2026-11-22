@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg style="background-color: #000;" version="1.1" viewBox="0 0 100.0 100.0" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+ <g id="layer00AREA" inkscape:groupmode="layer" inkscape:label="00AREA">
+  <path d="M 100.0,76.0 L 0.0,76.0" fill="none" stroke="rgb(133,12,255)" stroke-width="0.1"/>
+ </g>
+ <g id="layerAXIS" inkscape:groupmode="layer" inkscape:label="AXIS">
+  <path d="M 81.33999999999992,42.16300000000001 L 82.66000000000008,40.83699999999999" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 82.0,45.25 L 82.0,37.75" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 82.0,79.0 L 82.0,19.0" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 0.0,29.5 L 100.0,29.5" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 0.0,41.5 L 100.0,41.5" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <circle cx="82.0" cy="13.0" fill="none" r="6" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-360.0,35.0,39.66300000000001)" x="35.0" y="39.66300000000001">
+   8400
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,79.1400000000001,16.0)" x="79.1400000000001" y="16.0">
+   8
+  </text>
+ </g>
+ <g id="layerCOLUMN" inkscape:groupmode="layer" inkscape:label="COLUMN">
+  <path d="M 0.0,81.0 L 0.5,81.0" fill="none" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 0.5,81.0 L 0.5,79.0" fill="none" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 0.5,76.0 L 0.0,76.0" fill="none" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 79.5,81.0 L 84.5,81.0" fill="none" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 84.5,81.0 L 84.5,79.0" fill="none" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 84.5,76.0 L 79.5,76.0" fill="none" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 79.5,79.0 L 79.5,81.0" fill="none" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerDOTE" inkscape:groupmode="layer" inkscape:label="DOTE">
+  <path d="M 82.0,100.0 L 82.0,79.0" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 100.0,79.0 L 0.0,79.0" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerPUB_DIM" inkscape:groupmode="layer" inkscape:label="PUB_DIM">
+  <path d="M 97.25,79.0 L 100.0,79.0" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 97.25,76.0 L 100.0,76.0" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 84.5,79.0 L 100.0,79.0" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 100.0,76.0 L 84.5,76.0" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-90.0,98.19000000000005,87.143)" x="98.19000000000005" y="87.143">
+   300
+  </text>
+ </g>
+ <g id="layerPUB_HATCH" inkscape:groupmode="layer" inkscape:label="PUB_HATCH">
+  <path d="M 84.5,76.0 L 84.5,79.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(121,121,121)" stroke-width="0.1"/>
+  <path d="M 84.5,79.0 L 100.0,79.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(121,121,121)" stroke-width="0.1"/>
+  <path d="M 100.0,76.0 L 84.5,76.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(121,121,121)" stroke-width="0.1"/>
+  <path d="M 0.0,81.0 L 0.5,81.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(121,121,121)" stroke-width="0.1"/>
+  <path d="M 0.5,81.0 L 0.5,76.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(121,121,121)" stroke-width="0.1"/>
+  <path d="M 0.5,76.0 L 0.0,76.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(121,121,121)" stroke-width="0.1"/>
+  <path d="M 79.5,81.0 L 84.5,81.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(121,121,121)" stroke-width="0.1"/>
+  <path d="M 84.5,81.0 L 84.5,76.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(121,121,121)" stroke-width="0.1"/>
+  <path d="M 84.5,76.0 L 79.5,76.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(121,121,121)" stroke-width="0.1"/>
+  <path d="M 79.5,76.0 L 79.5,81.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(121,121,121)" stroke-width="0.1"/>
+  <path d="M 0.5,76.0 L 0.5,79.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(121,121,121)" stroke-width="0.1"/>
+  <path d="M 0.5,79.0 L 79.5,79.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(121,121,121)" stroke-width="0.1"/>
+  <path d="M 79.5,79.0 L 79.5,76.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(121,121,121)" stroke-width="0.1"/>
+  <path d="M 79.5,76.0 L 0.5,76.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(121,121,121)" stroke-width="0.1"/>
+ </g>
+ <g id="layerW-消火栓" inkscape:groupmode="layer" inkscape:label="W-消火栓">
+  <path d="M 4.8599999999999,81.524 L 4.8599999999999,79.124" fill="none" stroke="rgb(178,88,0)" stroke-width="0.1"/>
+  <path d="M 11.8599999999999,79.124 L 11.8599999999999,81.524" fill="none" stroke="rgb(178,88,0)" stroke-width="0.1"/>
+  <path d="M 11.8599999999999,81.524 L 4.8599999999999,79.124" fill="none" stroke="rgb(178,88,0)" stroke-width="0.1"/>
+  <path d="M 11.8599999999999,81.524 L 4.8599999999999,81.524" fill="none" stroke="rgb(178,88,0)" stroke-width="0.1"/>
+  <path d="M 4.8599999999999,79.124 L 11.8599999999999,79.124" fill="none" stroke="rgb(178,88,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerWALL" inkscape:groupmode="layer" inkscape:label="WALL">
+  <path d="M 100.0,79.0 L 84.5,79.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 100.0,76.0 L 84.5,76.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 79.5,79.0 L 0.5,79.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 79.5,76.0 L 0.5,76.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerpyb-防火分区" inkscape:groupmode="layer" inkscape:label="pyb-防火分区">
+  <path d="M 82.0,100.0 L 82.0,76.0" fill="none" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+ </g>
+ <g id="layerwm receiving" inkscape:groupmode="layer" inkscape:label="wm receiving">
+  <path d="M 100.0,82.0 L 0.0,82.0" fill="none" stroke="rgb(0,0,178)" stroke-width="0.1"/>
+  <path d="M 34.0,100.0 L 34.0,82.0" fill="none" stroke="rgb(0,0,178)" stroke-width="0.1"/>
+ </g>
+ <g id="layer方案地下车库轮廓线" inkscape:groupmode="layer" inkscape:label="方案地下车库轮廓线">
+  <path d="M 0.0,76.0 L 100.0,76.0" fill="none" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+ </g>
+</svg>

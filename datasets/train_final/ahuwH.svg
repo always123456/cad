@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg style="background-color: #000;" version="1.1" viewBox="0 0 100.0 100.0" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+ <g id="layerA-DETL" inkscape:groupmode="layer" inkscape:label="A-DETL">
+  <path d="M 13.178017000000068,33.54561199999989 L 13.178017000000068,0.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,107,26)" stroke-width="0.1"/>
+  <path d="M 0.0,33.54561199999989 L 13.178017000000068,33.54561199999989" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,107,26)" stroke-width="0.1"/>
+  <path d="M 13.048017000000073,33.44561199999953 L 13.048017000000073,0.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,107,26)" stroke-width="0.1"/>
+  <path d="M 0.0,33.44561199999953 L 13.048017000000073,33.44561199999953" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,107,26)" stroke-width="0.1"/>
+  <path d="M 12.733017000000018,33.04561199999989 L 12.733017000000018,0.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,107,26)" stroke-width="0.1"/>
+  <path d="M 0.0,33.04561199999989 L 12.733017000000018,33.04561199999989" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,107,26)" stroke-width="0.1"/>
+  <path d="M 12.33301700000004,32.645612000000256 L 12.33301700000004,0.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,107,26)" stroke-width="0.1"/>
+  <path d="M 0.0,32.645612000000256 L 12.33301700000004,32.645612000000256" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,107,26)" stroke-width="0.1"/>
+  <path d="M 8.868017000000009,0.0 L 8.868017000000009,28.945611999999528" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,107,26)" stroke-width="0.1"/>
+  <path d="M 20.87501700000007,40.94561199999953 L 20.87501700000007,0.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,107,26)" stroke-width="0.1"/>
+  <path d="M 0.0,40.94561199999953 L 20.87501700000007,40.94561199999953" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,107,26)" stroke-width="0.1"/>
+  <path d="M 20.87501700000007,40.94561199999953 L 13.178017000000068,33.24561200000062" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,107,26)" stroke-width="0.1"/>
+  <path d="M 13.048017000000073,33.145612000000256 L 12.733017000000018,32.84561200000098" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,107,26)" stroke-width="0.1"/>
+  <path d="M 12.33301700000004,32.44561199999953 L 8.868017000000009,28.945611999999528" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,107,26)" stroke-width="0.1"/>
+  <path d="M 8.868017000000009,28.945611999999528 L 0.0,28.945611999999528" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,107,26)" stroke-width="0.1"/>
+ </g>
+ <g id="layerAXIS" inkscape:groupmode="layer" inkscape:label="AXIS">
+  <path d="M 43.075017,68.24561200000062 L 43.075017,100.0" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 43.075017,72.74561200000062 L 43.075017,100.0" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 43.075017,72.74561200000062 L 43.075017,100.0" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerDOTE" inkscape:groupmode="layer" inkscape:label="DOTE">
+  <path d="M 43.075017,68.24561200000062 L 43.075017,0.0" fill="none" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+ </g>
+ <g id="layerWALL" inkscape:groupmode="layer" inkscape:label="WALL">
+  <path d="M 0.0,38.54044658059502 L 19.12501700000007,38.54561199999989" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 19.12501700000007,38.54561199999989 L 19.13610763410452,0.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 0.0,36.540935979935966 L 17.126017000000047,36.54561199999989" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 17.126017000000047,36.54561199999989 L 17.136439990944837,0.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layer板边线" inkscape:groupmode="layer" inkscape:label="板边线">
+  <path d="M 19.13610607134649,0.0 L 19.12501700000007,38.54561199999989" fill="none" stroke="rgb(178,178,0)" stroke-width="0.1"/>
+  <path d="M 19.12501700000007,38.54561199999989 L 0.0,38.54044656664337" fill="none" stroke="rgb(178,178,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layer降板区域" inkscape:groupmode="layer" inkscape:label="降板区域">
+  <path d="M 0.0,4.445611999999528 L 19.14901700000007,4.445611999999528" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 0.0,12.345612000000983 L 19.14901700000007,12.345612000000983" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 0.0,20.345612000000983 L 19.14901700000007,20.345612000000983" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 0.0,28.24561200000062 L 19.14801699999998,28.24561200000062" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 0.0,36.145612000000256 L 19.14801699999998,36.145612000000256" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 0.0,22.389796215167735 L 2.0540170000000444,20.345612000000983" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 17.928017000000068,4.445611999999528 L 19.14901700000007,3.2456120000006194" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 15.626017000000047,38.44561199999953 L 17.928017000000068,36.145612000000256" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 19.14869465473555,0.0 L 19.14801699999998,38.44561199999953" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 19.14801699999998,38.44561199999953 L 0.0,38.44561199999953" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 0.0,38.44561199999953 L 19.14801699999998,38.44561199999953" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 19.14801699999998,38.44561199999953 L 19.14869465473555,0.0" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+ </g>
+</svg>

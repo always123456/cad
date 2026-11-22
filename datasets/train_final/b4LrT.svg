@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg style="background-color: #000;" version="1.1" viewBox="0 0 100.0 100.0" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+ <g id="layerA-ROOF-DRAN" inkscape:groupmode="layer" inkscape:label="A-ROOF-DRAN">
+  <path d="M 0.0,29.649 L 30.62099999999998,29.649" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 0.0,33.649 L 30.62099999999998,33.649" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerA-SYMB" inkscape:groupmode="layer" inkscape:label="A-SYMB">
+  <circle cx="86.62" cy="54.149" fill="none" r="5" stroke="rgb(142,0,0)" stroke-width="0.1"/>
+  <text fill="rgb(0,178,178)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,84.78999999999996,56.649)" x="84.78999999999996" y="56.649">
+   D
+  </text>
+ </g>
+ <g id="layerDIM_LEAD" inkscape:groupmode="layer" inkscape:label="DIM_LEAD">
+  <path d="M 11.143000000000029,44.936000000000035 L 11.676000000000045,42.158000000000015" fill="none" stroke="rgb(160,53,53)" stroke-width="0.1"/>
+  <path d="M 11.676000000000045,42.158000000000015 L 27.386999999999944,42.158000000000015" fill="none" stroke="rgb(160,53,53)" stroke-width="0.1"/>
+  <path d="M 11.086999999999989,45.230999999999995 A 0.30036186508944934,0.30036186508944934 0.0 1,0 11.200000000000045,44.64099999999996" fill="none" stroke="rgb(160,53,53)" stroke-width="0.1"/>
+  <path d="M 11.200000000000045,44.64099999999996 A 0.30036186508944934,0.30036186508944934 0.0 1,0 11.086999999999989,45.230999999999995" fill="none" stroke="rgb(160,53,53)" stroke-width="0.1"/>
+ </g>
+ <g id="layerDIM_SYMB" inkscape:groupmode="layer" inkscape:label="DIM_SYMB">
+  <path d="M 47.761999999999944,95.83900000000006 L 100.0,95.83900000000006" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 47.761999999999944,97.23900000000003 L 100.0,97.23900000000003" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 9.477999999999952,31.726999999999975 L 0.0,31.726999999999975" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 0.0,31.726999999999975 L 0.9809999999999945,31.726999999999975" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerPUB_DIM" inkscape:groupmode="layer" inkscape:label="PUB_DIM">
+  <path d="M 46.236999999999966,54.149 L 68.12,54.149" fill="none" stroke="rgb(160,53,53)" stroke-width="0.1"/>
+  <path d="M 65.62,54.149 L 65.62,0.0" fill="none" stroke="rgb(160,53,53)" stroke-width="0.1"/>
+  <path d="M 45.96500000000003,57.649 L 76.12,57.649" fill="none" stroke="rgb(160,53,53)" stroke-width="0.1"/>
+  <path d="M 73.62,57.649 L 73.62,0.0" fill="none" stroke="rgb(160,53,53)" stroke-width="0.1"/>
+  <text fill="rgb(160,53,53)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-90.0,64.62099999999998,27.874000000000024)" x="64.62099999999998" y="27.874000000000024">
+   6200
+  </text>
+ </g>
+ <g id="layerPUB_TEXT" inkscape:groupmode="layer" inkscape:label="PUB_TEXT">
+  <text fill="rgb(0,178,178)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,47.761999999999944,94.75400000000002)" x="47.761999999999944" y="94.75400000000002">
+   屋顶层平面图
+  </text>
+  <text fill="rgb(0,178,178)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,93.94000000000005,94.75400000000002)" x="93.94000000000005" y="94.75400000000002">
+   1:100
+  </text>
+  <text fill="rgb(0,178,178)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,15.221000000000004,40.58299999999997)" x="15.221000000000004" y="40.58299999999997">
+   分水线
+  </text>
+  <text fill="rgb(0,178,178)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,10.52800000000002,33.214000000000055)" x="10.52800000000002" y="33.214000000000055">
+   1%
+  </text>
+ </g>
+ <g id="layerWALL" inkscape:groupmode="layer" inkscape:label="WALL">
+  <path d="M 32.62099999999998,0.0 L 32.62099999999998,57.649" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 30.62099999999998,0.0 L 30.62099999999998,55.649" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 0.0,55.649 L 30.62099999999998,55.649" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 0.0,57.649 L 32.62099999999998,57.649" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layer建-屋面－排水沟" inkscape:groupmode="layer" inkscape:label="建-屋面－排水沟">
+  <path d="M 30.62099999999998,55.649 L 0.0,38.80745000000002" fill="none" stroke="rgb(53,53,107)" stroke-width="0.1"/>
+ </g>
+ <g id="layer建-楼梯-扶手栏杆" inkscape:groupmode="layer" inkscape:label="建-楼梯-扶手栏杆">
+  <path d="M 0.0,54.649 L 29.62099999999998,54.649" fill="none" instance-id="-1" semantic-id="33" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 29.62099999999998,54.649 L 29.62099999999998,0.0" fill="none" instance-id="-1" semantic-id="33" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 0.0,54.149 L 29.12099999999998,54.149" fill="none" instance-id="-1" semantic-id="33" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 29.12099999999998,54.149 L 29.12099999999998,0.0" fill="none" instance-id="-1" semantic-id="33" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layer柱网" inkscape:groupmode="layer" inkscape:label="柱网">
+  <path d="M 31.62099999999998,0.0 L 31.62099999999998,100.0" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 62.60000000000002,54.149 L 0.0,54.149" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layer结-轴线" inkscape:groupmode="layer" inkscape:label="结-轴线">
+  <path d="M 43.236999999999966,54.149 L 81.62,54.149" fill="none" stroke="rgb(160,53,53)" stroke-width="0.1"/>
+ </g>
+</svg>

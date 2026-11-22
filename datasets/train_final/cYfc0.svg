@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg style="background-color: #000;" version="1.1" viewBox="0 0 100.0 100.0" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+ <g id="layer建-屋面-边缘线" inkscape:groupmode="layer" inkscape:label="建-屋面-边缘线">
+  <path d="M 59.66019108961416,100.0 L 59.66053831063084,0.0" fill="none" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+ </g>
+ <g id="layer结-文字" inkscape:groupmode="layer" inkscape:label="结-文字">
+  <text fill="rgb(0,178,178)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,91.36000000000001,63.274)" x="91.36000000000001" y="63.274">
+   h=120
+  </text>
+  <text fill="rgb(0,178,178)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,91.36000000000001,89.524)" x="91.36000000000001" y="89.524">
+   h=120
+  </text>
+  <text fill="rgb(0,178,178)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,91.36000000000001,28.774)" x="91.36000000000001" y="28.774">
+   h=120
+  </text>
+ </g>
+ <g id="layer结-柱-填充" inkscape:groupmode="layer" inkscape:label="结-柱-填充">
+  <path d="M 72.65999999999997,82.024 L 78.65999999999997,82.024" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 78.65999999999997,82.024 L 78.65999999999997,76.024" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 78.65999999999997,76.024 L 72.65999999999997,76.024" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 72.65999999999997,76.024 L 72.65999999999997,82.024" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 72.65999999999997,13.024000000000001 L 78.65999999999997,13.024000000000001" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 78.65999999999997,13.024000000000001 L 78.65999999999997,7.024000000000001" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 78.65999999999997,7.024000000000001 L 72.65999999999997,7.024000000000001" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 72.65999999999997,7.024000000000001 L 72.65999999999997,13.024000000000001" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+ </g>
+ <g id="layer结-柱-线" inkscape:groupmode="layer" inkscape:label="结-柱-线">
+  <path d="M 78.65999999999997,76.024 L 72.65999999999997,76.024" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 72.65999999999997,76.024 L 72.65999999999997,82.024" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 72.65999999999997,82.024 L 78.65999999999997,82.024" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 78.65999999999997,82.024 L 78.65999999999997,76.024" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 78.65999999999997,7.024000000000001 L 72.65999999999997,7.024000000000001" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 72.65999999999997,7.024000000000001 L 72.65999999999997,13.024000000000001" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 72.65999999999997,13.024000000000001 L 78.65999999999997,13.024000000000001" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 78.65999999999997,13.024000000000001 L 78.65999999999997,7.024000000000001" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layer结-梁-不可见" inkscape:groupmode="layer" inkscape:label="结-梁-不可见">
+  <path d="M 100.0,8.774000000000001 L 78.65999999999997,8.774000000000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,178,0)" stroke-width="0.1"/>
+  <path d="M 78.65999999999997,11.274000000000001 L 100.0,11.274000000000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,178,0)" stroke-width="0.1"/>
+  <path d="M 100.0,43.274 L 77.15999999999997,43.274" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,178,0)" stroke-width="0.1"/>
+  <path d="M 77.15999999999997,45.774 L 100.0,45.774" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,178,0)" stroke-width="0.1"/>
+  <path d="M 100.0,77.774 L 78.65999999999997,77.774" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,178,0)" stroke-width="0.1"/>
+  <path d="M 78.65999999999997,80.274 L 100.0,80.274" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,178,0)" stroke-width="0.1"/>
+  <path d="M 100.0,95.774 L 77.15999999999997,95.774" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,178,0)" stroke-width="0.1"/>
+  <path d="M 77.15999999999997,98.274 L 100.0,98.274" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,178,0)" stroke-width="0.1"/>
+  <path d="M 77.15999999999997,100.0 L 77.15999999999997,98.274" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,178,0)" stroke-width="0.1"/>
+  <path d="M 77.15999999999997,76.024 L 77.15999999999997,45.774" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,178,0)" stroke-width="0.1"/>
+  <path d="M 77.15999999999997,7.024000000000001 L 77.15999999999997,0.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,178,0)" stroke-width="0.1"/>
+  <path d="M 77.15999999999997,43.274 L 77.15999999999997,13.024000000000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,178,0)" stroke-width="0.1"/>
+  <path d="M 77.15999999999997,95.774 L 77.15999999999997,82.024" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,178,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layer结-梁-文字备用" inkscape:groupmode="layer" inkscape:label="结-梁-文字备用">
+  <text fill="rgb(0,178,178)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,89.80999999999995,6.274000000000001)" x="89.80999999999995" y="6.274000000000001">
+   250x650
+  </text>
+  <text fill="rgb(0,178,178)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,89.80999999999995,40.774)" x="89.80999999999995" y="40.774">
+   250x650
+  </text>
+  <text fill="rgb(0,178,178)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,89.80999999999995,75.274)" x="89.80999999999995" y="75.274">
+   250x650
+  </text>
+  <text fill="rgb(0,178,178)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,89.80999999999995,93.274)" x="89.80999999999995" y="93.274">
+   250x650
+  </text>
+  <text fill="rgb(0,178,178)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-90.0,71.65999999999997,68.62400000000002)" x="71.65999999999997" y="68.62400000000002">
+   300x700
+  </text>
+  <text fill="rgb(0,178,178)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-90.0,71.65999999999997,2.3740000000000236)" x="71.65999999999997" y="2.3740000000000236">
+   300x700
+  </text>
+  <text fill="rgb(0,178,178)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-90.0,71.65999999999997,34.124000000000024)" x="71.65999999999997" y="34.124000000000024">
+   300x700
+  </text>
+  <text fill="rgb(0,178,178)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-90.0,71.65999999999997,94.87400000000002)" x="71.65999999999997" y="94.87400000000002">
+   300x700
+  </text>
+  <text fill="rgb(0,178,178)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,88.87699999999995,15.387999999999977)" x="88.87699999999995" y="15.387999999999977">
+   (0.000/+0.825)
+  </text>
+  <text fill="rgb(0,178,178)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,88.12699999999995,48.374000000000024)" x="88.12699999999995" y="48.374000000000024">
+   (0.000/+0.825)
+  </text>
+  <text fill="rgb(0,178,178)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,85.27700000000004,83.78500000000003)" x="85.27700000000004" y="83.78500000000003">
+   (0.000/+0.825)
+  </text>
+ </g>
+ <g id="layer结-梁-线" inkscape:groupmode="layer" inkscape:label="结-梁-线">
+  <path d="M 74.15999999999997,97.024 L 74.15999999999997,100.0" fill="none" stroke="rgb(178,178,0)" stroke-width="0.1"/>
+  <path d="M 74.15999999999997,44.524 L 74.15999999999997,76.024" fill="none" stroke="rgb(178,178,0)" stroke-width="0.1"/>
+  <path d="M 74.15999999999997,0.0 L 74.15999999999997,7.024000000000001" fill="none" stroke="rgb(178,178,0)" stroke-width="0.1"/>
+  <path d="M 74.15999999999997,13.024000000000001 L 74.15999999999997,44.524" fill="none" stroke="rgb(178,178,0)" stroke-width="0.1"/>
+  <path d="M 74.15999999999997,82.024 L 74.15999999999997,97.024" fill="none" stroke="rgb(178,178,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layer结-轴线" inkscape:groupmode="layer" inkscape:label="结-轴线">
+  <path d="M 100.0,79.03697703539058 L 0.0,79.03832507534048" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 75.65999999999997,0.0 L 75.65999999999997,100.0" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 100.0,10.031999999999982 L 0.0,10.031999999999982" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+ </g>
+</svg>

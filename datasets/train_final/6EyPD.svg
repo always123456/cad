@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg style="background-color: #000;" version="1.1" viewBox="0 0 100.0 100.0" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+ <g id="layerCOLUMN" inkscape:groupmode="layer" inkscape:label="COLUMN">
+  <path d="M 65.40730900000017,62.37700249999989 L 71.40730900000017,62.37700249999989" fill="none" stroke="rgb(149,149,149)" stroke-width="0.1"/>
+  <path d="M 71.40730900000017,62.37700249999989 L 71.40730900000017,56.37700249999989" fill="none" stroke="rgb(149,149,149)" stroke-width="0.1"/>
+  <path d="M 71.40730900000017,56.37700249999989 L 65.40730900000017,56.37700249999989" fill="none" stroke="rgb(149,149,149)" stroke-width="0.1"/>
+  <path d="M 65.40730900000017,56.37700249999989 L 65.40730900000017,62.37700249999989" fill="none" stroke="rgb(149,149,149)" stroke-width="0.1"/>
+ </g>
+ <g id="layerDIM_LEAD" inkscape:groupmode="layer" inkscape:label="DIM_LEAD">
+  <path d="M 93.54730900000004,48.55700249999995 L 100.0,48.55700249999995" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 6.627308999999968,33.28700249999997 L 26.87730899999997,33.28700249999997" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 26.87730899999997,33.28700249999997 L 39.52730900000006,46.79700249999996" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <circle cx="39.52730900000006" cy="46.79700249999996" fill="none" r="0.4" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,93.54730900000004,46.10700249999991)" x="93.54730900000004" y="46.10700249999991">
+   B1污物间排风井
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,6.627308999999968,30.837002499999926)" x="6.627308999999968" y="30.837002499999926">
+   预留排油烟井
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,6.627308999999968,39.23700249999979)" x="6.627308999999968" y="39.23700249999979">
+   顶板留洞
+  </text>
+ </g>
+ <g id="layerDOTE" inkscape:groupmode="layer" inkscape:label="DOTE">
+  <path d="M 0.0,59.37700249999989 L 100.0,59.37700249999989" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 68.40730900000017,100.0 L 68.40730900000017,0.0" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerPUB_HATCH" inkscape:groupmode="layer" inkscape:label="PUB_HATCH">
+  <path d="M 65.40730900000017,62.37700249999989 L 71.40730900000017,62.37700249999989" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 71.40730900000017,62.37700249999989 L 71.40730900000017,56.37700249999989" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 71.40730900000017,56.37700249999989 L 65.40730900000017,56.37700249999989" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 65.40730900000017,56.37700249999989 L 65.40730900000017,62.37700249999989" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+ </g>
+ <g id="layerSPACE" inkscape:groupmode="layer" inkscape:label="SPACE">
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,88.24730900000031,27.447002499999826)" x="88.24730900000031" y="27.447002499999826">
+   169.13m²
+  </text>
+ </g>
+ <g id="layerWALL" inkscape:groupmode="layer" inkscape:label="WALL">
+  <path d="M 65.40730900000017,60.37700249999989 L 0.0,60.37700249999989" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(149,149,149)" stroke-width="0.1"/>
+  <path d="M 65.40730900000017,58.37700249999989 L 0.0,58.37700249999989" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(149,149,149)" stroke-width="0.1"/>
+  <path d="M 100.0,60.37700249999989 L 71.40730900000017,60.37700249999989" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(149,149,149)" stroke-width="0.1"/>
+  <path d="M 100.0,58.37700249999989 L 71.40730900000017,58.37700249999989" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(149,149,149)" stroke-width="0.1"/>
+ </g>
+ <g id="layerWP_F_LG" inkscape:groupmode="layer" inkscape:label="WP_F_LG">
+  <path d="M 65.40730900000017,60.37700249999989 L 58.90730900000017,62.37700249999989" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 65.40730900000017,58.37700249999989 L 58.90730900000017,56.37700249999989" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 58.90730900000017,62.37700249999989 L 58.90730900000017,60.37700249999989" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 58.90730900000017,60.37700249999989 L 65.40730900000017,60.37700249999989" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 65.40730900000017,60.37700249999989 L 65.40730900000017,62.37700249999989" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 65.40730900000017,62.37700249999989 L 58.90730900000017,62.37700249999989" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 58.90730900000017,56.37700249999989 L 58.90730900000017,58.37700249999989" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 58.90730900000017,58.37700249999989 L 65.40730900000017,58.37700249999989" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 65.40730900000017,58.37700249999989 L 65.40730900000017,56.37700249999989" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 65.40730900000017,56.37700249999989 L 58.90730900000017,56.37700249999989" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <circle cx="57.68730900000037" cy="61.35700249999991" fill="none" r="0.5" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <circle cx="57.68730900000037" cy="57.38700249999988" fill="none" r="0.5" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layer厨房油烟井" inkscape:groupmode="layer" inkscape:label="厨房油烟井">
+  <path d="M 58.40730900000017,57.87700249999989 L 58.40730900000017,45.87700249999989" fill="none" stroke="rgb(133,12,255)" stroke-width="0.1"/>
+  <path d="M 58.40730900000017,45.87700249999989 L 47.40730900000017,45.87700249999989" fill="none" stroke="rgb(133,12,255)" stroke-width="0.1"/>
+  <path d="M 47.40730900000017,45.87700249999989 L 47.40730900000017,57.87700249999989" fill="none" stroke="rgb(133,12,255)" stroke-width="0.1"/>
+  <path d="M 47.40730900000017,57.87700249999989 L 58.40730900000017,57.87700249999989" fill="none" stroke="rgb(133,12,255)" stroke-width="0.1"/>
+  <path d="M 34.40730900000017,57.87700249999989 L 34.40730900000017,45.87700249999989" fill="none" stroke="rgb(133,12,255)" stroke-width="0.1"/>
+  <path d="M 34.40730900000017,45.87700249999989 L 45.40730900000017,45.87700249999989" fill="none" stroke="rgb(133,12,255)" stroke-width="0.1"/>
+  <path d="M 45.40730900000017,45.87700249999989 L 45.40730900000017,57.87700249999989" fill="none" stroke="rgb(133,12,255)" stroke-width="0.1"/>
+  <path d="M 45.40730900000017,57.87700249999989 L 34.40730900000017,57.87700249999989" fill="none" stroke="rgb(133,12,255)" stroke-width="0.1"/>
+  <path d="M 60.40730900000017,57.87700249999989 L 60.40730900000017,45.87700249999989" fill="none" stroke="rgb(133,12,255)" stroke-width="0.1"/>
+  <path d="M 60.40730900000017,45.87700249999989 L 65.40730900000017,45.87700249999989" fill="none" stroke="rgb(133,12,255)" stroke-width="0.1"/>
+  <path d="M 65.40730900000017,45.87700249999989 L 65.40730900000017,57.87700249999989" fill="none" stroke="rgb(133,12,255)" stroke-width="0.1"/>
+  <path d="M 65.40730900000017,57.87700249999989 L 60.40730900000017,57.87700249999989" fill="none" stroke="rgb(133,12,255)" stroke-width="0.1"/>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-90.0,63.517309000000296,55.13700249999988)" x="63.517309000000296" y="55.13700249999988">
+   事故排风井
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-90.0,54.14730899999995,55.16700249999985)" x="54.14730899999995" y="55.16700249999985">
+   厨房排风井
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-90.0,40.64730899999995,54.89700249999987)" x="40.64730899999995" y="54.89700249999987">
+   厨房补风井
+  </text>
+ </g>
+ <g id="layer房间名称" inkscape:groupmode="layer" inkscape:label="房间名称">
+  <text fill="rgb(254,255,12)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,59.22730900000033,16.317002499999944)" x="59.22730900000033" y="16.317002499999944">
+   商铺
+  </text>
+  <text fill="rgb(254,255,12)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,44.89730899999995,28.63700249999988)" x="44.89730899999995" y="28.63700249999988">
+   （预留餐饮）
+  </text>
+  <text fill="rgb(254,255,12)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,79.49730900000031,16.047002499999962)" x="79.49730900000031" y="16.047002499999962">
+   169㎡
+  </text>
+ </g>
+</svg>

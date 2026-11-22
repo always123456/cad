@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg style="background-color: #000;" version="1.1" viewBox="0 0 100.0 100.0" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+ <g id="layerA-DETL-MECH" inkscape:groupmode="layer" inkscape:label="A-DETL-MECH">
+  <path d="M 100.0,42.967055500000015 L 0.0,42.967055500000015" fill="none" stroke="rgb(160,53,133)" stroke-width="0.1"/>
+ </g>
+ <g id="layerA-ROOF-DRAN" inkscape:groupmode="layer" inkscape:label="A-ROOF-DRAN">
+  <path d="M 0.0,43.957055500000024 L 100.0,43.957055500000024" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 0.0,47.957055500000024 L 100.0,47.957055500000024" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerDIM_ELEV" inkscape:groupmode="layer" inkscape:label="DIM_ELEV">
+  <path d="M 85.07905500000004,74.40005550000001 L 82.07905500000004,71.40005550000001" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 85.07905500000004,74.40005550000001 L 88.07905500000004,71.40005550000001" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 82.07905500000004,71.40005550000001 L 99.34805500000004,71.40005550000001" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerDIM_SYMB" inkscape:groupmode="layer" inkscape:label="DIM_SYMB">
+  <path d="M 75.475055,0.0 L 75.475055,5.004055499999993" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 75.475055,5.004055499999993 L 75.475055,2.0040554999999927" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 7.161055000000033,46.06905549999999 L 0.0,46.06905549999999" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerPUB_TEXT" inkscape:groupmode="layer" inkscape:label="PUB_TEXT">
+  <text fill="rgb(0,178,178)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,84.18205499999999,65.09705550000001)" x="84.18205499999999" y="65.09705550000001">
+   5F
+  </text>
+  <text fill="rgb(0,178,178)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,83.39705500000002,70.35005550000005)" x="83.39705500000002" y="70.35005550000005">
+   20.350
+  </text>
+  <text fill="rgb(0,178,178)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,93.76205500000003,70.35005550000005)" x="93.76205500000003" y="70.35005550000005">
+   （结）
+  </text>
+  <text fill="rgb(0,178,178)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,8.211054999999988,47.556055500000014)" x="8.211054999999988" y="47.556055500000014">
+   1%
+  </text>
+ </g>
+ <g id="layerWALL" inkscape:groupmode="layer" inkscape:label="WALL">
+  <path d="M 0.0,52.957055500000024 L 100.0,52.957055500000024" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 0.0,54.957055500000024 L 100.0,54.957055500000024" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 78.975055,54.957055500000024 L 78.975055,100.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 76.975055,54.957055500000024 L 76.975055,100.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 78.975055,54.957055500000024 L 76.975055,54.957055500000024" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layer建-楼梯-扶手栏杆" inkscape:groupmode="layer" inkscape:label="建-楼梯-扶手栏杆">
+  <path d="M 0.0,51.957055500000024 L 100.0,51.957055500000024" fill="none" instance-id="-1" semantic-id="33" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 0.0,51.457055500000024 L 100.0,51.457055500000024" fill="none" instance-id="-1" semantic-id="33" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layer柱网" inkscape:groupmode="layer" inkscape:label="柱网">
+  <path d="M 75.475055,0.0 L 75.475055,100.0" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 100.0,51.457055500000024 L 0.0,51.457055500000024" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+ </g>
+</svg>

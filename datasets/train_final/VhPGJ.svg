@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg style="background-color: #000;" version="1.1" viewBox="0 0 100.0 100.0" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+ <g id="layerAXIS" inkscape:groupmode="layer" inkscape:label="AXIS">
+  <path d="M 24.346505999999863,71.64591200000012 L 24.346505999999863,11.645912000000123" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 23.106505999999627,42.88391200000012 L 25.586505999999645,40.4089120000001" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 24.346505999999863,48.64591200000012 L 24.346505999999863,34.64591200000012" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 0.0,25.645912000000123 L 100.0,25.645912000000123" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 0.0,41.64591200000012 L 100.0,41.64591200000012" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,20.536505999999918,7.6459120000001235)" x="20.536505999999918" y="7.6459120000001235">
+   8
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,57.016505999999936,38.21591200000012)" x="57.016505999999936" y="38.21591200000012">
+   8400
+  </text>
+ </g>
+ <g id="layerDOTE" inkscape:groupmode="layer" inkscape:label="DOTE">
+  <path d="M 24.346505999999863,100.0 L 24.346505999999863,34.67891200000008" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerRail" inkscape:groupmode="layer" inkscape:label="Rail">
+  <path d="M 100.0,80.67891200000008 L 0.0,80.67891200000008" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 100.0,82.67891200000008 L 0.0,82.67891200000008" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+ </g>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg style="background-color: #000;" version="1.1" viewBox="0 0 100.0 100.0" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+ <g id="layerA-SCRN-HIDD" inkscape:groupmode="layer" inkscape:label="A-SCRN-HIDD">
+  <path d="M 0.0,0.061686462854368074 L 3.040477372554051,0.0" fill="none" stroke="rgb(107,93,53)" stroke-width="0.1"/>
+ </g>
+ <g id="layerAXIS" inkscape:groupmode="layer" inkscape:label="AXIS">
+  <path d="M 30.346505999999863,83.40091200000006 L 30.346505999999863,23.400912000000062" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 29.106505999999627,54.64091200000007 L 31.586505999999645,52.16091200000005" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 30.346505999999863,60.40091200000006 L 30.346505999999863,46.40091200000006" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 100.0,69.40091200000006 L 0.0,69.40091200000006" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 100.0,53.40091200000006 L 0.0,53.40091200000006" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <circle cx="30.346505999999863" cy="91.40091200000006" fill="none" r="8" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,24.616505999999845,94.20091200000002)" x="24.616505999999845" y="94.20091200000002">
+   12
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,63.016505999999936,49.970912)" x="63.016505999999936" y="49.970912">
+   8400
+  </text>
+ </g>
+ <g id="layerDOTE" inkscape:groupmode="layer" inkscape:label="DOTE">
+  <path d="M 30.346505999999863,74.68091200000003 L 30.346505999999863,0.0" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerRail" inkscape:groupmode="layer" inkscape:label="Rail">
+  <path d="M 0.0,17.680912000000035 L 100.0,17.680912000000035" fill="none" stroke="rgb(0,142,107)" stroke-width="0.1"/>
+ </g>
+ <g id="layerWALL" inkscape:groupmode="layer" inkscape:label="WALL">
+  <path d="M 100.0,17.680912000000035 L 0.0,17.680912000000035" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(149,149,149)" stroke-width="0.1"/>
+  <path d="M 100.0,15.680912000000035 L 0.0,15.680912000000035" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(149,149,149)" stroke-width="0.1"/>
+ </g>
+</svg>

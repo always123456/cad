@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg style="background-color: #000;" version="1.1" viewBox="0 0 100.0 99.99999999999997" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+ <g id="layer0" inkscape:groupmode="layer" inkscape:label="0">
+  <path d="M 76.48776999999995,29.945986500000004 L 76.48776999999995,31.945986500000004" fill="none" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 75.48776999999995,29.945986500000004 L 75.48776999999995,31.945986500000004" fill="none" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 5.387769999999932,65.4459865 L 5.387769999999932,59.445986500000004" fill="none" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerAXIS" inkscape:groupmode="layer" inkscape:label="AXIS">
+  <path d="M 50.35976999999997,72.55098650000002 L 46.51976999999994,72.55098650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 46.51976999999994,72.55098650000002 L 46.51976999999994,76.3909865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 46.51976999999994,76.3909865 L 50.35976999999997,76.3909865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 50.35976999999997,76.3909865 L 50.35976999999997,72.55098650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 50.67976999999996,72.2309865 L 46.199769999999944,72.2309865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 46.199769999999944,72.2309865 L 46.199769999999944,76.71098650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 46.199769999999944,76.71098650000002 L 50.67976999999996,76.71098650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 50.67976999999996,76.71098650000002 L 50.67976999999996,72.2309865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 46.199769999999944,76.71098650000002 L 50.67976999999996,76.71098650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 50.67976999999996,76.71098650000002 L 50.35976999999997,76.3909865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 50.35976999999997,76.3909865 L 46.51976999999994,76.3909865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 46.51976999999994,76.3909865 L 46.51976999999994,72.55098650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 46.51976999999994,72.55098650000002 L 46.199769999999944,72.2309865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 46.199769999999944,72.2309865 L 46.199769999999944,76.71098650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerDIM_LEAD" inkscape:groupmode="layer" inkscape:label="DIM_LEAD">
+  <path d="M 80.39676999999995,49.989986500000015 L 81.92476999999997,42.56098650000001" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 81.92476999999997,42.56098650000001 L 85.11876999999993,42.56098650000001" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 73.50476999999995,28.271986499999997 L 76.69876999999997,28.271986499999997" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 76.69876999999997,28.271986499999997 L 80.88776999999993,33.84598650000001" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 71.67876999999993,15.184986500000008 L 74.87176999999997,15.184986500000008" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 74.87176999999997,15.184986500000008 L 76.42176999999992,20.805986500000017" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 14.66918107524009,99.99999999999997 L 17.269769999999937,81.9499865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <circle cx="80.39776999999992" cy="49.989986500000015" fill="none" r="0.2" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <circle cx="80.88776999999993" cy="33.84598650000001" fill="none" r="0.2" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <circle cx="76.42176999999992" cy="20.805986500000017" fill="none" r="0.2" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <circle cx="17.269769999999937" cy="81.9499865" fill="none" r="0.2" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,80.68576999999993,41.33598650000002)" x="80.68576999999993" y="41.33598650000002">
+   G2
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,73.50476999999995,27.047986500000007)" x="73.50476999999995" y="27.047986500000007">
+   G1
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,71.67876999999993,13.959986500000014)" x="71.67876999999993" y="13.959986500000014">
+   G2
+  </text>
+ </g>
+ <g id="layerDIM_SYMB" inkscape:groupmode="layer" inkscape:label="DIM_SYMB">
+  <path d="M 63.695769999999925,28.916986500000007 L 68.95876999999996,26.10798650000001" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 89.48476999999997,55.854986499999995 L 94.86276999999995,59.2729865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 7.288769999999943,94.6129865 L 10.11976999999996,91.93198650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 69.24076999999994,26.636986500000006 L 71.60476999999997,24.695986500000004" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 71.60476999999997,24.695986500000004 L 68.67576999999994,25.578986500000013" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 68.67576999999994,25.578986500000013 L 69.24076999999994,26.636986500000006" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 89.80676999999997,55.348986499999995 L 89.16276999999997,56.3619865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 89.16276999999997,56.3619865 L 86.95276999999993,54.245986500000015" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 86.95276999999993,54.245986500000015 L 89.80676999999997,55.348986499999995" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 6.875769999999932,94.1769865 L 7.70076999999992,95.04898650000001" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 7.70076999999992,95.04898650000001 L 5.109769999999969,96.67498650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 5.109769999999969,96.67498650000002 L 6.875769999999932,94.1769865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerDOTE" inkscape:groupmode="layer" inkscape:label="DOTE">
+  <path d="M 0.0,77.4459865 L 30.887769999999932,77.4459865" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 0.0,58.445986500000004 L 30.887769999999932,58.445986500000004" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 0.0,26.445986500000004 L 30.887769999999932,26.445986500000004" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 0.0,18.445986500000004 L 79.88776999999993,18.445986500000004" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 0.0,12.445986500000004 L 100.0,12.445986500000004" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 29.887769999999932,99.99999999999997 L 29.887769999999932,0.0" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 54.88776999999993,50.445986500000004 L 54.88776999999993,0.0" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 68.88776999999993,99.99999999999997 L 68.88776999999993,48.445986500000004" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 78.88776999999993,50.445986500000004 L 78.88776999999993,0.0" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 100.0,49.445986500000004 L 0.0,49.445986500000004" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 77.88776999999993,31.445986500000004 L 100.0,31.445986500000004" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 17.887769999999932,99.99999999999997 L 17.887769999999932,57.445986500000004" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 30.887769999999932,99.44598650000003 L 16.887769999999932,99.44598650000003" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 85.88776999999993,99.99999999999997 L 85.88776999999993,86.4459865" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 100.0,87.84598650000001 L 84.48776999999995,87.84598650000001" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 100.0,64.4459865 L 0.0,64.4459865" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 99.38776999999993,65.4459865 L 99.38776999999993,48.445986500000004" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerHE-EQUM-SMAL" inkscape:groupmode="layer" inkscape:label="HE-EQUM-SMAL">
+  <path d="M 54.88776999999993,50.445986500000004 L 48.88776999999993,52.445986500000004" fill="none" stroke="rgb(178,178,0)" stroke-width="0.1"/>
+  <path d="M 54.88776999999993,50.445986500000004 L 48.88776999999993,50.445986500000004" fill="none" stroke="rgb(178,178,0)" stroke-width="0.1"/>
+  <path d="M 48.88776999999993,50.445986500000004 L 48.88776999999993,52.445986500000004" fill="none" stroke="rgb(178,178,0)" stroke-width="0.1"/>
+  <path d="M 48.88776999999993,52.445986500000004 L 54.88776999999993,52.445986500000004" fill="none" stroke="rgb(178,178,0)" stroke-width="0.1"/>
+  <path d="M 54.88776999999993,52.445986500000004 L 54.88776999999993,50.445986500000004" fill="none" stroke="rgb(178,178,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerPIPE-设备" inkscape:groupmode="layer" inkscape:label="PIPE-设备">
+  <path d="M 52.88776999999993,20.84598650000001 L 53.77476999999993,20.84598650000001" fill="none" stroke="rgb(107,93,53)" stroke-width="0.1"/>
+  <path d="M 52.88776999999993,20.84598650000001 L 51.95276999999993,20.84598650000001" fill="none" stroke="rgb(107,93,53)" stroke-width="0.1"/>
+  <path d="M 52.88776999999993,20.84598650000001 L 52.88776999999993,19.9629865" fill="none" stroke="rgb(107,93,53)" stroke-width="0.1"/>
+  <path d="M 52.88776999999993,20.84598650000001 L 52.88776999999993,21.729986499999995" fill="none" stroke="rgb(107,93,53)" stroke-width="0.1"/>
+  <circle cx="52.88776999999993" cy="20.84598650000001" fill="none" r="0.4" stroke="rgb(107,93,53)" stroke-width="0.1"/>
+  <circle cx="52.88776999999993" cy="20.84598650000001" fill="none" r="0.75" stroke="rgb(107,93,53)" stroke-width="0.1"/>
+ </g>
+ <g id="layerPUB_DIM" inkscape:groupmode="layer" inkscape:label="PUB_DIM">
+  <path d="M 0.0,77.4459865 L 6.787769999999966,77.4459865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 0.0,58.445986500000004 L 6.787769999999966,58.445986500000004" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 0.0,26.445986500000004 L 6.787769999999966,26.445986500000004" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 0.0,18.445986500000004 L 6.787769999999966,18.445986500000004" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 2.668769999999938,76.8269865 L 3.9057699999999613,78.0649865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 2.668769999999938,57.826986500000004 L 3.9057699999999613,59.0649865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 2.668769999999938,25.826986500000004 L 3.9057699999999613,27.064986500000003" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 2.668769999999938,17.826986500000004 L 3.9057699999999613,19.064986500000003" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 40.50076999999993,99.44598650000003 L 47.50076999999993,99.44598650000003" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 40.50076999999993,75.4459865 L 47.50076999999993,75.4459865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 40.50076999999993,49.445986500000004 L 47.50076999999993,49.445986500000004" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 40.50076999999993,18.445986500000004 L 47.50076999999993,18.445986500000004" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 43.38276999999994,98.8269865 L 44.55483599313402,99.99999999999997" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 43.38276999999994,74.8269865 L 44.61976999999996,76.0649865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 43.38276999999994,48.826986500000004 L 44.61976999999996,50.0649865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 43.38276999999994,17.826986500000004 L 44.61976999999996,19.064986500000003" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 21.901769999999942,88.4459865 L 28.901769999999942,88.4459865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 21.901769999999942,79.4459865 L 28.901769999999942,79.4459865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 21.901769999999942,77.4459865 L 28.901769999999942,77.4459865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 21.901769999999942,75.4459865 L 28.901769999999942,75.4459865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 21.901769999999942,67.4459865 L 28.901769999999942,67.4459865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 24.783769999999947,87.8269865 L 26.02076999999997,89.0649865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 24.783769999999947,78.8269865 L 26.02076999999997,80.0649865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 24.783769999999947,76.8269865 L 26.02076999999997,78.0649865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 24.783769999999947,74.8269865 L 26.02076999999997,76.0649865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 24.783769999999947,66.8269865 L 26.02076999999997,68.0649865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 18.769769999999937,59.44898650000002 L 20.00676999999996,58.21098650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 19.387769999999932,62.32998650000002 L 19.387769999999932,55.32998650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 27.769769999999937,59.44898650000002 L 29.00676999999996,58.21098650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 28.387769999999932,62.32998650000002 L 28.387769999999932,55.32998650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 29.269769999999937,59.44898650000002 L 30.50676999999996,58.21098650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 29.887769999999932,62.32998650000002 L 29.887769999999932,55.32998650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 37.76976999999994,59.44898650000002 L 39.00676999999996,58.21098650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 38.388769999999965,62.32998650000002 L 38.388769999999965,55.32998650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 45.76976999999994,59.44898650000002 L 47.00676999999996,58.21098650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 46.388769999999965,62.32998650000002 L 46.388769999999965,55.32998650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 54.26976999999994,59.44898650000002 L 55.50676999999996,58.21098650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 54.88776999999993,62.32998650000002 L 54.88776999999993,55.32998650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 57.26976999999994,59.44898650000002 L 58.50676999999996,58.21098650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 57.88776999999993,62.32998650000002 L 57.88776999999993,55.32998650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 66.26976999999994,59.44898650000002 L 67.50676999999996,58.21098650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 66.88776999999993,62.32998650000002 L 66.88776999999993,55.32998650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 17.269769999999937,96.2839865 L 18.50676999999996,95.0469865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 17.887769999999932,99.16498650000003 L 17.887769999999932,92.1649865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 18.769769999999937,96.2839865 L 20.00676999999996,95.0469865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 19.387769999999932,99.16498650000003 L 19.387769999999932,92.1649865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 27.769769999999937,96.2839865 L 29.00676999999996,95.0469865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 28.387769999999932,99.16498650000003 L 28.387769999999932,92.1649865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 68.26976999999994,83.2189865 L 69.50676999999996,81.9819865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 68.88776999999993,86.0999865 L 68.88776999999993,79.0999865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 71.76976999999994,83.2189865 L 73.00676999999996,81.9819865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 72.38776999999993,86.0999865 L 72.38776999999993,79.0999865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 79.26976999999994,83.2189865 L 80.50676999999996,81.9819865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 79.88776999999993,86.0999865 L 79.88776999999993,79.0999865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 97.26976999999994,83.2189865 L 98.50676999999996,81.9819865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 97.88776999999993,86.0999865 L 97.88776999999993,79.0999865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 75.56076999999993,61.945986500000004 L 82.56076999999993,61.945986500000004" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 75.56076999999993,51.945986500000004 L 82.56076999999993,51.945986500000004" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 75.56076999999993,49.445986500000004 L 82.56076999999993,49.445986500000004" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 78.44176999999996,61.326986500000004 L 79.67976999999996,62.5649865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 78.44176999999996,51.326986500000004 L 79.67976999999996,52.5649865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 78.44176999999996,48.826986500000004 L 79.67976999999996,50.0649865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 80.05776999999995,87.84598650000001 L 87.05776999999995,87.84598650000001" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 82.93976999999995,87.22698650000001 L 84.17676999999992,88.46498650000001" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 86.96976999999993,49.445986500000004 L 93.96976999999993,49.445986500000004" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 86.96976999999993,30.445986500000004 L 93.96976999999993,30.445986500000004" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 86.96976999999993,18.445986500000004 L 93.96976999999993,18.445986500000004" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 89.85076999999995,48.826986500000004 L 91.08776999999992,50.0649865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 89.85076999999995,29.826986500000004 L 91.08776999999992,31.064986500000003" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 89.85076999999995,17.826986500000004 L 91.08776999999992,19.064986500000003" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 54.26976999999994,5.8309864999999945 L 55.50676999999996,4.5939865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 54.88776999999993,8.711986499999995 L 54.88776999999993,1.7119864999999947" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 70.26976999999994,5.8309864999999945 L 71.50676999999996,4.5939865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 70.88776999999993,8.711986499999995 L 70.88776999999993,1.7119864999999947" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 78.26976999999994,5.8309864999999945 L 79.50676999999996,4.5939865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 78.88776999999993,8.711986499999995 L 78.88776999999993,1.7119864999999947" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 84.26976999999994,5.8309864999999945 L 85.50676999999996,4.5939865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 84.88776999999993,8.711986499999995 L 84.88776999999993,1.7119864999999947" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 96.26976999999994,5.8309864999999945 L 97.50676999999996,4.5939865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 96.88776999999993,8.711986499999995 L 96.88776999999993,1.7119864999999947" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 68.26976999999994,75.90698650000002 L 69.50676999999996,74.66998650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 68.88776999999993,78.78898650000002 L 68.88776999999993,71.78898650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 84.26976999999994,75.90698650000002 L 85.50676999999996,74.66998650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 84.88776999999993,78.78898650000002 L 84.88776999999993,71.78898650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 96.26976999999994,75.90698650000002 L 97.50676999999996,74.66998650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 96.88776999999993,78.78898650000002 L 96.88776999999993,71.78898650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 3.287769999999938,99.99999999999997 L 3.287769999999938,18.445986500000004" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 3.287769999999938,18.445986500000004 L 0.0,18.445986500000004" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 44.00076999999993,99.99999999999997 L 44.00076999999993,18.445986500000004" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 44.00076999999993,18.445986500000004 L 39.23276999999996,18.445986500000004" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 19.47676999999993,88.4459865 L 25.401769999999942,88.4459865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 25.401769999999942,88.4459865 L 25.401769999999942,67.4459865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 25.401769999999942,67.4459865 L 19.47676999999993,67.4459865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 66.88776999999993,51.580986499999995 L 66.88776999999993,58.82998650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 66.88776999999993,58.82998650000002 L 19.387769999999932,58.82998650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 19.387769999999932,58.82998650000002 L 19.387769999999932,51.580986499999995" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 17.887769999999932,99.99999999999997 L 17.887769999999932,95.6649865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 17.887769999999932,95.6649865 L 28.387769999999932,95.6649865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 28.387769999999932,95.6649865 L 28.387769999999932,99.99999999999997" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 68.88776999999993,87.84598650000001 L 68.88776999999993,82.5999865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 68.88776999999993,82.5999865 L 100.0,82.5999865" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 68.88776999999993,61.945986500000004 L 79.06076999999993,61.945986500000004" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 79.06076999999993,61.945986500000004 L 79.06076999999993,49.445986500000004" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 79.06076999999993,49.445986500000004 L 68.88776999999993,49.445986500000004" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 83.55776999999995,99.99999999999997 L 83.55776999999995,87.84598650000001" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 83.55776999999995,87.84598650000001 L 87.97476999999992,87.84598650000001" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 83.81076999999993,49.445986500000004 L 90.46976999999993,49.445986500000004" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 90.46976999999993,49.445986500000004 L 90.46976999999993,18.445986500000004" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 90.46976999999993,18.445986500000004 L 83.81076999999993,18.445986500000004" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 54.88776999999993,12.387986500000011 L 54.88776999999993,5.211986499999995" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 54.88776999999993,5.211986499999995 L 100.0,5.211986499999995" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 100.0,75.28898650000002 L 68.88776999999993,75.28898650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 68.88776999999993,75.28898650000002 L 68.88776999999993,67.70498650000002" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-450.0,1.5727699999999345,25.945986500000004)" x="1.5727699999999345" y="25.945986500000004">
+   800
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-450.0,1.5727699999999345,47.112986500000005)" x="1.5727699999999345" y="47.112986500000005">
+   3200
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-450.0,1.5727699999999345,72.78798650000002)" x="1.5727699999999345" y="72.78798650000002">
+   1900
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-450.0,1.5727699999999345,97.1129865)" x="1.5727699999999345" y="97.1129865">
+   3000
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-450.0,42.28676999999993,38.612986500000005)" x="42.28676999999993" y="38.612986500000005">
+   3100
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-450.0,42.28676999999993,67.1129865)" x="42.28676999999993" y="67.1129865">
+   2600
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-450.0,42.28676999999993,92.1129865)" x="42.28676999999993" y="92.1129865">
+   2400
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-90.0,23.686769999999967,87.4459865)" x="23.686769999999967" y="87.4459865">
+   900
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-90.0,20.951769999999954,81.9459865)" x="20.951769999999954" y="81.9459865">
+   200
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-90.0,20.74676999999997,79.9459865)" x="20.74676999999997" y="79.9459865">
+   200
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-90.0,23.686769999999967,74.9459865)" x="23.686769999999967" y="74.9459865">
+   800
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-360.0,20.387769999999932,57.114986500000015)" x="20.387769999999932" y="57.114986500000015">
+   900
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-360.0,25.46276999999992,54.17498650000002)" x="25.46276999999992" y="54.17498650000002">
+   150
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-360.0,30.637769999999932,57.114986500000015)" x="30.637769999999932" y="57.114986500000015">
+   850
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-360.0,38.888769999999965,57.114986500000015)" x="38.888769999999965" y="57.114986500000015">
+   800
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-360.0,47.13776999999993,57.114986500000015)" x="47.13776999999993" y="57.114986500000015">
+   850
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-360.0,52.88776999999993,54.17498650000002)" x="52.88776999999993" y="54.17498650000002">
+   300
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-360.0,58.88776999999993,57.114986500000015)" x="58.88776999999993" y="57.114986500000015">
+   900
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-360.0,12.512769999999932,93.9499865)" x="12.512769999999932" y="93.9499865">
+   150
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-360.0,20.387769999999932,93.9499865)" x="20.387769999999932" y="93.9499865">
+   900
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-360.0,64.68776999999994,80.8849865)" x="64.68776999999994" y="80.8849865">
+   350
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-360.0,72.63776999999993,80.8849865)" x="72.63776999999993" y="80.8849865">
+   750
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-360.0,84.04676999999992,80.8849865)" x="84.04676999999992" y="80.8849865">
+   1800
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-360.0,98.13776999999993,80.8849865)" x="98.13776999999993" y="80.8849865">
+   750
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-450.0,77.34576999999996,51.745986500000015)" x="77.34576999999996" y="51.745986500000015">
+   250
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-450.0,77.34576999999996,61.78798650000002)" x="77.34576999999996" y="61.78798650000002">
+   1000
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-450.0,88.75476999999995,29.287986500000017)" x="88.75476999999995" y="29.287986500000017">
+   1200
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-450.0,88.75476999999995,44.78798650000002)" x="88.75476999999995" y="44.78798650000002">
+   1900
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-360.0,95.88776999999993,3.4969865000000198)" x="95.88776999999993" y="3.4969865000000198">
+   500
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-360.0,86.04676999999992,3.4969865000000198)" x="86.04676999999992" y="3.4969865000000198">
+   1200
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-360.0,78.32976999999994,3.4969865000000198)" x="78.32976999999994" y="3.4969865000000198">
+   600
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-360.0,71.38776999999993,3.4969865000000198)" x="71.38776999999993" y="3.4969865000000198">
+   800
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-360.0,58.046769999999924,3.4969865000000198)" x="58.046769999999924" y="3.4969865000000198">
+   1600
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,72.04676999999992,73.57298650000001)" x="72.04676999999992" y="73.57298650000001">
+   1600
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,86.04676999999992,73.57298650000001)" x="86.04676999999992" y="73.57298650000001">
+   1200
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,95.88776999999993,73.57298650000001)" x="95.88776999999993" y="73.57298650000001">
+   500
+  </text>
+ </g>
+ <g id="layerPUB_HATCH" inkscape:groupmode="layer" inkscape:label="PUB_HATCH">
+  <path d="M 0.0,19.84598650000001 L 4.387769999999932,19.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 4.387769999999932,19.84598650000001 L 4.387769999999932,17.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 4.387769999999932,17.445986500000004 L 0.0,17.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 0.0,59.445986500000004 L 18.887769999999932,59.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 18.887769999999932,59.445986500000004 L 18.887769999999932,57.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 18.887769999999932,57.445986500000004 L 0.0,57.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 0.0,78.4459865 L 18.887769999999932,78.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 18.887769999999932,78.4459865 L 18.887769999999932,76.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 18.887769999999932,76.4459865 L 0.0,76.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 30.887769999999932,99.99999999999997 L 30.887769999999932,98.44598650000003" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 30.887769999999932,98.44598650000003 L 28.887769999999932,98.44598650000003" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 28.887769999999932,98.44598650000003 L 28.887769999999932,99.99999999999997" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 23.387769999999932,17.445986500000004 L 23.387769999999932,19.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 23.387769999999932,19.84598650000001 L 28.887769999999932,19.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 28.887769999999932,19.84598650000001 L 28.887769999999932,50.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 28.887769999999932,50.445986500000004 L 30.887769999999932,50.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 30.887769999999932,50.445986500000004 L 30.887769999999932,19.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 30.887769999999932,19.84598650000001 L 36.88776999999993,19.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 36.88776999999993,19.84598650000001 L 36.88776999999993,17.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 36.88776999999993,17.445986500000004 L 23.387769999999932,17.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 71.38776999999993,17.445986500000004 L 71.38776999999993,19.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 71.38776999999993,19.84598650000001 L 77.48776999999995,19.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 77.48776999999995,19.84598650000001 L 77.48776999999995,48.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 77.48776999999995,48.445986500000004 L 67.88776999999993,48.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 67.88776999999993,48.445986500000004 L 67.88776999999993,50.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 67.88776999999993,50.445986500000004 L 84.38776999999993,50.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 84.38776999999993,50.445986500000004 L 84.38776999999993,48.0459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 84.38776999999993,48.0459865 L 79.88776999999993,48.0459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 79.88776999999993,48.0459865 L 79.88776999999993,17.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 79.88776999999993,17.445986500000004 L 71.38776999999993,17.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 67.88776999999993,63.445986500000004 L 67.88776999999993,89.0459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 67.88776999999993,89.0459865 L 70.28776999999997,89.0459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 70.28776999999997,89.0459865 L 70.28776999999997,65.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 70.28776999999997,65.84598650000001 L 84.38776999999993,65.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 84.38776999999993,65.84598650000001 L 84.38776999999993,63.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 84.38776999999993,63.445986500000004 L 67.88776999999993,63.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 84.48776999999995,86.4459865 L 84.48776999999995,99.99999999999997" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 86.88776999999993,99.99999999999997 L 86.88776999999993,88.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 86.88776999999993,88.84598650000001 L 97.88776999999993,88.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 97.88776999999993,88.84598650000001 L 97.88776999999993,86.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+  <path d="M 97.88776999999993,86.4459865 L 84.48776999999995,86.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(92,92,92)" stroke-width="0.1"/>
+ </g>
+ <g id="layerPUB_TEXT" inkscape:groupmode="layer" inkscape:label="PUB_TEXT">
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,47.29076999999995,76.00698650000001)" x="47.29076999999995" y="76.00698650000001">
+   A1
+  </text>
+ </g>
+ <g id="layerSPACE" inkscape:groupmode="layer" inkscape:label="SPACE">
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,10.08776999999992,41.195986500000004)" x="10.08776999999992" y="41.195986500000004">
+   卧室
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,1.3377699999999493,47.195986500000004)" x="1.3377699999999493" y="47.195986500000004">
+   10.08m²
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,8.62976999999995,23.711986499999995)" x="8.62976999999995" y="23.711986499999995">
+   凸窗
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,67.20576999999997,35.864986500000015)" x="67.20576999999997" y="35.864986500000015">
+   阳台
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,65.51576999999997,40.37798650000002)" x="65.51576999999997" y="40.37798650000002">
+   3.6/2
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,47.537769999999966,92.16398650000002)" x="47.537769999999966" y="92.16398650000002">
+   起居室/餐厅
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,45.37176999999997,98.4139865)" x="45.37176999999997" y="98.4139865">
+   29.60m²
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,46.23076999999995,35.41198650000001)" x="46.23076999999995" y="35.41198650000001">
+   厨房
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,39.31476999999995,41.41198650000001)" x="39.31476999999995" y="41.41198650000001">
+   6.33m²
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,5.807769999999948,55.39598650000002)" x="5.807769999999948" y="55.39598650000002">
+   储藏
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,74.80476999999996,94.22798650000001)" x="74.80476999999996" y="94.22798650000001">
+   空调板
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,94.41876999999994,99.80898650000003)" x="94.41876999999994" y="99.80898650000003">
+   卫生间6
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,92.89676999999995,76.48898650000001)" x="92.89676999999995" y="76.48898650000001">
+   天井上空
+  </text>
+ </g>
+ <g id="layerSTAIR" inkscape:groupmode="layer" inkscape:label="STAIR">
+  <path d="M 100.0,68.95547552115514 L 76.79576999999995,70.09698650000001" fill="none" stroke="rgb(178,178,0)" stroke-width="0.1"/>
+  <path d="M 76.79576999999995,70.09698650000001 L 70.28776999999997,86.4459865" fill="none" stroke="rgb(178,178,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerWALL" inkscape:groupmode="layer" inkscape:label="WALL">
+  <path d="M 22.887769999999932,17.445986500000004 L 22.887769999999932,18.34598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 4.887769999999932,18.34598650000001 L 4.887769999999932,17.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 37.38776999999993,17.445986500000004 L 37.38776999999993,18.34598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 49.38776999999993,17.445986500000004 L 49.38776999999993,18.34598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 0.0,57.445986500000004 L 5.387769999999932,57.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 0.0,59.445986500000004 L 5.387769999999932,59.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 4.887769999999932,17.445986500000004 L 4.887769999999932,18.34598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 0.0,17.445986500000004 L 4.887769999999932,17.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 0.0,19.84598650000001 L 4.887769999999932,19.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 22.887769999999932,17.445986500000004 L 22.887769999999932,18.34598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 22.887769999999932,17.445986500000004 L 29.887769999999932,17.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 22.887769999999932,19.84598650000001 L 28.887769999999932,19.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 0.0,76.4459865 L 16.887769999999932,76.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 0.0,78.4459865 L 16.887769999999932,78.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 30.887769999999932,19.84598650000001 L 30.887769999999932,48.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 28.887769999999932,19.84598650000001 L 28.887769999999932,49.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 37.38776999999993,17.445986500000004 L 37.38776999999993,18.34598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 29.887769999999932,17.445986500000004 L 37.38776999999993,17.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 30.887769999999932,19.84598650000001 L 37.38776999999993,19.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 49.38776999999993,17.445986500000004 L 49.38776999999993,18.34598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 49.38776999999993,17.445986500000004 L 55.88776999999993,17.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 49.38776999999993,19.84598650000001 L 53.88776999999993,19.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 30.887769999999932,58.445986500000004 L 30.887769999999932,75.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 29.887769999999932,59.445986500000004 L 29.887769999999932,75.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 30.887769999999932,75.4459865 L 29.887769999999932,75.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 18.887769999999932,77.4459865 L 18.887769999999932,79.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 16.887769999999932,78.4459865 L 16.887769999999932,79.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 18.887769999999932,79.4459865 L 16.887769999999932,79.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 18.887769999999932,88.4459865 L 18.887769999999932,98.44598650000003" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 16.887769999999932,88.4459865 L 16.887769999999932,99.44598650000003" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 18.887769999999932,88.4459865 L 16.887769999999932,88.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 18.887769999999932,59.445986500000004 L 18.887769999999932,67.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 16.887769999999932,59.445986500000004 L 16.887769999999932,67.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 18.887769999999932,67.4459865 L 16.887769999999932,67.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 18.887769999999932,75.4459865 L 18.887769999999932,77.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 16.887769999999932,75.4459865 L 16.887769999999932,76.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 18.887769999999932,75.4459865 L 16.887769999999932,75.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 17.887769999999932,57.445986500000004 L 19.387769999999932,57.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 18.887769999999932,59.445986500000004 L 19.387769999999932,59.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 19.387769999999932,57.445986500000004 L 19.387769999999932,59.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 28.387769999999932,57.445986500000004 L 28.887769999999932,57.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 28.387769999999932,59.445986500000004 L 29.887769999999932,59.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 28.387769999999932,57.445986500000004 L 28.387769999999932,59.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 18.887769999999932,98.44598650000003 L 19.387769999999932,98.44598650000003" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 19.387769999999932,98.44598650000003 L 19.387769999999932,99.99999999999997" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 28.387769999999932,98.44598650000003 L 30.887769999999932,98.44598650000003" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 28.387769999999932,98.44598650000003 L 28.387769999999932,99.99999999999997" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 16.887769999999932,99.44598650000003 L 16.887769999999932,99.99999999999997" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 30.887769999999932,48.445986500000004 L 38.388769999999965,48.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 30.887769999999932,50.445986500000004 L 38.388769999999965,50.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 38.388769999999965,48.445986500000004 L 38.388769999999965,50.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 46.388769999999965,48.445986500000004 L 53.88776999999993,48.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 46.388769999999965,50.445986500000004 L 54.88776999999993,50.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 46.388769999999965,48.445986500000004 L 46.388769999999965,50.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 69.88776999999993,50.445986500000004 L 69.88776999999993,51.945986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 67.88776999999993,50.445986500000004 L 67.88776999999993,51.945986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 69.88776999999993,51.945986500000004 L 67.88776999999993,51.945986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 69.88776999999993,61.945986500000004 L 69.88776999999993,63.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 67.88776999999993,61.945986500000004 L 67.88776999999993,64.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 69.88776999999993,61.945986500000004 L 67.88776999999993,61.945986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 68.88776999999993,48.445986500000004 L 77.48776999999995,48.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 69.88776999999993,50.445986500000004 L 78.88776999999993,50.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 30.887769999999932,50.445986500000004 L 30.887769999999932,58.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 28.887769999999932,49.445986500000004 L 28.887769999999932,57.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 69.88776999999993,63.445986500000004 L 84.88776999999993,63.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 70.28776999999997,65.84598650000001 L 84.88776999999993,65.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 84.88776999999993,63.445986500000004 L 84.88776999999993,65.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 70.28776999999997,65.84598650000001 L 70.28776999999997,99.99999999999997" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 67.88776999999993,64.4459865 L 67.88776999999993,99.99999999999997" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 55.88776999999993,17.445986500000004 L 55.88776999999993,48.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 53.88776999999993,19.84598650000001 L 53.88776999999993,48.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 55.88776999999993,48.445986500000004 L 57.88776999999993,48.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 54.88776999999993,50.445986500000004 L 57.88776999999993,50.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 57.88776999999993,48.445986500000004 L 57.88776999999993,50.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 66.88776999999993,48.445986500000004 L 68.88776999999993,48.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 66.88776999999993,50.445986500000004 L 67.88776999999993,50.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 66.88776999999993,48.445986500000004 L 66.88776999999993,50.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 79.88776999999993,30.445986500000004 L 79.88776999999993,48.0459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 77.48776999999995,30.445986500000004 L 77.48776999999995,48.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 30.887769999999932,98.44598650000003 L 30.887769999999932,99.99999999999997" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 77.48776999999995,30.445986500000004 L 77.48776999999995,19.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 79.88776999999993,30.445986500000004 L 79.88776999999993,17.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 77.48776999999995,19.84598650000001 L 70.88776999999993,19.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 79.88776999999993,17.445986500000004 L 70.88776999999993,17.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 70.88776999999993,19.84598650000001 L 70.88776999999993,17.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 100.0,65.84598650000001 L 99.38776999999993,65.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 96.88776999999993,48.0459865 L 99.38776999999993,48.0459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 96.88776999999993,50.445986500000004 L 98.38776999999993,50.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 96.88776999999993,48.0459865 L 96.88776999999993,50.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 79.88776999999993,48.0459865 L 84.88776999999993,48.0459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 78.88776999999993,50.445986500000004 L 84.88776999999993,50.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 84.88776999999993,48.0459865 L 84.88776999999993,50.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 100.0,50.445986500000004 L 98.38776999999993,50.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 100.0,63.445986500000004 L 98.38776999999993,63.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 99.38776999999993,48.0459865 L 100.0,48.0459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 99.38776999999993,65.84598650000001 L 96.88776999999993,65.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 98.38776999999993,63.445986500000004 L 96.88776999999993,63.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 96.88776999999993,65.84598650000001 L 96.88776999999993,63.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 84.48776999999995,86.4459865 L 97.88776999999993,86.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 86.88776999999993,88.84598650000001 L 97.88776999999993,88.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 97.88776999999993,86.4459865 L 97.88776999999993,88.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 86.88776999999993,88.84598650000001 L 86.88776999999993,99.99999999999997" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 84.48776999999995,86.4459865 L 84.48776999999995,99.99999999999997" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 4.887769999999932,18.34598650000001 L 4.887769999999932,19.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 22.887769999999932,18.34598650000001 L 22.887769999999932,19.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 37.38776999999993,18.34598650000001 L 37.38776999999993,19.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 49.38776999999993,18.34598650000001 L 49.38776999999993,19.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 6.387769999999932,59.445986500000004 L 6.387769999999932,65.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 5.387769999999932,59.445986500000004 L 5.387769999999932,65.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 6.387769999999932,65.4459865 L 5.387769999999932,65.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 5.387769999999932,57.445986500000004 L 17.887769999999932,57.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 6.387769999999932,59.445986500000004 L 16.887769999999932,59.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerWINDOW" inkscape:groupmode="layer" inkscape:label="WINDOW">
+  <path d="M 28.887769999999932,27.445986500000004 L 0.0,27.445986500000004" fill="none" instance-id="-1" semantic-id="33" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 28.887769999999932,25.445986500000004 L 0.0,25.445986500000004" fill="none" instance-id="-1" semantic-id="33" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 9.11576999999994,79.89598650000002 A 8.775,8.775 0.0 0,0 17.887769999999932,88.4459865" fill="none" instance-id="5" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 17.887769999999932,67.4459865 A 7.8,7.8 0.0 0,0 10.090769999999964,75.0459865" fill="none" instance-id="6" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 27.937769999999944,49.67398650000001 A 8.775,8.775 0.0 0,0 19.387769999999932,58.445986500000004" fill="none" instance-id="7" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 19.387769999999932,99.44598650000003 L 19.402141598025196,99.94788256134186" fill="none" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 46.388769999999965,49.445986500000004 A 7.8,7.8 0.0 0,0 38.78876999999994,41.64898650000001" fill="none" instance-id="8" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 78.63476999999995,61.445986500000004 A 9.75,9.75 0.0 0,0 68.88776999999993,51.945986500000004" fill="none" instance-id="10" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 66.88776999999993,49.445986500000004 A 8.775,8.775 0.0 0,0 58.33776999999992,40.67398650000001" fill="none" instance-id="9" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 99.9218795435578,54.4400768026249 L 99.40676999999994,54.42298650000001" fill="none" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 99.40676999999994,54.42298650000001 L 99.9489925136171,54.38789293582562" fill="none" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 4.887769999999932,19.34598650000001 L 22.887769999999932,19.34598650000001" fill="none" instance-id="1" semantic-id="9" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 4.887769999999932,18.84598650000001 L 22.887769999999932,18.84598650000001" fill="none" instance-id="1" semantic-id="9" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 16.887769999999932,88.4459865 L 16.887769999999932,79.4459865" fill="none" instance-id="5" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 18.887769999999932,88.4459865 L 18.887769999999932,79.4459865" fill="none" instance-id="5" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 16.887769999999932,75.4459865 L 16.887769999999932,67.4459865" fill="none" instance-id="6" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 38.388769999999965,48.445986500000004 L 46.388769999999965,48.445986500000004" fill="none" instance-id="8" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 69.88776999999993,61.945986500000004 L 69.88776999999993,51.945986500000004" fill="none" instance-id="10" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 57.88776999999993,48.445986500000004 L 66.88776999999993,48.445986500000004" fill="none" instance-id="9" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 37.38776999999993,19.34598650000001 L 49.38776999999993,19.34598650000001" fill="none" instance-id="2" semantic-id="9" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 37.38776999999993,18.84598650000001 L 49.38776999999993,18.84598650000001" fill="none" instance-id="2" semantic-id="9" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 99.36976999999996,63.19898650000002 L 100.0,63.19898650000002" fill="none" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 99.40676999999994,50.693986499999994 L 100.0,50.693986499999994" fill="none" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 97.88776999999993,88.0459865 L 100.0,88.0459865" fill="none" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 97.88776999999993,87.24598650000001 L 100.0,87.24598650000001" fill="none" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 22.887769999999932,19.84598650000001 L 22.887769999999932,18.34598650000001" fill="none" instance-id="1" semantic-id="9" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 22.887769999999932,18.34598650000001 L 4.887769999999932,18.34598650000001" fill="none" instance-id="1" semantic-id="9" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 4.887769999999932,18.34598650000001 L 4.887769999999932,19.84598650000001" fill="none" instance-id="1" semantic-id="9" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 4.887769999999932,19.84598650000001 L 22.887769999999932,19.84598650000001" fill="none" instance-id="1" semantic-id="9" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 17.887769999999932,79.4459865 L 17.887769999999932,79.89598650000002" fill="none" instance-id="5" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 17.887769999999932,79.89598650000002 L 9.112769999999955,79.89598650000002" fill="none" instance-id="5" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 9.112769999999955,79.89598650000002 L 9.112769999999955,79.4459865" fill="none" instance-id="5" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 9.112769999999955,79.4459865 L 17.887769999999932,79.4459865" fill="none" instance-id="5" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 17.887769999999932,75.0459865 L 17.887769999999932,75.4459865" fill="none" instance-id="6" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 17.887769999999932,75.4459865 L 10.08776999999992,75.4459865" fill="none" instance-id="6" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 10.08776999999992,75.4459865 L 10.08776999999992,75.0459865" fill="none" instance-id="6" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 10.08776999999992,75.0459865 L 17.887769999999932,75.0459865" fill="none" instance-id="6" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 28.387769999999932,58.445986500000004 L 28.387769999999932,49.6709865" fill="none" instance-id="7" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 28.387769999999932,49.6709865 L 27.937769999999944,49.6709865" fill="none" instance-id="7" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 27.937769999999944,49.6709865 L 27.937769999999944,58.445986500000004" fill="none" instance-id="7" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 27.937769999999944,58.445986500000004 L 28.387769999999932,58.445986500000004" fill="none" instance-id="7" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 28.387769999999932,99.99999999999997 L 28.387769999999932,99.44598650000003" fill="none" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 28.387769999999932,99.44598650000003 L 27.937769999999944,99.44598650000003" fill="none" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 27.937769999999944,99.44598650000003 L 27.937769999999944,99.99999999999997" fill="none" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 38.78876999999994,49.445986500000004 L 38.78876999999994,41.64598650000002" fill="none" instance-id="8" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 38.78876999999994,41.64598650000002 L 38.388769999999965,41.64598650000002" fill="none" instance-id="8" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 38.388769999999965,41.64598650000002 L 38.388769999999965,49.445986500000004" fill="none" instance-id="8" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 38.388769999999965,49.445986500000004 L 38.78876999999994,49.445986500000004" fill="none" instance-id="8" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 78.63776999999993,61.445986500000004 L 78.63776999999993,61.945986500000004" fill="none" instance-id="10" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 78.63776999999993,61.945986500000004 L 68.88776999999993,61.945986500000004" fill="none" instance-id="10" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 68.88776999999993,61.945986500000004 L 68.88776999999993,61.445986500000004" fill="none" instance-id="10" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 68.88776999999993,61.445986500000004 L 78.63776999999993,61.445986500000004" fill="none" instance-id="10" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 58.33776999999992,49.445986500000004 L 58.33776999999992,40.6709865" fill="none" instance-id="9" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 58.33776999999992,40.6709865 L 57.88776999999993,40.6709865" fill="none" instance-id="9" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 57.88776999999993,40.6709865 L 57.88776999999993,49.445986500000004" fill="none" instance-id="9" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 57.88776999999993,49.445986500000004 L 58.33776999999992,49.445986500000004" fill="none" instance-id="9" semantic-id="3" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 49.38776999999993,19.84598650000001 L 49.38776999999993,18.34598650000001" fill="none" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 49.38776999999993,18.34598650000001 L 37.38776999999993,18.34598650000001" fill="none" instance-id="2" semantic-id="9" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 37.38776999999993,18.34598650000001 L 37.38776999999993,19.84598650000001" fill="none" instance-id="2" semantic-id="9" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 37.38776999999993,19.84598650000001 L 49.38776999999993,19.84598650000001" fill="none" instance-id="2" semantic-id="9" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 100.0,86.4459865 L 97.88776999999993,86.4459865" fill="none" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 97.88776999999993,86.4459865 L 97.88776999999993,88.84598650000001" fill="none" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+  <path d="M 97.88776999999993,88.84598650000001 L 100.0,88.84598650000001" fill="none" stroke="rgb(0,178,178)" stroke-width="0.1"/>
+ </g>
+ <g id="layerWINDOW_TEXT" inkscape:groupmode="layer" inkscape:label="WINDOW_TEXT">
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,8.929769999999962,16.322986500000013)" x="8.929769999999962" y="16.322986500000013">
+   C1817n
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-90.0,15.340769999999964,89.0289865)" x="15.340769999999964" y="89.0289865">
+   M0921s
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-90.0,73.29276999999996,63.6539865)" x="73.29276999999996" y="63.6539865">
+   FDM1022s
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,57.26276999999993,46.501986500000015)" x="57.26276999999993" y="46.501986500000015">
+   M0921n
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,39.17976999999996,14.672986500000007)" x="39.17976999999996" y="14.672986500000007">
+   C1213
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-90.0,98.85276999999996,62.4039865)" x="98.85276999999996" y="62.4039865">
+   JFM1321
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,96.72176999999994,84.2239865)" x="96.72176999999994" y="84.2239865">
+   C0713s
+  </text>
+ </g>
+ <g id="layerYSG" inkscape:groupmode="layer" inkscape:label="YSG">
+  <path d="M 76.79376999999994,22.534986500000002 L 76.38076999999993,22.947986500000013" fill="none" stroke="rgb(178,88,0)" stroke-width="0.1"/>
+  <path d="M 76.71676999999994,22.346986500000014 L 76.19176999999996,22.87198650000002" fill="none" stroke="rgb(178,88,0)" stroke-width="0.1"/>
+  <path d="M 76.56676999999996,22.231986500000005 L 76.07676999999995,22.72098650000001" fill="none" stroke="rgb(178,88,0)" stroke-width="0.1"/>
+  <path d="M 76.31376999999992,22.2189865 L 76.06176999999997,22.47098650000001" fill="none" stroke="rgb(178,88,0)" stroke-width="0.1"/>
+  <path d="M 80.55076999999994,51.13398650000002 L 80.80276999999995,51.3859865" fill="none" stroke="rgb(178,88,0)" stroke-width="0.1"/>
+  <path d="M 80.29876999999993,51.1469865 L 80.78776999999997,51.6359865" fill="none" stroke="rgb(178,88,0)" stroke-width="0.1"/>
+  <path d="M 80.14776999999992,51.2609865 L 80.67276999999996,51.78598650000001" fill="none" stroke="rgb(178,88,0)" stroke-width="0.1"/>
+  <path d="M 80.07176999999996,51.449986499999994 L 80.48476999999997,51.862986500000005" fill="none" stroke="rgb(178,88,0)" stroke-width="0.1"/>
+  <path d="M 71.14176999999995,91.21498650000001 L 71.39376999999996,91.46698650000002" fill="none" stroke="rgb(178,88,0)" stroke-width="0.1"/>
+  <path d="M 70.88976999999994,91.22698650000001 L 71.37876999999997,91.71698650000002" fill="none" stroke="rgb(178,88,0)" stroke-width="0.1"/>
+  <path d="M 70.73876999999993,91.34198650000002 L 71.26376999999997,91.8669865" fill="none" stroke="rgb(178,88,0)" stroke-width="0.1"/>
+  <path d="M 70.66176999999993,91.53098650000001 L 71.07476999999994,91.9439865" fill="none" stroke="rgb(178,88,0)" stroke-width="0.1"/>
+  <circle cx="76.42176999999992" cy="22.576986500000004" fill="none" r="0.375" stroke="rgb(178,88,0)" stroke-width="0.1"/>
+  <circle cx="80.44376999999997" cy="51.49098650000002" fill="none" r="0.375" stroke="rgb(178,88,0)" stroke-width="0.1"/>
+  <circle cx="71.03476999999992" cy="91.57198650000001" fill="none" r="0.375" stroke="rgb(178,88,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerkongtiao" inkscape:groupmode="layer" inkscape:label="kongtiao">
+  <path d="M 62.356769999999926,22.037986500000017 L 69.85676999999993,25.537986500000017" fill="none" instance-id="19" semantic-id="21" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 69.85676999999993,22.037986500000017 L 62.356769999999926,25.537986500000017" fill="none" instance-id="19" semantic-id="21" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 75.28576999999996,87.60898650000001 L 82.78576999999996,91.10898650000001" fill="none" instance-id="18" semantic-id="21" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 82.78576999999996,87.60898650000001 L 75.28576999999996,91.10898650000001" fill="none" instance-id="18" semantic-id="21" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 62.356769999999926,25.537986500000017 L 69.85676999999993,25.537986500000017" fill="none" instance-id="19" semantic-id="21" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 69.85676999999993,25.537986500000017 L 69.85676999999993,22.037986500000017" fill="none" instance-id="19" semantic-id="21" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 69.85676999999993,22.037986500000017 L 62.356769999999926,22.037986500000017" fill="none" instance-id="19" semantic-id="21" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 62.356769999999926,22.037986500000017 L 62.356769999999926,25.537986500000017" fill="none" instance-id="19" semantic-id="21" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 75.28576999999996,91.10898650000001 L 82.78576999999996,91.10898650000001" fill="none" instance-id="18" semantic-id="21" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 82.78576999999996,91.10898650000001 L 82.78576999999996,87.60898650000001" fill="none" instance-id="18" semantic-id="21" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 82.78576999999996,87.60898650000001 L 75.28576999999996,87.60898650000001" fill="none" instance-id="18" semantic-id="21" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 75.28576999999996,87.60898650000001 L 75.28576999999996,91.10898650000001" fill="none" instance-id="18" semantic-id="21" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layer剪力墙" inkscape:groupmode="layer" inkscape:label="剪力墙">
+  <path d="M 0.0,19.84598650000001 L 4.387769999999932,19.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 4.387769999999932,19.84598650000001 L 4.387769999999932,17.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 4.387769999999932,17.445986500000004 L 0.0,17.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 0.0,59.445986500000004 L 18.887769999999932,59.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 18.887769999999932,59.445986500000004 L 18.887769999999932,57.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 18.887769999999932,57.445986500000004 L 0.0,57.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 18.887769999999932,76.4459865 L 0.0,76.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 0.0,78.4459865 L 18.887769999999932,78.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 18.887769999999932,78.4459865 L 18.887769999999932,76.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 30.887769999999932,99.99999999999997 L 30.887769999999932,98.44598650000003" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 30.887769999999932,98.44598650000003 L 28.887769999999932,98.44598650000003" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 28.887769999999932,98.44598650000003 L 28.887769999999932,99.99999999999997" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 36.88776999999993,17.445986500000004 L 23.387769999999932,17.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 23.387769999999932,17.445986500000004 L 23.387769999999932,19.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 23.387769999999932,19.84598650000001 L 28.887769999999932,19.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 28.887769999999932,19.84598650000001 L 28.887769999999932,50.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 28.887769999999932,50.445986500000004 L 30.887769999999932,50.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 30.887769999999932,50.445986500000004 L 30.887769999999932,19.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 30.887769999999932,19.84598650000001 L 36.88776999999993,19.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 36.88776999999993,19.84598650000001 L 36.88776999999993,17.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 79.88776999999993,17.445986500000004 L 71.38776999999993,17.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 71.38776999999993,17.445986500000004 L 71.38776999999993,19.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 71.38776999999993,19.84598650000001 L 77.48776999999995,19.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 77.48776999999995,19.84598650000001 L 77.48776999999995,48.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 77.48776999999995,48.445986500000004 L 67.88776999999993,48.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 67.88776999999993,48.445986500000004 L 67.88776999999993,50.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 67.88776999999993,50.445986500000004 L 84.38776999999993,50.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 84.38776999999993,50.445986500000004 L 84.38776999999993,48.0459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 84.38776999999993,48.0459865 L 79.88776999999993,48.0459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 79.88776999999993,48.0459865 L 79.88776999999993,17.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 84.38776999999993,63.445986500000004 L 67.88776999999993,63.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 67.88776999999993,63.445986500000004 L 67.88776999999993,89.0459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 67.88776999999993,89.0459865 L 70.28776999999997,89.0459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 70.28776999999997,89.0459865 L 70.28776999999997,65.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 70.28776999999997,65.84598650000001 L 84.38776999999993,65.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 84.38776999999993,65.84598650000001 L 84.38776999999993,63.445986500000004" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 97.88776999999993,86.4459865 L 84.48776999999995,86.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 84.48776999999995,86.4459865 L 84.48776999999995,99.99999999999997" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 86.88776999999993,99.99999999999997 L 86.88776999999993,88.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 86.88776999999993,88.84598650000001 L 97.88776999999993,88.84598650000001" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+  <path d="M 97.88776999999993,88.84598650000001 L 97.88776999999993,86.4459865" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(178,133,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layer厨卫" inkscape:groupmode="layer" inkscape:label="厨卫">
+  <path d="M 48.662769999999966,48.445986500000004 L 48.662769999999966,43.275986500000016" fill="none" instance-id="22" semantic-id="17" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 47.884769999999946,48.2789865 L 47.884769999999946,43.44298650000002" fill="none" instance-id="22" semantic-id="17" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 48.773769999999956,48.445986500000004 L 48.773769999999956,43.275986500000016" fill="none" instance-id="22" semantic-id="17" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 53.888769999999965,43.275986500000016 L 53.888769999999965,48.445986500000004" fill="none" instance-id="22" semantic-id="17" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 48.05176999999992,43.275986500000016 L 53.888769999999965,43.275986500000016" fill="none" instance-id="22" semantic-id="17" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 47.884769999999946,43.6719865 L 47.66176999999993,43.6719865" fill="none" instance-id="22" semantic-id="17" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 47.66176999999993,44.227986500000014 L 47.884769999999946,44.227986500000014" fill="none" instance-id="22" semantic-id="17" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 47.66176999999993,43.6719865 L 47.66176999999993,44.227986500000014" fill="none" instance-id="22" semantic-id="17" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 53.888769999999965,48.445986500000004 L 48.05176999999992,48.445986500000004" fill="none" instance-id="22" semantic-id="17" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 10.46676999999994,61.17598650000002 L 11.070769999999925,61.17598650000002" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 11.00676999999996,60.9219865 L 11.260769999999923,61.937986499999994" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 11.260769999999923,61.937986499999994 L 11.514769999999942,61.937986499999994" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 11.514769999999942,61.937986499999994 L 11.76876999999996,60.9219865" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 11.705769999999973,61.17598650000002 L 12.311769999999967,61.17598650000002" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 11.00676999999996,60.79498650000002 L 11.76876999999996,60.79498650000002" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 88.51676999999995,89.0939865 L 88.51676999999995,90.57398650000002" fill="none" instance-id="26" semantic-id="24" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 87.77676999999994,89.83398650000001 L 89.25676999999996,89.83398650000001" fill="none" instance-id="26" semantic-id="24" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 90.37376999999992,89.0939865 L 90.37376999999992,90.57398650000002" fill="none" instance-id="26" semantic-id="24" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 89.63376999999997,89.83398650000001 L 91.11376999999993,89.83398650000001" fill="none" instance-id="26" semantic-id="24" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 5.139769999999942,61.074986499999994 L 3.6597699999999236,61.074986499999994" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 4.399769999999933,60.334986500000014 L 4.399769999999933,61.8149865" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 5.139769999999942,62.93198650000002 L 3.6597699999999236,62.93198650000002" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 4.399769999999933,62.19198650000001 L 4.399769999999933,63.6719865" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 47.12776999999994,25.21098650000002 L 47.12776999999994,20.4689865" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 46.753769999999975,21.84198650000002 L 46.753769999999975,24.4629865" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 42.98476999999997,20.684986500000008 L 43.15876999999995,20.785986500000007" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 42.626769999999965,20.8139865 L 41.90276999999992,22.509986499999997" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 41.90276999999992,22.509986499999997 L 42.11976999999996,22.634986499999997" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 42.11976999999996,22.634986499999997 L 43.22676999999993,21.159986500000002" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 42.759769999999946,21.85198650000001 L 42.759769999999946,24.4629865" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 43.259769999999946,24.4629865 L 43.259769999999946,21.84198650000002" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 46.00476999999995,25.21098650000002 L 44.00776999999994,25.21098650000002" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 44.00776999999994,21.092986499999995 L 46.00476999999995,21.092986499999995" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 38.89176999999995,20.4689865 L 38.89176999999995,25.21098650000002" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 39.265769999999975,24.4629865 L 39.265769999999975,21.84198650000002" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 39.265769999999975,25.58598650000002 L 46.753769999999975,25.58598650000002" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 46.753769999999975,20.094986500000005 L 39.265769999999975,20.094986500000005" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 42.011769999999956,25.21098650000002 L 40.01476999999994,25.21098650000002" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 40.01476999999994,21.092986499999995 L 42.011769999999956,21.092986499999995" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.83776999999992,31.531986500000016 L 36.003769999999975,31.531986500000016" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 36.003769999999975,31.531986500000016 L 36.003769999999975,30.884986499999997" fill="none" instance-id="20" semantic-id="22" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 36.003769999999975,30.884986499999997 L 35.83776999999992,30.884986499999997" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.83776999999992,30.884986499999997 L 35.83776999999992,31.531986500000016" fill="none" instance-id="20" semantic-id="22" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.75476999999995,30.7189865 L 35.85976999999997,30.7189865" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.74276999999995,31.6359865 L 35.85976999999997,31.634986499999997" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.74276999999995,36.36598650000002 L 35.85976999999997,36.364986500000015" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.75476999999995,35.44898650000002 L 35.85976999999997,35.44898650000002" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.83776999999992,35.614986500000015 L 35.83776999999992,36.261986500000006" fill="none" instance-id="20" semantic-id="22" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 36.003769999999975,35.614986500000015 L 35.83776999999992,35.614986500000015" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 36.003769999999975,36.261986500000006 L 36.003769999999975,35.614986500000015" fill="none" instance-id="20" semantic-id="22" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.83776999999992,36.261986500000006 L 36.003769999999975,36.261986500000006" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 32.65276999999992,36.69198650000001 L 36.07776999999993,36.69198650000001" fill="none" instance-id="20" semantic-id="22" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 36.07776999999993,36.69198650000001 L 36.07776999999993,30.46498650000001" fill="none" instance-id="20" semantic-id="22" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 36.07776999999993,30.46498650000001 L 32.65276999999992,30.46498650000001" fill="none" instance-id="20" semantic-id="22" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 32.65276999999992,30.46498650000001 L 32.65276999999992,36.69198650000001" fill="none" instance-id="20" semantic-id="22" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.52076999999997,36.69198650000001 L 35.52076999999997,30.46498650000001" fill="none" instance-id="20" semantic-id="22" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 31.522769999999923,36.957986500000004 L 31.522769999999923,29.957986500000004" fill="none" instance-id="20" semantic-id="22" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 31.522769999999923,29.957986500000004 L 36.52276999999992,29.957986500000004" fill="none" instance-id="20" semantic-id="22" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 36.52276999999992,29.957986500000004 L 36.52276999999992,36.957986500000004" fill="none" instance-id="20" semantic-id="22" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 36.52276999999992,36.957986500000004 L 31.522769999999923,36.957986500000004" fill="none" instance-id="20" semantic-id="22" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 48.05176999999992,43.275986500000016 A 0.16679,0.16679 0.0 0,0 47.884769999999946,43.44298650000002" fill="none" instance-id="22" semantic-id="17" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 47.884769999999946,48.2789865 A 0.16679,0.16679 0.0 0,0 48.05176999999992,48.445986500000004" fill="none" instance-id="22" semantic-id="17" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 10.059769999999958,61.29398650000002 A 1.63782,1.63782 0.0 0,0 9.499769999999955,61.886986500000006" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 9.499769999999955,61.886986500000006 A 1.15665,1.15665 0.0 0,0 9.35576999999995,62.445986500000004" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 9.35576999999995,62.445986500000004 A 1.15665,1.15665 0.0 0,0 9.499769999999955,63.0049865" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 9.499769999999955,63.0049865 A 1.63782,1.63782 0.0 0,0 9.95076999999992,63.52398650000001" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 9.95076999999992,63.52398650000001 A 2.09571,2.09571 0.0 0,0 10.586769999999945,63.848986499999995" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 10.586769999999945,63.848986499999995 A 2.70046,2.70046 0.0 0,0 11.387769999999932,63.969986500000005" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 11.387769999999932,63.969986500000005 A 2.70046,2.70046 0.0 0,0 12.18876999999992,63.848986499999995" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 12.18876999999992,63.848986499999995 A 2.09571,2.09571 0.0 0,0 12.824769999999944,63.52398650000001" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 12.824769999999944,63.52398650000001 A 1.63782,1.63782 0.0 0,0 13.275769999999966,63.0049865" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 13.275769999999966,63.0049865 A 1.15665,1.15665 0.0 0,0 13.419769999999971,62.445986500000004" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 13.419769999999971,62.445986500000004 A 1.15665,1.15665 0.0 0,0 13.275769999999966,61.886986500000006" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 13.275769999999966,61.886986500000006 A 1.63782,1.63782 0.0 0,0 12.824769999999944,61.368986500000005" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 12.824769999999944,61.368986500000005 A 2.09571,2.09571 0.0 0,0 12.736769999999922,61.30598650000002" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 10.46676999999994,61.17598650000002 A 0.762,0.762 0.0 0,0 10.059769999999958,61.29398650000002" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 12.736769999999922,61.30598650000002 A 0.762,0.762 0.0 0,0 12.311769999999967,61.17598650000002" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 47.12776999999994,20.4689865 A 0.3744,0.3744 0.0 0,0 46.753769999999975,20.094986500000005" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 46.753769999999975,21.84198650000002 A 0.7488,0.7488 0.0 0,0 46.00476999999995,21.092986499999995" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 46.753769999999975,25.58598650000002 A 0.3744,0.3744 0.0 0,0 47.12776999999994,25.21098650000002" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 46.00476999999995,25.21098650000002 A 0.7488,0.7488 0.0 0,0 46.753769999999975,24.4629865" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 43.22676999999993,21.159986500000002 A 0.2496,0.2496 0.0 0,0 43.15876999999995,20.785986500000007" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 42.423769999999934,21.21698650000002 A 0.7488,0.7488 0.0 0,0 42.011769999999956,21.092986499999995" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 42.51076999999992,20.71098650000002 A 0.2496,0.2496 0.0 1,0 42.51076999999992,20.7189865" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 42.98476999999997,20.684986500000008 A 0.2496,0.2496 0.0 0,0 42.626769999999965,20.8139865" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 44.00776999999994,21.092986499999995 A 0.7488,0.7488 0.0 0,0 43.259769999999946,21.84198650000002" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 42.011769999999956,25.21098650000002 A 0.7488,0.7488 0.0 0,0 42.759769999999946,24.4629865" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 43.259769999999946,24.4629865 A 0.7488,0.7488 0.0 0,0 44.00776999999994,25.21098650000002" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 41.386769999999956,22.58598650000002 A 0.312,0.312 0.0 1,0 41.38776999999993,22.590986500000014" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 39.265769999999975,20.094986500000005 A 0.3744,0.3744 0.0 0,0 38.89176999999995,20.4689865" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 40.01476999999994,21.092986499999995 A 0.7488,0.7488 0.0 0,0 39.265769999999975,21.84198650000002" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 38.89176999999995,25.21098650000002 A 0.3744,0.3744 0.0 0,0 39.265769999999975,25.58598650000002" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 39.265769999999975,24.4629865 A 0.7488,0.7488 0.0 0,0 40.01476999999994,25.21098650000002" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 43.50876999999997,20.7189865 A 0.2496,0.2496 0.0 1,0 43.50876999999997,20.71098650000002" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 44.63176999999996,22.590986500000014 A 0.312,0.312 0.0 1,0 44.63176999999996,22.58598650000002" fill="none" instance-id="21" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 34.09376999999995,34.21698650000002 A 0.824965,0.824965 0.0 1,0 34.10776999999996,34.21698650000002" fill="none" instance-id="20" semantic-id="22" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 34.10376999999994,34.725986500000005 A 0.316309,0.316309 0.0 1,0 34.10776999999996,34.725986500000005" fill="none" instance-id="20" semantic-id="22" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 34.10776999999996,32.9399865 A 0.824965,0.824965 0.0 1,0 34.09376999999995,32.9399865" fill="none" instance-id="20" semantic-id="22" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 34.10776999999996,32.43098650000002 A 0.316309,0.316309 0.0 1,0 34.10376999999994,32.43098650000002" fill="none" instance-id="20" semantic-id="22" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 13.673769999999934,62.19198650000001 A 1.81238,1.81238 0.0 0,0 13.50476999999995,61.4269865" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 13.50476999999995,61.4269865 A 2.06544,2.06544 0.0 0,0 13.00476999999995,60.7549865" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 13.00476999999995,60.7549865 A 2.28839,2.28839 0.0 0,0 12.274769999999933,60.31798650000002" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 12.274769999999933,60.31798650000002 A 2.5666,2.5666 0.0 0,0 11.387769999999932,60.1599865" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 11.387769999999932,60.1599865 A 2.5666,2.5666 0.0 0,0 10.500769999999932,60.31798650000002" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 10.500769999999932,60.31798650000002 A 2.28839,2.28839 0.0 0,0 9.771769999999947,60.7549865" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 9.771769999999947,60.7549865 A 2.06544,2.06544 0.0 0,0 9.271769999999947,61.4269865" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 9.271769999999947,61.4269865 A 1.81238,1.81238 0.0 0,0 9.10176999999993,62.19198650000001" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 9.10176999999993,62.19198650000001 A 1.81238,1.81238 0.0 0,0 9.271769999999947,62.957986500000004" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 9.271769999999947,62.957986500000004 A 2.06544,2.06544 0.0 0,0 9.771769999999947,63.628986499999996" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 9.771769999999947,63.628986499999996 A 2.28839,2.28839 0.0 0,0 10.500769999999932,64.06598650000001" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 10.500769999999932,64.06598650000001 A 2.5666,2.5666 0.0 0,0 11.387769999999932,64.2239865" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 11.387769999999932,64.2239865 A 2.5666,2.5666 0.0 0,0 12.274769999999933,64.06598650000001" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 12.274769999999933,64.06598650000001 A 2.28839,2.28839 0.0 0,0 13.00476999999995,63.628986499999996" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 13.00476999999995,63.628986499999996 A 2.06544,2.06544 0.0 0,0 13.50476999999995,62.957986500000004" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 13.50476999999995,62.957986500000004 A 1.81238,1.81238 0.0 0,0 13.673769999999934,62.19198650000001" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 0.0,59.445986500000004 L 0.48776999999995496,59.445986500000004" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 0.7877699999999379,59.745986500000015 A 0.3,0.3 0.0 0,0 0.48776999999995496,59.445986500000004" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 0.7877699999999379,59.745986500000015 L 0.7877699999999379,61.14598650000002" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 0.48776999999995496,61.445986500000004 A 0.3,0.3 0.0 0,0 0.7877699999999379,61.14598650000002" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 0.48776999999995496,61.445986500000004 L 0.0,61.445986500000004" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 100.0,90.84598650000001 L 99.68776999999994,90.84598650000001" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 99.38776999999993,90.5459865 A 0.3,0.3 0.0 0,0 99.68776999999994,90.84598650000001" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 99.38776999999993,90.5459865 L 99.38776999999993,89.14598650000002" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 99.68776999999994,88.84598650000001 A 0.3,0.3 0.0 0,0 99.38776999999993,89.14598650000002" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 99.68776999999994,88.84598650000001 L 100.0,88.84598650000001" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 0.0,51.945986500000004 L 14.58776999999992,51.945986500000004" fill="none" instance-id="23" semantic-id="19" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 14.58776999999992,51.945986500000004 L 14.58776999999992,57.445986500000004" fill="none" instance-id="23" semantic-id="19" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 14.58776999999992,57.445986500000004 L 0.0,57.445986500000004" fill="none" instance-id="23" semantic-id="19" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 90.63776999999993,91.34598650000001 L 90.22476999999992,92.06198650000002" fill="none" instance-id="26" semantic-id="24" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 90.22476999999992,92.06198650000002 L 91.05076999999994,92.06198650000002" fill="none" instance-id="26" semantic-id="24" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 91.05076999999994,92.06198650000002 L 90.63776999999993,91.34598650000001" fill="none" instance-id="26" semantic-id="24" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 36.88776999999993,48.445986500000004 L 36.88776999999993,25.84598650000001" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 36.88776999999993,25.84598650000001 L 47.88776999999993,25.84598650000001" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 47.88776999999993,25.84598650000001 L 47.88776999999993,48.445986500000004" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 6.387769999999932,59.445986500000004 L 6.387769999999932,65.4459865" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 6.387769999999932,65.4459865 L 16.887769999999932,65.4459865" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 16.887769999999932,65.4459865 L 16.887769999999932,59.445986500000004" fill="none" instance-id="25" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 94.38776999999993,88.84598650000001 L 94.38776999999993,91.34598650000001" fill="none" instance-id="26" semantic-id="24" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 94.38776999999993,91.34598650000001 L 86.88776999999993,91.34598650000001" fill="none" instance-id="26" semantic-id="24" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 86.88776999999993,91.34598650000001 L 86.88776999999993,88.84598650000001" fill="none" instance-id="26" semantic-id="24" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 93.88776999999993,88.84598650000001 L 93.88776999999993,90.84598650000001" fill="none" instance-id="26" semantic-id="24" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 93.88776999999993,90.84598650000001 L 87.38776999999993,90.84598650000001" fill="none" instance-id="26" semantic-id="24" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 87.38776999999993,90.84598650000001 L 87.38776999999993,88.84598650000001" fill="none" instance-id="26" semantic-id="24" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <path d="M 5.387769999999932,65.4459865 L 2.8877699999999606,65.4459865" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 2.8877699999999606,65.4459865 L 2.8877699999999606,59.445986500000004" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 5.387769999999932,64.9459865 L 3.3877699999999606,64.9459865" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 3.3877699999999606,64.9459865 L 3.3877699999999606,59.445986500000004" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.95076999999992,30.884986499999997 L 35.94376999999997,30.852986500000014" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.94376999999997,30.852986500000014 L 35.89376999999996,30.737986500000005" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.89376999999996,30.737986500000005 L 35.85976999999997,30.7189865" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.85976999999997,30.7189865 L 35.82576999999992,30.737986500000005" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.82576999999992,30.737986500000005 L 35.775769999999966,30.852986500000014" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.775769999999966,30.852986500000014 L 35.751769999999965,30.987986500000005" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.751769999999965,30.987986500000005 L 35.741769999999974,31.176986499999998" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.741769999999974,31.176986499999998 L 35.751769999999965,31.364986500000015" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.751769999999965,31.364986500000015 L 35.775769999999966,31.50098650000001" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.775769999999966,31.50098650000001 L 35.82576999999992,31.61598650000002" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.82576999999992,31.61598650000002 L 35.85976999999997,31.634986499999997" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.85976999999997,31.634986499999997 L 35.89376999999996,31.61598650000002" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.89376999999996,31.61598650000002 L 35.933769999999924,31.531986500000016" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.75476999999995,30.7189865 L 35.72076999999996,30.737986500000005" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.72076999999996,30.737986500000005 L 35.67076999999995,30.852986500000014" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.67076999999995,30.852986500000014 L 35.64676999999995,30.987986500000005" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.64676999999995,30.987986500000005 L 35.636769999999956,31.176986499999998" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.636769999999956,31.176986499999998 L 35.64676999999995,31.364986500000015" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.64676999999995,31.364986500000015 L 35.67076999999995,31.50098650000001" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.67076999999995,31.50098650000001 L 35.72076999999996,31.61598650000002" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.72076999999996,31.61598650000002 L 35.75476999999995,31.634986499999997" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.75476999999995,31.634986499999997 L 35.76676999999995,31.632986500000015" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.75476999999995,35.44898650000002 L 35.72076999999996,35.467986499999995" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.72076999999996,35.467986499999995 L 35.67076999999995,35.582986500000004" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.67076999999995,35.582986500000004 L 35.64676999999995,35.717986499999995" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.64676999999995,35.717986499999995 L 35.636769999999956,35.906986500000016" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.636769999999956,35.906986500000016 L 35.64676999999995,36.094986500000005" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.64676999999995,36.094986500000005 L 35.67076999999995,36.2309865" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.67076999999995,36.2309865 L 35.72076999999996,36.34598650000001" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.72076999999996,36.34598650000001 L 35.75476999999995,36.364986500000015" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.75476999999995,36.364986500000015 L 35.76676999999995,36.362986500000005" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.85976999999997,35.44898650000002 L 35.82576999999992,35.467986499999995" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.82576999999992,35.467986499999995 L 35.775769999999966,35.582986500000004" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.775769999999966,35.582986500000004 L 35.751769999999965,35.717986499999995" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.751769999999965,35.717986499999995 L 35.741769999999974,35.906986500000016" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.741769999999974,35.906986500000016 L 35.751769999999965,36.094986500000005" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.751769999999965,36.094986500000005 L 35.775769999999966,36.2309865" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.775769999999966,36.2309865 L 35.82576999999992,36.34598650000001" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.82576999999992,36.34598650000001 L 35.85976999999997,36.364986500000015" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.85976999999997,36.364986500000015 L 35.89376999999996,36.34598650000001" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.89376999999996,36.34598650000001 L 35.933769999999924,36.261986500000006" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.95076999999992,35.614986500000015 L 35.94376999999997,35.582986500000004" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.94376999999997,35.582986500000004 L 35.89376999999996,35.467986499999995" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 35.89376999999996,35.467986499999995 L 35.85976999999997,35.44898650000002" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <circle cx="10.752769999999941" cy="60.9219865" fill="none" instance-id="25" r="0.254" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <circle cx="12.022769999999923" cy="60.9219865" fill="none" instance-id="25" r="0.254" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <circle cx="11.387769999999932" cy="62.445986500000004" fill="none" instance-id="25" r="0.254" semantic-id="23" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <circle cx="88.51676999999995" cy="89.83398650000001" fill="none" instance-id="26" r="0.316228" semantic-id="24" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <circle cx="88.51676999999995" cy="89.83398650000001" fill="none" instance-id="26" r="0.5" semantic-id="24" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <circle cx="90.37376999999992" cy="89.83398650000001" fill="none" instance-id="26" r="0.316228" semantic-id="24" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <circle cx="90.37376999999992" cy="89.83398650000001" fill="none" instance-id="26" r="0.5" semantic-id="24" stroke="rgb(0,0,0)" stroke-width="0.1"/>
+  <circle cx="4.399769999999933" cy="61.074986499999994" fill="none" r="0.316228" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <circle cx="4.399769999999933" cy="61.074986499999994" fill="none" r="0.5" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <circle cx="4.399769999999933" cy="62.93198650000002" fill="none" r="0.316228" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <circle cx="4.399769999999933" cy="62.93198650000002" fill="none" r="0.5" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+ </g>
+ <g id="layer厨房设备及配件" inkscape:groupmode="layer" inkscape:label="厨房设备及配件">
+  <path d="M 94.38776999999993,91.34598650000001 L 94.38776999999993,99.99999999999997" fill="none" stroke="rgb(0,133,178)" stroke-width="0.1"/>
+  <path d="M 93.88776999999993,91.34598650000001 L 93.88776999999993,99.99999999999997" fill="none" stroke="rgb(0,133,178)" stroke-width="0.1"/>
+ </g>
+ <g id="layer屋面雨水管" inkscape:groupmode="layer" inkscape:label="屋面雨水管">
+  <path d="M 79.93776999999994,33.84598650000001 L 81.83776999999992,33.84598650000001" fill="none" stroke="rgb(0,142,71)" stroke-width="0.1"/>
+  <path d="M 80.88776999999993,32.89598650000002 L 80.88776999999993,34.7959865" fill="none" stroke="rgb(0,142,71)" stroke-width="0.1"/>
+  <circle cx="80.88776999999993" cy="33.84598650000001" fill="none" r="0.55" stroke="rgb(0,142,71)" stroke-width="0.1"/>
+ </g>
+ <g id="layer排气孔" inkscape:groupmode="layer" inkscape:label="排气孔">
+  <path d="M 35.38776999999993,19.84598650000001 L 35.38776999999993,25.34598650000001" fill="none" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+  <path d="M 35.38776999999993,25.34598650000001 L 30.887769999999932,25.34598650000001" fill="none" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+  <path d="M 30.887769999999932,25.34598650000001 L 30.887769999999932,19.84598650000001" fill="none" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+  <path d="M 30.887769999999932,19.84598650000001 L 35.38776999999993,19.84598650000001" fill="none" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+  <path d="M 35.287769999999966,19.945986500000004 L 35.287769999999966,25.245986500000015" fill="none" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+  <path d="M 35.287769999999966,25.245986500000015 L 30.987769999999955,25.245986500000015" fill="none" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+  <path d="M 30.987769999999955,25.245986500000015 L 30.987769999999955,19.945986500000004" fill="none" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+  <path d="M 30.987769999999955,19.945986500000004 L 35.287769999999966,19.945986500000004" fill="none" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+  <path d="M 35.287769999999966,19.945986500000004 L 31.469769999999926,20.332986500000004" fill="none" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+  <path d="M 31.469769999999926,20.332986500000004 L 30.987769999999955,25.245986500000015" fill="none" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+  <path d="M 30.887769999999932,25.34598650000001 L 30.887769999999932,25.64598650000002" fill="none" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+  <path d="M 30.887769999999932,25.64598650000002 L 35.687769999999944,25.64598650000002" fill="none" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+  <path d="M 35.687769999999944,25.64598650000002 L 35.687769999999944,19.84598650000001" fill="none" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+  <path d="M 35.687769999999944,19.84598650000001 L 35.38776999999993,19.84598650000001" fill="none" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+  <text fill="rgb(178,0,178)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,51.150769999999966,16.519986500000016)" x="51.150769999999966" y="16.519986500000016">
+   D3
+  </text>
+  <text fill="rgb(178,0,178)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,55.94376999999997,54.5699865)" x="55.94376999999997" y="54.5699865">
+   D1
+  </text>
+ </g>
+ <g id="layer排水管" inkscape:groupmode="layer" inkscape:label="排水管">
+  <path d="M 76.79676999999992,20.930986500000017 L 76.79676999999992,22.576986500000004" fill="none" stroke="rgb(53,107,160)" stroke-width="0.1"/>
+  <path d="M 76.04676999999992,20.930986500000017 L 76.04676999999992,22.576986500000004" fill="none" stroke="rgb(53,107,160)" stroke-width="0.1"/>
+  <path d="M 80.06876999999997,47.844986500000005 L 80.06876999999997,51.49098650000002" fill="none" stroke="rgb(53,107,160)" stroke-width="0.1"/>
+  <path d="M 80.81876999999997,47.844986500000005 L 80.81876999999997,51.49098650000002" fill="none" stroke="rgb(53,107,160)" stroke-width="0.1"/>
+  <path d="M 70.65976999999992,87.92598650000002 L 70.65976999999992,91.57198650000001" fill="none" stroke="rgb(53,107,160)" stroke-width="0.1"/>
+  <path d="M 71.40976999999992,87.92598650000002 L 71.40976999999992,91.57198650000001" fill="none" stroke="rgb(53,107,160)" stroke-width="0.1"/>
+  <circle cx="76.42176999999992" cy="20.930986500000017" fill="none" r="0.375" stroke="rgb(53,107,160)" stroke-width="0.1"/>
+  <circle cx="80.44376999999997" cy="47.844986500000005" fill="none" r="0.375" stroke="rgb(53,107,160)" stroke-width="0.1"/>
+  <circle cx="71.03476999999992" cy="87.92598650000002" fill="none" r="0.375" stroke="rgb(53,107,160)" stroke-width="0.1"/>
+ </g>
+ <g id="layer栏杆" inkscape:groupmode="layer" inkscape:label="栏杆">
+  <path d="M 55.88776999999993,18.14598650000002 L 70.88776999999993,18.14598650000002" fill="none" instance-id="-1" semantic-id="33" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+  <path d="M 55.88776999999993,17.745986500000015 L 70.88776999999993,17.745986500000015" fill="none" instance-id="-1" semantic-id="33" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+  <path d="M 55.88776999999993,31.14598650000002 L 77.48776999999995,31.14598650000002" fill="none" instance-id="-1" semantic-id="33" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+  <path d="M 55.88776999999993,30.745986500000015 L 77.48776999999995,30.745986500000015" fill="none" instance-id="-1" semantic-id="33" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+  <path d="M 84.88776999999993,48.745986500000015 L 96.88776999999993,48.745986500000015" fill="none" instance-id="-1" semantic-id="33" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+  <path d="M 84.88776999999993,48.34598650000001 L 96.88776999999993,48.34598650000001" fill="none" instance-id="-1" semantic-id="33" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+  <path d="M 84.88776999999993,65.5459865 L 96.88776999999993,65.5459865" fill="none" instance-id="-1" semantic-id="33" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+  <path d="M 84.88776999999993,65.14598650000002 L 96.88776999999993,65.14598650000002" fill="none" instance-id="-1" semantic-id="33" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+  <path d="M 70.28776999999997,87.14598650000002 L 84.48776999999995,87.14598650000002" fill="none" instance-id="-1" semantic-id="33" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+  <path d="M 70.28776999999997,86.74598650000001 L 84.48776999999995,86.74598650000001" fill="none" instance-id="-1" semantic-id="33" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+  <path d="M 0.0,26.195986500000004 L 28.887769999999932,26.195986500000004" fill="none" instance-id="-1" semantic-id="33" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+  <path d="M 0.0,26.695986500000004 L 28.887769999999932,26.695986500000004" fill="none" instance-id="-1" semantic-id="33" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+ </g>
+ <g id="layer热水器" inkscape:groupmode="layer" inkscape:label="热水器">
+  <path d="M 51.88776999999993,16.84598650000001 L 51.88776999999993,20.445986500000004" fill="none" stroke="rgb(178,88,0)" stroke-width="0.1"/>
+  <path d="M 52.08776999999992,25.64598650000002 L 52.08776999999992,21.84598650000001" fill="none" stroke="rgb(178,88,0)" stroke-width="0.1"/>
+  <path d="M 52.08776999999992,21.84598650000001 L 53.88776999999993,21.84598650000001" fill="none" stroke="rgb(178,88,0)" stroke-width="0.1"/>
+  <path d="M 53.88776999999993,21.84598650000001 L 53.88776999999993,25.64598650000002" fill="none" stroke="rgb(178,88,0)" stroke-width="0.1"/>
+  <path d="M 53.88776999999993,25.64598650000002 L 52.08776999999992,25.64598650000002" fill="none" stroke="rgb(178,88,0)" stroke-width="0.1"/>
+  <path d="M 51.487769999999955,17.34598650000001 L 52.287769999999966,17.34598650000001" fill="none" stroke="rgb(178,88,0)" stroke-width="0.1"/>
+  <path d="M 52.287769999999966,17.34598650000001 L 52.287769999999966,19.945986500000004" fill="none" stroke="rgb(178,88,0)" stroke-width="0.1"/>
+  <path d="M 52.287769999999966,19.945986500000004 L 51.487769999999955,19.945986500000004" fill="none" stroke="rgb(178,88,0)" stroke-width="0.1"/>
+  <path d="M 51.487769999999955,19.945986500000004 L 51.487769999999955,17.34598650000001" fill="none" stroke="rgb(178,88,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layer看线" inkscape:groupmode="layer" inkscape:label="看线">
+  <path d="M 55.88776999999993,18.445986500000004 L 70.88776999999993,18.445986500000004" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 55.88776999999993,17.445986500000004 L 70.88776999999993,17.445986500000004" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 55.88776999999993,31.445986500000004 L 77.48776999999995,31.445986500000004" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 55.88776999999993,30.445986500000004 L 77.48776999999995,30.445986500000004" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 84.88776999999993,49.0459865 L 96.88776999999993,49.0459865" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 84.88776999999993,48.0459865 L 96.88776999999993,48.0459865" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 84.88776999999993,65.84598650000001 L 96.88776999999993,65.84598650000001" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 84.88776999999993,64.84598650000001 L 96.88776999999993,64.84598650000001" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 70.28776999999997,87.4459865 L 84.48776999999995,87.4459865" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 70.28776999999997,86.4459865 L 84.48776999999995,86.4459865" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+  <path d="M 70.28776999999997,68.0459865 L 100.0,68.0459865" fill="none" stroke="rgb(89,89,89)" stroke-width="0.1"/>
+ </g>
+ <g id="layer空调" inkscape:groupmode="layer" inkscape:label="空调">
+  <path d="M 56.88776999999993,51.0459865 L 56.88776999999993,47.445986500000004" fill="none" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+  <path d="M 56.487769999999955,50.5459865 L 57.287769999999966,50.5459865" fill="none" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+  <path d="M 57.287769999999966,50.5459865 L 57.287769999999966,47.945986500000004" fill="none" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+  <path d="M 57.287769999999966,47.945986500000004 L 56.487769999999955,47.945986500000004" fill="none" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+  <path d="M 56.487769999999955,47.945986500000004 L 56.487769999999955,50.5459865" fill="none" stroke="rgb(178,0,178)" stroke-width="0.1"/>
+ </g>
+ <g id="layer设备" inkscape:groupmode="layer" inkscape:label="设备">
+  <path d="M 18.887769999999932,65.1609865 L 17.787769999999966,65.1609865" fill="none" stroke="rgb(133,12,255)" stroke-width="0.1"/>
+  <path d="M 18.887769999999932,64.3669865 L 17.787769999999966,64.3669865" fill="none" stroke="rgb(133,12,255)" stroke-width="0.1"/>
+  <path d="M 18.887769999999932,63.57398650000002 L 17.787769999999966,63.57398650000002" fill="none" stroke="rgb(133,12,255)" stroke-width="0.1"/>
+  <path d="M 18.887769999999932,62.77998650000001 L 17.787769999999966,62.77998650000001" fill="none" stroke="rgb(133,12,255)" stroke-width="0.1"/>
+  <path d="M 18.887769999999932,61.985986499999996 L 17.787769999999966,61.985986499999996" fill="none" stroke="rgb(133,12,255)" stroke-width="0.1"/>
+  <path d="M 18.887769999999932,65.89598650000002 L 17.787769999999966,65.89598650000002" fill="none" stroke="rgb(133,12,255)" stroke-width="0.1"/>
+  <path d="M 17.787769999999966,65.89598650000002 L 17.787769999999966,61.445986500000004" fill="none" stroke="rgb(133,12,255)" stroke-width="0.1"/>
+  <path d="M 17.787769999999966,61.445986500000004 L 18.887769999999932,61.445986500000004" fill="none" stroke="rgb(133,12,255)" stroke-width="0.1"/>
+  <path d="M 18.887769999999932,61.445986500000004 L 18.887769999999932,65.89598650000002" fill="none" stroke="rgb(133,12,255)" stroke-width="0.1"/>
+  <path d="M 17.787769999999966,65.89598650000002 L 18.887769999999932,65.89598650000002" fill="none" stroke="rgb(133,12,255)" stroke-width="0.1"/>
+  <path d="M 18.887769999999932,65.89598650000002 L 18.887769999999932,61.445986500000004" fill="none" stroke="rgb(133,12,255)" stroke-width="0.1"/>
+  <path d="M 18.887769999999932,61.445986500000004 L 17.787769999999966,61.445986500000004" fill="none" stroke="rgb(133,12,255)" stroke-width="0.1"/>
+  <path d="M 17.787769999999966,61.445986500000004 L 17.787769999999966,65.89598650000002" fill="none" stroke="rgb(133,12,255)" stroke-width="0.1"/>
+ </g>
+</svg>

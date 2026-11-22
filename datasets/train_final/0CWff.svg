@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg style="background-color: #000;" version="1.1" viewBox="0 0 100.0 100.0" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+ <g id="layerA-ANNO-AXIS" inkscape:groupmode="layer" inkscape:label="A-ANNO-AXIS">
+  <path d="M 0.0,85.03159399999998 L 100.0,85.03159399999998" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 12.722688500000004,100.0 L 12.722688500000004,0.0" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerA-COLU-CONC" inkscape:groupmode="layer" inkscape:label="A-COLU-CONC">
+  <path d="M 10.722688500000004,89.03159399999998 L 16.722688500000004,89.03159399999998" fill="none" stroke="rgb(142,142,0)" stroke-width="0.1"/>
+  <path d="M 16.722688500000004,89.03159399999998 L 16.722688500000004,81.03159399999998" fill="none" stroke="rgb(142,142,0)" stroke-width="0.1"/>
+  <path d="M 16.722688500000004,81.03159399999998 L 10.722688500000004,81.03159399999998" fill="none" stroke="rgb(142,142,0)" stroke-width="0.1"/>
+  <path d="M 10.722688500000004,81.03159399999998 L 10.722688500000004,89.03159399999998" fill="none" stroke="rgb(142,142,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerA-DOOR" inkscape:groupmode="layer" inkscape:label="A-DOOR">
+  <path d="M 72.32268850000003,2.656593999999984 L 79.63468850000004,2.656593999999984" fill="none" stroke="rgb(254,255,12)" stroke-width="0.1"/>
+  <path d="M 72.32268850000003,3.031593999999984 L 79.63468850000004,3.031593999999984" fill="none" stroke="rgb(254,255,12)" stroke-width="0.1"/>
+  <path d="M 79.63468850000004,2.656593999999984 L 79.63468850000004,3.031593999999984" fill="none" stroke="rgb(254,255,12)" stroke-width="0.1"/>
+  <path d="M 72.32268850000003,3.031593999999984 L 72.32268850000003,2.656593999999984" fill="none" stroke="rgb(254,255,12)" stroke-width="0.1"/>
+  <path d="M 79.63268850000009,2.656593999999984 L 79.60150845885676,2.1440638372876037" fill="none" stroke="rgb(254,255,12)" stroke-width="0.1"/>
+  <path d="M 79.60150845885676,2.1440638372876037 L 79.53443803160803,1.6349853360283078" fill="none" stroke="rgb(254,255,12)" stroke-width="0.1"/>
+  <path d="M 79.53443803160803,1.6349853360283078 L 79.43180792458759,1.1318686261202515" fill="none" stroke="rgb(254,255,12)" stroke-width="0.1"/>
+  <path d="M 79.43180792458759,1.1318686261202515 L 79.29412417939704,0.6371944414633504" fill="none" stroke="rgb(254,255,12)" stroke-width="0.1"/>
+  <path d="M 79.29412417939704,0.6371944414633504 L 79.12206567774967,0.15340188812399447" fill="none" stroke="rgb(254,255,12)" stroke-width="0.1"/>
+ </g>
+ <g id="layerA-DOOR-TEXT" inkscape:groupmode="layer" inkscape:label="A-DOOR-TEXT">
+  <text fill="rgb(160,160,53)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-90.0,68.65368850000004,2.656593999999984)" x="68.65368850000004" y="2.656593999999984">
+   M1524
+  </text>
+ </g>
+ <g id="layerA-FLOR-SPCL" inkscape:groupmode="layer" inkscape:label="A-FLOR-SPCL">
+  <path d="M 71.7226885,5.231593999999973 L 71.7226885,97.831594" fill="none" stroke="rgb(107,53,93)" stroke-width="0.1"/>
+ </g>
+ <g id="layerA-WALL-BLOK" inkscape:groupmode="layer" inkscape:label="A-WALL-BLOK">
+  <path d="M 12.222688500000004,100.0 L 12.222688500000004,55.531593999999984" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(12,254,255)" stroke-width="0.1"/>
+  <path d="M 13.222688500000004,100.0 L 13.222688500000004,55.031593999999984" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(12,254,255)" stroke-width="0.1"/>
+  <path d="M 0.0,54.531593999999984 L 12.222688500000004,54.531593999999984" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(12,254,255)" stroke-width="0.1"/>
+  <path d="M 0.0,55.531593999999984 L 12.222688500000004,55.531593999999984" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(12,254,255)" stroke-width="0.1"/>
+  <path d="M 72.92268850000005,4.031593999999984 L 72.92268850000005,3.031593999999984" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(12,254,255)" stroke-width="0.1"/>
+  <path d="M 72.92268850000005,3.031593999999984 L 71.7226885,3.031593999999984" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(12,254,255)" stroke-width="0.1"/>
+  <path d="M 71.7226885,3.031593999999984 L 71.7226885,5.231593999999973" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(12,254,255)" stroke-width="0.1"/>
+  <path d="M 79.52268850000007,5.231593999999973 L 71.7226885,5.231593999999973" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(12,254,255)" stroke-width="0.1"/>
+  <path d="M 80.7226885,4.031593999999984 L 72.92268850000005,4.031593999999984" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(12,254,255)" stroke-width="0.1"/>
+  <path d="M 79.52268850000007,98.831594 L 71.7226885,98.831594" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(12,254,255)" stroke-width="0.1"/>
+  <path d="M 71.7226885,98.831594 L 71.7226885,100.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(12,254,255)" stroke-width="0.1"/>
+  <path d="M 79.52268850000007,98.831594 L 79.52268850000007,5.231593999999973" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(12,254,255)" stroke-width="0.1"/>
+  <path d="M 80.7226885,100.0 L 80.7226885,4.031593999999984" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(12,254,255)" stroke-width="0.1"/>
+  <path d="M 12.222688500000004,54.531593999999984 L 12.222688500000004,0.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(12,254,255)" stroke-width="0.1"/>
+  <path d="M 13.222688500000004,55.031593999999984 L 13.222688500000004,0.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(12,254,255)" stroke-width="0.1"/>
+ </g>
+</svg>

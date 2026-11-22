@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg style="background-color: #000;" version="1.1" viewBox="0 0 100.0 100.0" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+ <g id="layerDIM_ELEV" inkscape:groupmode="layer" inkscape:label="DIM_ELEV">
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,99.85529250000036,92.46128899999997)" x="99.85529250000036" y="92.46128899999997">
+   21.000(结构板顶)
+  </text>
+ </g>
+ <g id="layerDIM_SYMB" inkscape:groupmode="layer" inkscape:label="DIM_SYMB">
+  <path d="M 64.0052925,97.04728899999992 L 64.0052925,78.86728899999991" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 65.20529250000027,97.04728899999992 L 64.6147503000002,100.0" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 63.39583470000025,100.0 L 62.80529250000018,97.04728899999992" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 62.80529250000018,97.04728899999992 L 65.20529250000027,97.04728899999992" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,64.0052925,77.85028899999992)" x="64.0052925" y="77.85028899999992">
+   3%
+  </text>
+ </g>
+ <g id="layerDOTE" inkscape:groupmode="layer" inkscape:label="DOTE">
+  <path d="M 29.555292500000178,100.0 L 29.555292500000178,0.0" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 0.0,99.78128899999996 L 100.0,99.78128899999996" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 0.0,15.781288999999958 L 100.0,15.781288999999958" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerRail" inkscape:groupmode="layer" inkscape:label="Rail">
+  <path d="M 91.55529250000018,60.78128899999996 L 100.0,60.78128899999996" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 91.55529250000018,100.0 L 91.55529250000018,60.78128899999996" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 30.555292500000178,41.28128899999996 L 53.55529250000018,41.28128899999996" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 53.55529250000018,41.28128899999996 L 53.55529250000018,100.0" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 30.555292500000178,100.0 L 30.555292500000178,41.28128899999996" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 100.0,58.78128899999996 L 89.55529250000018,58.78128899999996" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 89.55529250000018,58.78128899999996 L 89.55529250000018,100.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 0.0,3.7812889999999584 L 32.55529250000018,3.7812889999999584" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 32.55529250000018,3.7812889999999584 L 32.55529250000018,15.781288999999958" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 32.55529250000018,15.781288999999958 L 0.0,15.781288999999958" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 30.555292500000178,60.28128899999996 L 20.555292500000178,60.28128899999996" fill="none" stroke="rgb(88,0,178)" stroke-width="0.1"/>
+  <path d="M 20.555292500000178,60.28128899999996 L 20.555292500000178,42.28128899999996" fill="none" stroke="rgb(88,0,178)" stroke-width="0.1"/>
+  <path d="M 20.555292500000178,42.28128899999996 L 30.555292500000178,42.28128899999996" fill="none" stroke="rgb(88,0,178)" stroke-width="0.1"/>
+  <path d="M 53.55529250000018,90.03128899999996 L 63.55529250000018,90.03128899999996" fill="none" stroke="rgb(88,0,178)" stroke-width="0.1"/>
+  <path d="M 63.55529250000018,90.03128899999996 L 63.55529250000018,72.03128899999996" fill="none" stroke="rgb(88,0,178)" stroke-width="0.1"/>
+  <path d="M 63.55529250000018,72.03128899999996 L 53.55529250000018,72.03128899999996" fill="none" stroke="rgb(88,0,178)" stroke-width="0.1"/>
+ </g>
+</svg>

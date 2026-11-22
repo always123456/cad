@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg style="background-color: #000;" version="1.1" viewBox="0 0 100.0 100.0" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+ <g id="layerAXIS" inkscape:groupmode="layer" inkscape:label="AXIS">
+  <path d="M 26.516505999999936,92.67891200000008 L 100.0,92.67891200000008" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 26.516505999999936,8.678912000000082 L 100.0,8.678912000000082" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 69.51650599999994,92.67891200000008 L 83.51650599999994,92.67891200000008" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 69.51650599999994,8.678912000000082 L 83.51650599999994,8.678912000000082" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 75.27650600000015,91.44191200000012 L 77.74650600000041,93.91691200000014" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 75.27650600000015,7.441912000000116 L 77.74650600000041,9.916912000000139" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 92.51650599999994,100.0 L 92.51650599999994,0.0" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 76.51650599999994,100.0 L 76.51650599999994,0.0" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-90.0,73.08650600000055,60.01191200000005)" x="73.08650600000055" y="60.01191200000005">
+   8400
+  </text>
+ </g>
+ <g id="layerDOTE" inkscape:groupmode="layer" inkscape:label="DOTE">
+  <path d="M 2.346505999999863,100.0 L 2.346505999999863,0.0" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 0.0,8.678912000000082 L 100.0,8.678912000000082" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 0.0,92.67891200000008 L 100.0,92.67891200000008" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerRail" inkscape:groupmode="layer" inkscape:label="Rail">
+  <path d="M 9.346505999999863,92.17891200000008 L 25.346505999999863,92.17891200000008" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 25.346505999999863,92.17891200000008 L 25.346505999999863,100.0" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 9.346505999999863,100.0 L 9.346505999999863,92.17891200000008" fill="none" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 45.84650599999986,100.0 L 45.84650599999986,0.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+  <path d="M 43.84650599999986,100.0 L 43.84650599999986,0.0" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(0,107,142)" stroke-width="0.1"/>
+ </g>
+</svg>

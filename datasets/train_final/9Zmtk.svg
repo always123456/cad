@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg style="background-color: #000;" version="1.1" viewBox="0 0 100.0 100.0" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+ <g id="layerA-DETL" inkscape:groupmode="layer" inkscape:label="A-DETL">
+  <path d="M 100.0,39.34710350000023 L 0.0,39.34710350000023" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 100.0,22.34710350000023 L 0.0,22.34710350000023" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerDIM_ELEV" inkscape:groupmode="layer" inkscape:label="DIM_ELEV">
+  <path d="M 79.39156249999996,24.78710349999983 L 74.89156249999996,20.28710349999983" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 79.39156249999996,24.78710349999983 L 83.89156249999996,20.28710349999983" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 74.89156249999996,20.28710349999983 L 99.79156250000005,20.28710349999983" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerDIM_LEAD" inkscape:groupmode="layer" inkscape:label="DIM_LEAD">
+  <path d="M 14.187497331907707,100.0 L 15.381562499999973,97.15710350000018" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 15.381562499999973,97.15710350000018 L 37.551562500000045,97.15710350000018" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerDIM_SYMB" inkscape:groupmode="layer" inkscape:label="DIM_SYMB">
+  <path d="M 50.141562499999964,63.30710349999981 L 50.141562499999964,84.24710349999987" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+  <path d="M 50.141562499999964,84.24710349999987 L 50.141562499999964,79.74710349999987" fill="none" stroke="rgb(0,178,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerDOTE" inkscape:groupmode="layer" inkscape:label="DOTE">
+  <path d="M 100.0,32.14710349999996 L 0.0,32.14710349999996" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 100.0,2.1471034999999574 L 0.0,2.1471034999999574" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 15.721562500000118,0.0 L 15.721562500000118,100.0" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+  <path d="M 100.0,82.84710350000023 L 0.0,82.84710350000023" fill="none" stroke="rgb(178,0,0)" stroke-width="0.1"/>
+ </g>
+ <g id="layerPUB_TEXT" inkscape:groupmode="layer" inkscape:label="PUB_TEXT">
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,83.7415625000001,18.71710350000012)" x="83.7415625000001" y="18.71710350000012">
+   37.950
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-90.0,48.561562500000036,76.62710349999998)" x="48.561562500000036" y="76.62710349999998">
+   2%
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,18.201562500000136,96.1071035)" x="18.201562500000136" y="96.1071035">
+   87
+  </text>
+  <text fill="rgb(0,0,0)" font-family="Noto Sans CJK SC" font-size="2" transform="rotate(-0.0,22.201562500000136,96.1071035)" x="22.201562500000136" y="96.1071035">
+   型重力雨水斗
+  </text>
+ </g>
+ <g id="layerWALL" inkscape:groupmode="layer" inkscape:label="WALL">
+  <path d="M 0.0,31.84710350000023 L 100.0,31.84710350000023" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(134,134,134)" stroke-width="0.1"/>
+  <path d="M 0.0,33.84710350000023 L 100.0,33.84710350000023" fill="none" instance-id="-1" semantic-id="1" stroke="rgb(134,134,134)" stroke-width="0.1"/>
+ </g>
+ <g id="layer板边线" inkscape:groupmode="layer" inkscape:label="板边线">
+  <path d="M 0.0,31.84710350000023 L 100.0,31.84710350000023" fill="none" stroke="rgb(178,178,0)" stroke-width="0.1"/>
+ </g>
+</svg>
