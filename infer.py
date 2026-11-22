@@ -114,7 +114,7 @@ COMMON_FLAGS = [
 # ``simple`` is the shipped u250 deliverable.
 MODE_FLAGS = {
     "blend": [
-        "--mask-threshold", "0.40",
+        "--mask-threshold", "0.35",
         "--score-threshold", "0.50",
         "--per-image-cap", "300",
         "--select-rule", "blend",
