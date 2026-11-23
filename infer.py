@@ -77,19 +77,19 @@ DELIVERY_DIR = os.path.join(REPO_ROOT, "delivery")
 DELIVERY_CLI = os.path.join(DELIVERY_DIR, "cad_mrcnn_delivery.py")
 VERIFIER = os.path.join(DELIVERY_DIR, "verify_delivery.py")
 DEFAULT_CHECKPOINT = os.path.join(REPO_ROOT, "weights", "fine_mask112_u550.pt")
-# Stage-2 blend selector (the measured readout, ``weights/blend_head_20261120.pkl``):
-# the same 26-column contract and model family as ``blend_sameclass_20261119.pkl``,
-# re-fit on the 2389-image pool with 256^2 head-mask labels (8.9% positives vs 6.4%).
-# Measured 0.335961 micro PQ on the 387 held-out records at >= 0.70 / tau 0.10 / cap 60
-# against 0.302224 shipped (0.323665 on the same pkl at the old cap 28).  The pool's other
-# arm -- the one with features measured on the emitted mask -- replays at 0.344004 but those
-# columns do not exist before emission; end to end it scores 0.297649, so it is not shipped
-# (evidence/holdout-387-headarm-20261120.score.json).
-# That earlier pkl stays on disk, unshipped, as ``SUPERSEDED_BLEND_MODEL``.  The frozen
+# Stage-2 blend selector (the shipped readout, ``weights/blend_full_20261123.pkl``):
+# the same 26-column contract and 6-learner Blend family, re-fit on the FULL train_final
+# relabel set (3700 images / 167877 candidates / 28702 GT) with delivered-mask labels under
+# the gate-64 decoded head-box pipeline.  Measured end to end on the 300 held-out stems at
+# >= 0.70 / tau 0.10 / cap 60: PQ 0.3708 (TP 1086 / FP 699 / FN 1430), up from 0.3636 for
+# the previous selector on the same pipeline (+0.0072); OOF retrain alone looked negative
+# (delta -0.0025) but end to end flipped positive, so this pkl replaces the shipped one.
+# The previous shipped pkl stays on disk as ``SUPERSEDED_BLEND_MODEL`` (the older
+# ``blend_sameclass_20261119.pkl`` it superseded is no longer on disk).  The frozen
 # v3 note named the older ``delivery/model_u250_blend.pkl``, which is still accepted
 # when neither deployable copy is present.
-DEFAULT_BLEND_MODEL = os.path.join(REPO_ROOT, "weights", "blend_head_20261120.pkl")
-SUPERSEDED_BLEND_MODEL = os.path.join(REPO_ROOT, "weights", "blend_sameclass_20261119.pkl")
+DEFAULT_BLEND_MODEL = os.path.join(REPO_ROOT, "weights", "blend_full_20261123.pkl")
+SUPERSEDED_BLEND_MODEL = os.path.join(REPO_ROOT, "weights", "blend_head_20261120.pkl")
 LEGACY_BLEND_MODEL = os.path.join(DELIVERY_DIR, "model_u250_blend.pkl")
 BLEND_MODELS = (DEFAULT_BLEND_MODEL, SUPERSEDED_BLEND_MODEL, LEGACY_BLEND_MODEL)
 
@@ -202,8 +202,8 @@ def v3_blockers():
 
     The selector itself is no longer a blocker: ``--mode blend`` wires it into this
     entry point (``delivery/features26.py`` + ``delivery/models.py``), so the model
-    counts as present when either the deployable ``weights/blend_head_20261120.pkl``,
-    the superseded ``weights/blend_sameclass_20261119.pkl`` or the older
+    counts as present when either the deployable ``weights/blend_full_20261123.pkl``,
+    the superseded ``weights/blend_head_20261120.pkl`` or the older
     ``delivery/model_u250_blend.pkl`` loads with 26 features.  What still
     blocks ``v3`` is its own stage-2 emitter path (the extractor it names and the
     pre-extracted pool shards), not the model file.
@@ -369,7 +369,7 @@ def build_command(mode, args, source, paths, manifest):
     command += ["--checkpoint", os.path.abspath(args.checkpoint)]
     command += list(COMMON_FLAGS) + list(MODE_FLAGS[mode])
     if mode == "blend":
-        # The model is a flag (default: weights/blend_head_20261120.pkl); the
+        # The model is a flag (default: weights/blend_full_20261123.pkl); the
         # absolute path is passed so the child's cwd cannot change its meaning.
         command += ["--blend-model", os.path.abspath(args.blend_model)]
     ink_min_side = getattr(args, "mask_ink_min_side", None)
@@ -595,7 +595,7 @@ def main(argv=None):
                              % DEFAULT_MODE)
     parser.add_argument("--blend-model", default=DEFAULT_BLEND_MODEL, metavar="PATH",
                         help="with --mode blend: the pickled 26-feature selector (default: "
-                             "weights/blend_head_20261120.pkl)")
+                             "weights/blend_full_20261123.pkl)")
     parser.add_argument("--checkpoint", default=DEFAULT_CHECKPOINT, metavar="PATH",
                         help="detector + 112^2 mask-head checkpoint (default: weights/fine_mask112_u550.pt)")
     parser.add_argument("--mask-ink-min-side", type=int, default=None, metavar="PX",

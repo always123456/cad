@@ -503,17 +503,16 @@ def _nmsbox():
 # stage-2 blend selector: the frozen 26-feature readout
 # --------------------------------------------------------------------------- #
 BLEND_RULE = "blend"
-#: The measured arm (``weights/blend_head_20261120.pkl``, 0.335961 micro PQ on the
-#: 387 held-out records at >= 0.70 / tau 0.10 / cap 60): same-class box NMS over the blend
-#: probabilities.  The recipe that produced it is ``tools/blend_eval.py`` (extract -> score
-#: --thr 0.70 --tau 0.10 --cap 60); ``tools/refit_blend_head.py --arm deployed`` re-fit the
-#: selector on 256^2 head-mask labels.  The cap moved 28 -> 60 with that selector: 169 of the
-#: 387 records were hitting the old cap, and the retrained ranking fills the extra slots at
-#: almost no FP cost.  The pool's other arm (``--arm head``, features measured on the emitted
-#: mask) replays at 0.344004 but is not shippable: those columns do not exist before emission,
-#: and end to end it scores 0.297649 (evidence/holdout-387-headarm-20261120.score.json).
+#: The shipped selector (``weights/blend_full_20261123.pkl``): same 26-feature contract and
+#: 6-learner Blend family, re-fit on the FULL train_final relabel set (3700 images / 167877
+#: candidates / 28702 GT) with delivered-mask labels under the gate-64 decoded head-box readout.
+#: Measured end to end on the 300 held-out stems at >= 0.70 / tau 0.10 / cap 60: PQ 0.3708
+#: (TP 1086 / FP 699 / FN 1430), up from 0.3636 for the previous selector on the same pipeline.
+#: The previous selector (``weights/blend_head_20261120.pkl``, 0.335961 micro PQ on the 387
+#: held-out records) is superseded; its OOF retrain alone looked negative (delta -0.0025) but
+#: the end-to-end run flipped it positive, so it is replaced.
 DEFAULT_BLEND_MODEL = os.path.abspath(
-    os.path.join(os.path.dirname(DELIVERY_ROOT), "weights", "blend_head_20261120.pkl")
+    os.path.join(os.path.dirname(DELIVERY_ROOT), "weights", "blend_full_20261123.pkl")
 )
 DEFAULT_BLEND_THR = 0.70
 DEFAULT_BLEND_TAU = 0.10
