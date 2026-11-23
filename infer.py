@@ -136,6 +136,12 @@ MODE_FLAGS = {
         "--mask-source", "head",
         "--mask-head-min-side", "0",
         "--mask-head-tau", "0.70",
+        # Gate 64 (delivery default 96): measured end to end on the 300-stem
+        # train_final subset with the decoded head-box window at +0.0087 PQ
+        # (0.3549 -> 0.3636), TP +19 / FP -19 / FN -19, RQ 0.475 -> 0.490.
+        # Lowering the ink gate admits darker ink, so the 256^2 stroke head
+        # rescues more thin-stroke fragments (see _diag/run_gate64.sh).
+        "--mask-head-gate", "64",
     ],
     "v3": [
         "--mask-threshold", "0.40",
