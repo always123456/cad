@@ -84,9 +84,9 @@ DEFAULT_CHECKPOINT = os.path.join(REPO_ROOT, "weights", "fine_mask112_u550.pt")
 # >= 0.70 / tau 0.10 / cap 60: PQ 0.3708 (TP 1086 / FP 699 / FN 1430), up from 0.3636 for
 # the previous selector on the same pipeline (+0.0072); OOF retrain alone looked negative
 # (delta -0.0025) but end to end flipped positive, so this pkl replaces the shipped one.
-# Blend-threshold sweep on the same 300 stems (decoded head-box, gate 64, tau 0.70, iou 0.10,
-# cap 60) peaks at 0.75: PQ 0.3679 vs 0.3602 at 0.70 (simulated, dataset-micro exact), so
-# the mode default is 0.75.
+# Blend-threshold sweep on the same 300 stems suggested 0.75 (simulated 0.3679 vs 0.3602 at
+# 0.70), but the real end-to-end run at 0.75 scored 0.3684 -- BELOW the 0.70 readout of 0.3708.
+# The sweep's cached-pool / skip-empty-GT shortcuts skewed the high thresholds, so 0.70 stays.
 # The previous shipped pkl stays on disk as ``SUPERSEDED_BLEND_MODEL`` (the older
 # ``blend_sameclass_20261119.pkl`` it superseded is no longer on disk).  The frozen
 # v3 note named the older ``delivery/model_u250_blend.pkl``, which is still accepted
@@ -112,7 +112,7 @@ COMMON_FLAGS = [
 
 # Stage-1 policy per mode.  ``blend`` is the wide pool plus the frozen 26-feature
 # selector (delivery/features26.py + delivery/models.py, readout: blend probability
-# >= 0.75, same-class box IoU >= 0.10, 60 per image); ``wide`` is the same pool with
+# >= 0.70, same-class box IoU >= 0.10, 60 per image); ``wide`` is the same pool with
 # the box-only readout; ``v3`` is the pool as the frozen v3 note declared it;
 # ``simple`` is the shipped u250 deliverable.
 MODE_FLAGS = {
@@ -121,7 +121,7 @@ MODE_FLAGS = {
         "--score-threshold", "0.50",
         "--per-image-cap", "300",
         "--select-rule", "blend",
-        "--blend-thr", "0.75",
+        "--blend-thr", "0.70",
         "--blend-tau", "0.10",
         "--blend-cap", "60",
         # The ink-in-box rule (--mask-ink-min-side) is OFF: measured end to end
@@ -590,7 +590,7 @@ def main(argv=None):
                         help="cpu or cuda[:N] (default: cpu)")
     parser.add_argument("--mode", choices=("blend", "v3", "wide", "simple"), default=DEFAULT_MODE,
                         help="default: %s. blend = the wide pool + the frozen 26-feature selector "
-                             "(blend probability >= 0.75, same-class box IoU >= 0.10, cap 60, Stuff "
+                             "(blend probability >= 0.70, same-class box IoU >= 0.10, cap 60, Stuff "
                              "dropped), the measured readout; wide = the same pool with the box-only "
                              "readout (score >= 0.97, box IoU 0.10, cap 40); v3 = the pool as the "
                              "frozen v3 note declared it (falls back to simple when its stage-2 "
