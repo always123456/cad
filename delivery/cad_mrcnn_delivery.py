@@ -514,7 +514,7 @@ BLEND_RULE = "blend"
 DEFAULT_BLEND_MODEL = os.path.abspath(
     os.path.join(os.path.dirname(DELIVERY_ROOT), "weights", "blend_full_20261123.pkl")
 )
-DEFAULT_BLEND_THR = 0.70
+DEFAULT_BLEND_THR = 0.75
 DEFAULT_BLEND_TAU = 0.10
 DEFAULT_BLEND_CAP = 60
 BLEND_FEATURE_COUNT = 26
