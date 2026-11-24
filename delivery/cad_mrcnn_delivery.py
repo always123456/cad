@@ -500,24 +500,24 @@ def _nmsbox():
 
 
 # --------------------------------------------------------------------------- #
-# stage-2 blend selector: the frozen 26-feature readout
+# stage-2 blend selector: the frozen 30-feature readout
 # --------------------------------------------------------------------------- #
 BLEND_RULE = "blend"
-#: The shipped selector (``weights/blend_full_20261123.pkl``): same 26-feature contract and
-#: 6-learner Blend family, re-fit on the FULL train_final relabel set (3700 images / 167877
-#: candidates / 28702 GT) with delivered-mask labels under the gate-64 decoded head-box readout.
-#: Measured end to end on the 300 held-out stems at >= 0.70 / tau 0.10 / cap 60: PQ 0.3708
-#: (TP 1086 / FP 699 / FN 1430), up from 0.3636 for the previous selector on the same pipeline.
-#: The previous selector (``weights/blend_head_20261120.pkl``, 0.335961 micro PQ on the 387
-#: held-out records) is superseded; its OOF retrain alone looked negative (delta -0.0025) but
-#: the end-to-end run flipped it positive, so it is replaced.
+#: The shipped selector (``weights/blend_full_20261124.pkl``): 30-feature contract (26 base
+#: + 4 decoded-box features dbox_ratio/dbox_iou/dbox_w/dbox_h) and 6-learner Blend family,
+#: re-fit on the FULL train_final relabel set (3700 images / 167877 candidates / 28702 GT)
+#: with delivered-mask labels under the gate-64 decoded head-box readout.  Measured end to
+#: end on the 300 held-out stems at >= 0.70 / tau 0.10 / cap 60: PQ 0.3740 (TP 1090 / FP 681
+#: / FN 1426), up from 0.3708 for the 26-feature selector on the same pipeline (+0.0032;
+#: TP +4 / FP -18 / FN -4).  The previous selector (``weights/blend_full_20261123.pkl``) is
+#: superseded.
 DEFAULT_BLEND_MODEL = os.path.abspath(
-    os.path.join(os.path.dirname(DELIVERY_ROOT), "weights", "blend_full_20261123.pkl")
+    os.path.join(os.path.dirname(DELIVERY_ROOT), "weights", "blend_full_20261124.pkl")
 )
 DEFAULT_BLEND_THR = 0.70
 DEFAULT_BLEND_TAU = 0.10
 DEFAULT_BLEND_CAP = 60
-BLEND_FEATURE_COUNT = 26
+BLEND_FEATURE_COUNT = 30
 
 _BLEND_MODEL_CACHE = {}
 
@@ -2726,7 +2726,8 @@ class DeliveryRun:
         ink, ink_info = self._ink_map(_refine(), int(width), int(height))
         ink = np.asarray(ink, dtype=bool)
 
-        positions, boxes, cand_scores, cand_labels, cand_masks = [], [], [], [], []
+        decoded_all = self._pool_decoded_boxes
+        positions, boxes, cand_scores, cand_labels, cand_masks, cand_dboxes = [], [], [], [], [], []
         skipped_empty = 0
         for position, (mask, label, score) in enumerate(zip(masks, class_ids, scores)):
             array = np.asarray(mask, dtype=bool)
@@ -2742,6 +2743,10 @@ class DeliveryRun:
             cand_scores.append(float(score))
             cand_labels.append(int(label))
             cand_masks.append(array)
+            if decoded_all is not None and position < len(decoded_all):
+                cand_dboxes.append([float(v) for v in list(decoded_all[position])[:4]])
+            else:
+                cand_dboxes.append([float(v) for v in box])
 
         probabilities = [0.0] * len(masks)
         indices = []
@@ -2760,7 +2765,8 @@ class DeliveryRun:
         lowest = None
         if boxes:
             table = features.compute_features(
-                boxes, cand_scores, cand_labels, cand_masks, ink, int(width), int(height)
+                boxes, cand_scores, cand_labels, cand_masks, ink, int(width), int(height),
+                decoded_boxes=cand_dboxes,
             )
             scored = np.asarray(
                 model.predict_proba(np.asarray(table, dtype=np.float64))[:, 1], dtype=np.float64

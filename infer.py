@@ -77,22 +77,20 @@ DELIVERY_DIR = os.path.join(REPO_ROOT, "delivery")
 DELIVERY_CLI = os.path.join(DELIVERY_DIR, "cad_mrcnn_delivery.py")
 VERIFIER = os.path.join(DELIVERY_DIR, "verify_delivery.py")
 DEFAULT_CHECKPOINT = os.path.join(REPO_ROOT, "weights", "fine_mask112_u550.pt")
-# Stage-2 blend selector (the shipped readout, ``weights/blend_full_20261123.pkl``):
-# the same 26-column contract and 6-learner Blend family, re-fit on the FULL train_final
-# relabel set (3700 images / 167877 candidates / 28702 GT) with delivered-mask labels under
-# the gate-64 decoded head-box pipeline.  Measured end to end on the 300 held-out stems at
-# >= 0.70 / tau 0.10 / cap 60: PQ 0.3708 (TP 1086 / FP 699 / FN 1430), up from 0.3636 for
-# the previous selector on the same pipeline (+0.0072); OOF retrain alone looked negative
-# (delta -0.0025) but end to end flipped positive, so this pkl replaces the shipped one.
-# Blend-threshold sweep on the same 300 stems suggested 0.75 (simulated 0.3679 vs 0.3602 at
-# 0.70), but the real end-to-end run at 0.75 scored 0.3684 -- BELOW the 0.70 readout of 0.3708.
-# The sweep's cached-pool / skip-empty-GT shortcuts skewed the high thresholds, so 0.70 stays.
-# The previous shipped pkl stays on disk as ``SUPERSEDED_BLEND_MODEL`` (the older
-# ``blend_sameclass_20261119.pkl`` it superseded is no longer on disk).  The frozen
+# Stage-2 blend selector (the shipped readout, ``weights/blend_full_20261124.pkl``):
+# the 30-column contract (26 base + 4 decoded-box features: dbox_ratio / dbox_iou /
+# dbox_w / dbox_h) and 6-learner Blend family, re-fit on the FULL train_final relabel set
+# (3700 images / 167877 candidates / 28702 GT) with delivered-mask labels under the
+# gate-64 decoded head-box pipeline.  Measured end to end on the 300 held-out stems at
+# >= 0.70 / tau 0.10 / cap 60: PQ 0.3740 (TP 1090 / FP 681 / FN 1426), up from 0.3708 for
+# the 26-column selector on the same pipeline (+0.0032; TP+4 / FP-18 / FN-4).  The decoded-box
+# columns let the selector reject near-miss FPs it previously kept (strict OOF was -0.0237 but
+# end to end flipped positive, the same pattern as the 26-column retrain).
+# The previous shipped pkl stays on disk as ``SUPERSEDED_BLEND_MODEL``.  The frozen
 # v3 note named the older ``delivery/model_u250_blend.pkl``, which is still accepted
 # when neither deployable copy is present.
-DEFAULT_BLEND_MODEL = os.path.join(REPO_ROOT, "weights", "blend_full_20261123.pkl")
-SUPERSEDED_BLEND_MODEL = os.path.join(REPO_ROOT, "weights", "blend_head_20261120.pkl")
+DEFAULT_BLEND_MODEL = os.path.join(REPO_ROOT, "weights", "blend_full_20261124.pkl")
+SUPERSEDED_BLEND_MODEL = os.path.join(REPO_ROOT, "weights", "blend_full_20261123.pkl")
 LEGACY_BLEND_MODEL = os.path.join(DELIVERY_DIR, "model_u250_blend.pkl")
 BLEND_MODELS = (DEFAULT_BLEND_MODEL, SUPERSEDED_BLEND_MODEL, LEGACY_BLEND_MODEL)
 
@@ -597,8 +595,8 @@ def main(argv=None):
                              "emitter artefacts are absent); simple = frozen 0.99/cap20 path"
                              % DEFAULT_MODE)
     parser.add_argument("--blend-model", default=DEFAULT_BLEND_MODEL, metavar="PATH",
-                        help="with --mode blend: the pickled 26-feature selector (default: "
-                             "weights/blend_full_20261123.pkl)")
+                        help="with --mode blend: the pickled 30-feature selector (default: "
+                             "weights/blend_full_20261124.pkl)")
     parser.add_argument("--checkpoint", default=DEFAULT_CHECKPOINT, metavar="PATH",
                         help="detector + 112^2 mask-head checkpoint (default: weights/fine_mask112_u550.pt)")
     parser.add_argument("--mask-ink-min-side", type=int, default=None, metavar="PX",

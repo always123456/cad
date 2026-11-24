@@ -110,6 +110,10 @@ FEATURE_NAMES = (
     "score_gap",
     "score_below01",
     "mask_perim",
+    "dbox_ratio",
+    "dbox_iou",
+    "dbox_w",
+    "dbox_h",
 )
 FEATURE_INDEX = {name: i for i, name in enumerate(FEATURE_NAMES)}
 
@@ -141,6 +145,10 @@ COLUMN_STATUS = {
     "score_gap": "exact formula (s_i - s_i+1)",
     "score_below01": "exact formula (score < 0.99)",
     "mask_perim": "pool recipe, 4-neighbour boundary pixel count",
+    "dbox_ratio": "log(decoded_box_area+1) - log(mask_box_area+1); >0 = decoded box is larger",
+    "dbox_iou": "IoU(decoded_box, mask_box); decoded box from --head-box regression",
+    "dbox_w": "log(decoded_box_width + 1)",
+    "dbox_h": "log(decoded_box_height + 1)",
 }
 
 #: Accepted ``compute_features(mask_source=...)`` values.
@@ -337,7 +345,8 @@ def _refined_mask_crop(mask, x0, y0, x1, y1, width, height, pad=POOL_MASK_PAD):
 # the feature matrix
 # --------------------------------------------------------------------------- #
 def compute_features(boxes, scores, labels, masks, ink, width, height,
-                     mask_source="ink_box_pad2", formulas="pool"):
+                     mask_source="ink_box_pad2", formulas="pool",
+                     decoded_boxes=None):
     """``(n, 26)`` float32 features for one image's candidates.
 
     ``boxes``/``scores``/``labels``/``masks`` are per candidate and must share
@@ -413,6 +422,31 @@ def compute_features(boxes, scores, labels, masks, ink, width, height,
     out[:, FEATURE_INDEX["box_aspect"]] = box_w - box_h
     out[:, FEATURE_INDEX["box_area"]] = box_area
     out[:, FEATURE_INDEX["box_area_frac"]] = (px_w * px_h) / image_area
+
+    # -- decoded-box columns (0.0 when decoded_boxes is None) --------------- #
+    # The box-head regression box (--head-box decoded) is what the stroke head
+    # uses as its window; a candidate whose decoded box covers more than its
+    # mask box is more likely to be rescued by the head, so these columns give
+    # the selector that signal directly.
+    if decoded_boxes is not None:
+        dboxes = np.asarray(decoded_boxes, dtype=np.float64).reshape(-1, 4)
+        if len(dboxes) != n:
+            raise ValueError(
+                "decoded_boxes ragged: %d boxes for %d candidates" % (len(dboxes), n)
+            )
+        dpx_w = dboxes[:, 2] - dboxes[:, 0]
+        dpx_h = dboxes[:, 3] - dboxes[:, 1]
+        dbox_area = dpx_w * dpx_h
+        out[:, FEATURE_INDEX["dbox_w"]] = np.log(dpx_w + 1.0)
+        out[:, FEATURE_INDEX["dbox_h"]] = np.log(dpx_h + 1.0)
+        out[:, FEATURE_INDEX["dbox_ratio"]] = np.log(dbox_area + 1.0) - box_area
+        ix0 = np.maximum(boxes[:, 0], dboxes[:, 0])
+        iy0 = np.maximum(boxes[:, 1], dboxes[:, 1])
+        ix1 = np.minimum(boxes[:, 2], dboxes[:, 2])
+        iy1 = np.minimum(boxes[:, 3], dboxes[:, 3])
+        inter = np.maximum(0.0, ix1 - ix0) * np.maximum(0.0, iy1 - iy0)
+        union = (px_w * px_h) + dbox_area - inter
+        out[:, FEATURE_INDEX["dbox_iou"]] = np.where(union > 0, inter / union, 0.0)
 
     # -- mask columns ------------------------------------------------------- #
     for i in range(n):
